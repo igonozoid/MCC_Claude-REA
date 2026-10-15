@@ -1,0 +1,5 @@
+FSelBan:TFSelBan Left=0 Top=0 Caption='FSelBan' Color=clBtnFace Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alClient Left=10 Top=10 Width=472 Height=79 BevelOuter=bvNone BorderStyle=bsNone
+    Label1:TLabel Left=40 Top=8 Width=159 Height=17 Caption='Selecione a conta banc'#225'ria:'
+    ComboBan:TComboBox Left=40 Top=27 Width=273 Height=26 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+    BtOk:TBitBtn Left=319 Top=24 Width=115 Height=29 Caption='Avan'#231'ar' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]

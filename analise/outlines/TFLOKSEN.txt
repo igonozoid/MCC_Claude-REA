@@ -1,0 +1,6 @@
+FLokSen:TFLokSen Left=0 Top=0 Caption='Senha de desbloqueio' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] BorderStyle=bsDialog
+  Bevel1:TBevel Left=15 Top=92 Width=194 Height=2
+  Label1:TLabel Left=15 Top=33 Width=192 Height=17 Caption='Digite a senha do administrador:' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  EdSen:TMaskEdit Left=15 Top=54 Width=194 Height=25 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] Text=''
+  BtCancela:TBitBtn Left=12 Top=100 Width=97 Height=39 Caption='Ca&ncela' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Cancela as inser'#231#245'es/ altera'#231#245'es   '#13#10' '
+  BtConfirma:TBitBtn Left=115 Top=100 Width=94 Height=39 Caption='&Ok' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '

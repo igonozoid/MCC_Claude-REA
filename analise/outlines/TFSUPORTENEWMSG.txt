@@ -1,0 +1,21 @@
+FSuporteNewMsg:TFSuporteNewMsg Left=0 Top=0 Caption='Nova mensagem' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alTop Left=3 Top=3 Width=828 Height=50 BevelOuter=bvNone BorderStyle=bsNone
+    DBText1:TDBText Left=67 Top=32 Width=55 Height=17 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] DataField='CHAASS'
+    Label2:TLabel Left=9 Top=32 Width=52 Height=16 Caption='Assunto:' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+    DBText2:TDBText Left=67 Top=9 Width=55 Height=17 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] DataField='Setor'
+    Label3:TLabel Left=9 Top=9 Width=35 Height=16 Caption='Setor:' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+  ScrollBox2:TScrollBox Align=alClient Left=3 Top=59 Width=828 Height=259 BevelOuter=bvNone BorderStyle=bsNone
+    ScrollBox4:TScrollBox Align=alTop Left=3 Top=3 Width=822 Height=32 BevelOuter=bvNone BorderStyle=bsNone
+      Label1:TLabel Align=alBottom Left=6 Top=14 Width=810 Height=18 Caption='Mensagem:' Font.Color=#646464 Font.Height=-16 Font.Name='Arial' Font.Style=[]
+    MemoInicial:TMemo Left=32 Top=72 Width=673 Height=89 Visible=False
+    ActivityIndicator1:TActivityIndicator Left=368 Top=100
+    RxMsg:TRxRichEdit Align=alClient Left=6 Top=38 Width=816 Height=215 Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  ScrollRodape:TScrollBox Align=alBottom Left=3 Top=324 Width=828 Height=173 BevelOuter=bvNone BorderStyle=bsNone
+    ScrollBox3:TScrollBox Align=alClient Left=228 Top=0 Width=600 Height=173 BorderStyle=bsNone
+      ScrollBox5:TScrollBox Align=alTop Left=0 Top=0 Width=600 Height=41 BorderStyle=bsNone
+      ScrollBox6:TScrollBox Align=alTop Left=0 Top=41 Width=600 Height=72 BorderStyle=bsNone
+        SBAnexoS:TSpeedButton Align=alLeft Left=6 Top=6 Width=92 Height=60 Caption='Anexar' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[] Flat=True Hint='Anexar um arquivo'
+        ActiveAnexoS:TActivityIndicator Left=118 Top=20
+        BtCancela:TBitBtn Align=alRight Left=376 Top=6 Width=103 Height=60 Caption='&Cancelar' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[] Hint='Cancelar envio da mensagem'
+        BtEnvia:TBitBtn Align=alRight Left=491 Top=6 Width=103 Height=60 Caption='&Enviar' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[] Hint='Enviar mensagem'
+    GridFiles:TDBGrid Align=alLeft Left=6 Top=3 Width=219 Height=164 BorderStyle=bsNone Visible=False

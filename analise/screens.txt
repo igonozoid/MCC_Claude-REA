@@ -1,0 +1,1500 @@
+=== TCMSUPORTE — 
+=== TCM_MCC — 
+=== TDADOS — 
+=== TFALTERSENHA — Redefinir senha de acesso
+  FAlterSenha.Caption [TFAlterSenha]: Redefinir senha de acesso
+  Label1.Caption [TLabel]: Digite a nova senha:
+  Label2.Caption [TLabel]: Confirme a senha:
+  BtSee.Hint [TSpeedButton]: Visualizar senha
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela alteração
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Confirma alteração
+=== TFANALISE — Relatorio Analitico
+  FAnalise.Caption [TFAnalise]: Relatorio Analitico
+  LabDes.Caption [TLabel]: Descrição da despesa ou receita
+  LabPes.Caption [TLabel]: Nome do cliente ou fornecedor
+  LabCon.Caption [TLabel]: Da conta
+  LbOrd.Caption [TLabel]: Ordenar por
+  LabTit.Caption [TLabel]: Título do relatório
+  BtDes.Caption [TSpeedButton]: ...
+  BtDes.Hint [TSpeedButton]: Localizar descrição
+  BtPes.Caption [TSpeedButton]: ...
+  BtPes.Hint [TSpeedButton]: Localizar cliente / fornecedor
+  LabCentro.Caption [TLabel]: Centro de custo
+  RadTip.Caption [TRadioGroup]: Analisar
+  RadSit.Caption [TRadioGroup]: Com situação igual a
+  GroupBox1.Caption [TGroupBox]: Analisar período por
+  Label2.Caption [TLabel]: a
+  Label1.Caption [TLabel]: entre
+  BoxPer.Text [TComboBox]: Data de movimento
+  EdDes.Text [TEdit]: INDIFERENTE
+  EdPes.Text [TEdit]: INDIFERENTE
+  BoxConta.Text [TComboBox]: INDIFERENTE
+  BoxOrd.Text [TComboBox]: Data de movimento
+  CheckDec.Caption [TCheckBox]: Decrescente
+  EdTit.Text [TEdit]: Relatório de Movimentos
+  EdCentro.Text [TComboBox]: TODOS
+  RadTipoRel.Caption [TRadioGroup]: Tipo de relatório
+  BtConfirma.Caption [TBitBtn]: &Submeter
+  BtConfirma.Hint [TBitBtn]: Gerar relatório
+  BtCancela.Caption [TBitBtn]: Fechar
+  BtCancela.Hint [TBitBtn]: Fechar
+=== TFAVA — Avaliação do suporte
+  FAva.Caption [TFAva]: Avaliação do suporte
+  Rad1.Caption [TDBRadioGroup]: Avaliação geral do atendimento, resolução do problema ou esclarecimento de dúvida:
+  Rad2.Caption [TDBRadioGroup]: Atenção e cordialidade do atendente:
+  Rad3.Caption [TDBRadioGroup]: Tempo de resposta ao atendimento:
+  Label1.Caption [TLabel]: Com base no atendimento recebido, aponte uma nota conforme os ítens abaixo:
+  Label5.Caption [TLabel]: Comentários:
+  Button1.Caption [TButton]: &Confirma
+=== TFBAIXA — FBaixa
+  FBaixa.Caption [TFBaixa]: FBaixa
+  LbConta.Caption [TLabel]: Conta
+  LbDes.Caption [TLabel]: Descrição
+  LbPes.Caption [TLabel]: Pessoa
+  LbVal.Caption [TLabel]: Valor
+  SbCalc.Hint [TSpeedButton]: Calculadora
+  LbVen.Caption [TLabel]: Pagamento
+  LbObs.Caption [TLabel]: Observações(Cheque,banco, etc)
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+=== TFBAIXAMULT — FBaixaMult
+  FBaixaMult.Caption [TFBaixaMult]: FBaixaMult
+  Label1.Caption [TLabel]: Entre
+  Label2.Caption [TLabel]: a
+  Label10.Caption [TLabel]: Vencimento:
+  LabPes.Caption [TLabel]: LabPes
+  LabPes.Hint [TLabel]: '
+  Label4.Caption [TLabel]: Data da baixa:
+  LabTot.Caption [TLabel]: LabTot
+  Label9.Caption [TLabel]: Total a ser baixado:
+  LabCon.Caption [TLabel]: Conta a ser debitada
+  btBaixa.Caption [TSpeedButton]: Bai&xar todas
+  btBaixa.Hint [TSpeedButton]: Baixa todos os lançamentos que estão sendo exibidos
+  Label3.Caption [TLabel]: Vencimento:
+  LabDes.Caption [TLabel]: Descrição
+  Label5.Caption [TLabel]: Documento
+  LabPes2.Caption [TLabel]: Nome
+  Label7.Caption [TLabel]: Observação
+  Label6.Caption [TLabel]: Valor
+  Label8.Caption [TLabel]: Data Movimento
+  SpeedButton1.Caption [TSpeedButton]: X
+  SpeedButton1.Hint [TSpeedButton]: Fechar
+=== TFBANBRS — Contas Bancárias
+  FBanBrs.Caption [TFBanBrs]: Contas Bancárias
+  BtExclui.Caption [TBitBtn]: &Excluir
+  BtExclui.Hint [TBitBtn]: Exclui o registro selecionado
+  BtAltera.Caption [TBitBtn]: &Alterar
+  BtAltera.Hint [TBitBtn]: Altera/Consulta movimento selecionado
+  BtInsere.Caption [TBitBtn]: &Incluir
+  BtInsere.Hint [TBitBtn]: Inserir nova conta bancária
+  SpeedButton1.Caption [TSpeedButton]: &Voltar
+  SpeedButton1.Hint [TSpeedButton]: Voltar para a tela principal
+=== TFBANCAD — FBanCad
+  FBanCad.Caption [TFBanCad]: FBanCad
+  Label1.Caption [TLabel]: Banco e Conta
+  Label2.Caption [TLabel]: Saldo inicial
+  Label3.Caption [TLabel]: Logo
+  BtUserAlt.Hint [TSpeedButton]: Controle de atualizações
+  DBUtil.Caption [TRadioGroup]: Utilização
+  DBCheckBox1.Caption [TDBCheckBox]: Conta ativa
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+=== TFBLEND — FBlend
+  FBlend.Caption [TFBlend]: FBlend
+=== TFCAD — Cadastro da conta
+  FCad.Caption [TFCad]: Cadastro da conta
+  FCad.Hint [TFCad]: Nome completo ou razão social
+  Tab01.Caption [TTabSheet]: Cadastro de conta
+  Label17.Caption [TLabel]: E-mail
+  Label18.Caption [TLabel]: Confirme o e-mail
+  EdEml.Hint [TEdit]: E-mail
+  EdCnf.Hint [TEdit]: Confirmação de e-mail
+  BtAcanca.Caption [TBitBtn]: &Avançar
+  Tab03.Caption [TTabSheet]: Criando banco de dados
+  LabMsg.Caption [TLabel]: LabMsg
+  Tab02.Caption [TTabSheet]: Cadastro de conta
+  Lab.Caption [TLabel]: Pessoa
+  Lab.Hint [TLabel]: '
+  LabNom.Caption [TLabel]: Nome ou razão social
+  LabDoc.Caption [TLabel]: CPF / CNPJ
+  Label16.Caption [TLabel]: Whasapp - Tel.
+  Label2.Caption [TLabel]: Login
+  Label3.Caption [TLabel]: Endereço
+  Label4.Caption [TLabel]: Número
+  Label5.Caption [TLabel]: Complemento
+  Label7.Caption [TLabel]: Cidade
+  Label1.Caption [TLabel]: UF
+  Label12.Caption [TLabel]: Senha de acesso
+  Label13.Caption [TLabel]: Confirme a senha
+  Label14.Caption [TLabel]: Nome do usuário administrador
+  Label9.Caption [TLabel]: CEP
+  Label6.Caption [TLabel]: Bairro
+  BtSee.Hint [TSpeedButton]: Visualizar senha
+  EdUsu.Hint [TEdit]: Nome do administrador da conta
+  BtCancela.Caption [TBitBtn]: Cancelar
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  EdPes.Hint [TComboBox]: Pessoa
+  EdNom.Hint [TEdit]: Nome completo ou razção social
+  EdDoc.Hint [TEdit]: CPF / CNPJ
+  EdTel.Hint [TEdit]: Whasapp / Telefone
+  EdLog.Hint [TEdit]: Login de acesso
+  EdCEP.Hint [TEdit]: CEP
+  EdEnd.Hint [TEdit]: Endereço
+  EdNum.Hint [TEdit]: Número
+  EdCom.Hint [TEdit]: Complemento
+  EdBai.Hint [TEdit]: Bairro
+  EdCid.Hint [TEdit]: Cidade
+  EdEst.Hint [TComboBox]: Estado
+  EdSen.Hint [TEdit]: Senha de acesso
+  EdCSe.Hint [TEdit]: Confirme a senha
+  Label8.Caption [TLabel]: Termos de uso e Políticas de privacidade.
+  Label15.Caption [TLabel]: Estou de acordo com os
+=== TFCENBRS — Cadastro de Centros de Custo
+  FCenBrs.Caption [TFCenBrs]: Cadastro de Centros de Custo
+  SpeedButton2.Caption [TSpeedButton]: &Voltar
+  SpeedButton2.Hint [TSpeedButton]: Voltar para a tela principal
+  BtExclui.Caption [TBitBtn]: &Excluir
+  BtExclui.Hint [TBitBtn]: Exclui centro de custo selecionado
+  BtAltera.Caption [TBitBtn]: &Alterar
+  BtAltera.Hint [TBitBtn]: Altera/Consulta centro de custo selecionado
+  BtInsere.Caption [TBitBtn]: &Incluir
+  BtInsere.Hint [TBitBtn]: Criar novo centro de custo
+  SpeedButton1.Caption [TSpeedButton]: &Voltar
+  SpeedButton1.Hint [TSpeedButton]: Voltar para a tela principal
+=== TFCENCAD — FCenCad
+  FCenCad.Caption [TFCenCad]: FCenCad
+  Label1.Caption [TLabel]: Código:
+  Label2.Caption [TLabel]: Descrição do Centro de Custo
+  BtUserAlt.Hint [TSpeedButton]: Controle de atualizações
+  LabDes2.Caption [TLabel]: (Mensal)
+  LabDes.Caption [TLabel]: Orçamento
+  CheckDes.Caption [TDBCheckBox]: Aplicar a Despesas
+  LabRec2.Caption [TLabel]: (Mensal)
+  LabRec.Caption [TLabel]: Projeção
+  CheckRec.Caption [TDBCheckBox]: Aplicar a Receitas
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+=== TFCHART — FChart
+  FChart.Caption [TFChart]: FChart
+  TabSheet1.Caption [TTabSheet]: CharCustoItem
+  TabSheet2.Caption [TTabSheet]: ChartDespRec
+  TabSheet3.Caption [TTabSheet]: ChartEvol
+=== TFCODVALIDA — Código de validação
+  FCodValida.Caption [TFCodValida]: Código de validação
+  Label1.Caption [TLabel]: Informe abaixo o código de validação enviado no seu e-mail.
+  SpeedButton1.Caption [TSpeedButton]: Enviar o codigo novamente
+  BtConfirma.Caption [TBitBtn]: &OK
+=== TFCOMPLETEDATACLI — Complete seu cadastro
+  FCompleteDataCli.Caption [TFCompleteDataCli]: Complete seu cadastro
+  LabDoc.Caption [TLabel]: CPF / CNPJ
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtCancela.Caption [TBitBtn]: Cancelar
+  EdDoc.Text [TMaskEdit]: .   .   /    -
+=== TFCONBRS — Cadastro de Contas Controle
+  FConBrs.Caption [TFConBrs]: Cadastro de Contas Controle
+  BtExclui.Caption [TBitBtn]: &Excluir
+  BtExclui.Hint [TBitBtn]: Exclui conta selecionada
+  BtAltera.Caption [TBitBtn]: &Alterar
+  BtAltera.Hint [TBitBtn]: Altera/Consulta conta selecionada
+  BtInsere.Caption [TBitBtn]: &Incluir
+  BtInsere.Hint [TBitBtn]: Criar nova conta
+  SpeedButton2.Caption [TSpeedButton]: &Voltar
+  SpeedButton2.Hint [TSpeedButton]: Voltar para a tela principal
+=== TFCONCAD — FConCad
+  FConCad.Caption [TFConCad]: FConCad
+  Label13.Caption [TLabel]: *
+  Label3.Caption [TLabel]: Endereço completo
+  Label2.Caption [TLabel]: Bairro
+  Label4.Caption [TLabel]: Cidade
+  Label5.Caption [TLabel]: UF
+  Label6.Caption [TLabel]: CEP
+  Label7.Caption [TLabel]: Telefone(s)
+  Label8.Caption [TLabel]: E-mail
+  Label14.Caption [TLabel]: *
+  LabEd1.Caption [TLabel]: LabEd1
+  LabEd2.Caption [TLabel]: LabEd2
+  Label1.Caption [TLabel]: Web Site
+  Label12.Caption [TLabel]: * campo de preenchimento obrigatório
+  BtUserAlt.Hint [TSpeedButton]: Controle de atualizações
+  RadioPes.Caption [TDBRadioGroup]: Pessoa
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+  BtConfig.Caption [TBitBtn]: Configurações
+  BtConfig.Hint [TBitBtn]: Configurações da conta controle
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+=== TFCONCILIA — Extrato bancário
+  FConcilia.Caption [TFConcilia]: Extrato bancário
+  Page1.Caption [TTabSheet]: 1 de 4: Selecionar conta
+  Label1.Caption [TLabel]: Selecione a conta bancária:
+  BtVolta1.Caption [TSpeedButton]: &Voltar
+  BtAvanca1.Caption [TBitBtn]: &Avancar
+  M1.Hint [TMemo]: IMPORTAR EXTRATO BANCÁRIO OFX|
+  Page2.Caption [TTabSheet]: 2 de 4: Selecionar arquivo
+  BtVolta2.Caption [TSpeedButton]: &Voltar
+  BtImport.Caption [TBitBtn]: &Importar Extrato bancário OFX
+  Label2.Caption [TLabel]: Conta bancária:
+  Page3.Caption [TTabSheet]: 3 de 4: Identificar lançamentos
+  RadFilt.Caption [TRadioGroup]: Filtrar
+  BtVolta3.Caption [TSpeedButton]: &Voltar
+  BtValida.Caption [TBitBtn]: Validar registro
+  BtValida.Hint [TBitBtn]: Validar ítens do extrato:|
+Com base nos dados do extrato, aponte para cada 
+lançamento a sua devida descrição da despesa ou 
+receita e o cliente ou fornecedor correspondente.
+|5
+  BtRegister.Caption [TBitBtn]: Cadastrar os registros validados
+  Page4.Caption [TTabSheet]: 4 de 4: Realizar importação
+  BtVolta4.Caption [TSpeedButton]: &Voltar
+  BitBtn3.Caption [TBitBtn]: Registrar lançamento
+  PPVal1.Caption [TMenuItem]: Validar lançamento selecionado
+  N1.Caption [TMenuItem]: -
+  PPVal2.Caption [TMenuItem]: Validar todos os lançamentos a partir do lançamento selecionado
+  N2.Caption [TMenuItem]: -
+  PPVal3.Caption [TMenuItem]: Validar todos os lançamentos a partir do início
+  N3.Caption [TMenuItem]: -
+  PPVal4.Caption [TMenuItem]: Validar todos os lançamentos
+  PPCad1.Caption [TMenuItem]: Cadastrar lançamento selecionado
+  N4.Caption [TMenuItem]: -
+  PPCad2.Caption [TMenuItem]: Cadastrar todos os lançamentos a partir do registro selecionado
+  N5.Caption [TMenuItem]: -
+  PPCad3.Caption [TMenuItem]: Cadastrar todos os lançamentos a partir do início
+  N6.Caption [TMenuItem]: -
+  PPCad4.Caption [TMenuItem]: Cadastrar todos os lançamentos
+=== TFCONCILIACAD — FConciliaCad
+  FConciliaCad.Caption [TFConciliaCad]: FConciliaCad
+  Label3.Caption [TLabel]: Documento
+  LbDes.Caption [TLabel]: Descrição
+  LbPes.Caption [TLabel]: Pessoa
+  LbObs.Caption [TLabel]: Observações(Cheque,banco, etc)
+  LbCen.Caption [TLabel]: Centro de custo
+  LbTip.Caption [TLabel]: LbTip
+  DBDoc.Hint [TDBEdit]: *  Campo opcional para cadastro de nota fiscal, 
+     número de ordem de serviço, número de pedido, etc.
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+  BtCancela.Caption [TBitBtn]: &Fechar
+  BtCancela.Hint [TBitBtn]: Cancela tudo o que foi inserido/alterado
+  BtIgnora.Caption [TBitBtn]: &Ignorar lançamento
+  LbVal.Caption [TLabel]: Valor
+  LbVen.Caption [TLabel]: Data de pagamento
+  LbConta.Caption [TLabel]: Conta bancária
+  Label1.Caption [TLabel]: Descrição no extrato:
+  DBConta.Hint [TDBEdit]: *  Data de processamento do movimento
+  EdDesCad.Text [TEdit]: EdDesCad
+=== TFCONFIG — Configuração do banco de dados
+  FConfig.Caption [TFConfig]: Configuração do banco de dados
+=== TFCONFIGCONTA — Configurações da conta controle
+  FConfigConta.Caption [TFConfigConta]: Configurações da conta controle
+  Label9.Caption [TLabel]: Saldo inicial em caixa:
+Valor disponível no Caixa Interno:
+  Label15.Caption [TLabel]: A listagem de ítens de despesas e 
+receitas são específicas dos lançamentos 
+realizados nesta conta controle:
+  Label16.Caption [TLabel]: Ao incluir um novo lançamento de 
+despesa ou receita, o cursor deverá 
+estar posicionado no seguinte campo:
+  Label17.Caption [TLabel]: Conta bancária padrão para a 
+inclusão de despesas e receitas:
+  Label1.Caption [TLabel]: Conta controle:
+  DBCheckBox1.Caption [TDBCheckBox]: &Trabalhar com centros de custo
+  DBCheckBox2.Caption [TDBCheckBox]: &Exibir saldos na tela principal
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+=== TFDELETEDES — Registros excluidos
+  FDeletedes.Caption [TFDeletedes]: Registros excluidos
+  Label1.Caption [TLabel]: Data inicial:
+  Label2.Caption [TLabel]: Data final:
+  Label3.Caption [TLabel]: Tipo de registro:
+  BtFiltrar.Caption [TButton]: Filtrar
+  EdTipoReg.Text [TComboBox]: Despesas
+=== TFDEM — Demonstrativo de resultados
+  FDem.Caption [TFDem]: Demonstrativo de resultados
+  LabTit.Caption [TLabel]: Relatório Demonstrativo anual de
+  LabAno.Caption [TLabel]: LabAno
+  BtPrint.Caption [TButton]: &Versão para impressão
+=== TFIDENTUSER — Identificação
+  FIdentUser.Caption [TFIdentUser]: Identificação
+  Label1.Caption [TLabel]: E-mail:
+  Label2.Caption [TLabel]: Nome:
+  BtCancela.Caption [TBitBtn]: Cancela
+=== TFITEBRS — FIteBrs
+  FIteBrs.Caption [TFIteBrs]: FIteBrs
+  SpeedButton1.Caption [TSpeedButton]: &Voltar
+  SpeedButton1.Hint [TSpeedButton]: Voltar para a tela principal
+  BtInsere.Caption [TBitBtn]: &Incluir
+  BtAltera.Caption [TBitBtn]: &Alterar
+  BtAltera.Hint [TBitBtn]: Alterar descrição do ítem selecionado
+  BtExclui.Caption [TBitBtn]: &Excluir
+=== TFITECAD — Alterando ítem
+  FIteCad.Caption [TFIteCad]: Alterando ítem
+  Label1.Caption [TLabel]: Descrição
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela tudo o que foi inserido/alterado
+=== TFLEMB — Lembrete de contas
+  FLemb.Caption [TFLemb]: Lembrete de contas
+  Label1.Caption [TLabel]: Ativar lembrete novamente
+  ComboAb.Text [TComboBox]: Amanhã
+  BtFecha.Caption [TBitBtn]: &Fechar
+  BtAbrir.Caption [TBitBtn]: &Abrir>
+  TabSheet1.Caption [TTabSheet]: Contas à Pagar
+  TabSheet1.Hint [TTabSheet]: D
+  DBGrid1.Title.Caption [TDBGrid]: Fornecedor ou Credor
+  TabSheet2.Caption [TTabSheet]: Contas à Receber
+  TabSheet2.Hint [TTabSheet]: R
+  DBGrid2.Title.Caption [TDBGrid]: Fornecedor ou Credor
+=== TFLOG — Login de acesso
+  FLog.Caption [TFLog]: Login de acesso
+  PageControl1.Hint [TPageControl]: Ao marcar esta opção, o login utilizado será mostrado no histórico para os próximos acessos.
+  Tab1.Caption [TTabSheet]: Cadastro
+  SpeedButton1.Caption [TSpeedButton]: Ainda não possuo cadastro
+  SpeedButton2.Caption [TSpeedButton]: Já tenho um login e  gostaria de acessar a minha conta
+  Tab2.Caption [TTabSheet]: Login
+  LabNewCad.Caption [TLabel]: Efetuar novo cadastro
+  Label1.Caption [TLabel]: Login da conta
+  LabSup.Caption [TLabel]: ?
+  CheckLog.Caption [TCheckBox]: Salvar login no histórico
+  CheckLog.Hint [TCheckBox]: Ao marcar esta opção, o login utilizado será mostrado no histórico para os próximos acessos.
+  BitBtn1.Caption [TBitBtn]: &Fechar
+  BtAcanca1.Caption [TBitBtn]: Avançar
+  Tab3.Caption [TTabSheet]: Usuário
+  LbSen.Caption [TLabel]: Senha de acesso
+  LabEml.Caption [TLabel]: E-mail do usuário
+  LabResgateSenha.Caption [TLabel]: esqueci a senha
+  BtSee.Hint [TSpeedButton]: Visualizar senha
+  BtCancela.Caption [TBitBtn]: &Fechar
+  BtConfirm.Caption [TBitBtn]: &Acessar
+  CheckKey.Caption [TCheckBox]: Salvar senha
+=== TFLOGIN — Conta controle
+  FLogin.Caption [TFLogin]: Conta controle
+  LabUse.Caption [TLabel]: Conta controle:
+  BtConfirma.Caption [TBitBtn]: &Acessar
+  BtConfirma.Hint [TBitBtn]: Acessar conta controle
+  BtCancela.Caption [TBitBtn]: Ca&ncelar
+  BtCancela.Hint [TBitBtn]: Permacecer na conta anterior
+=== TFLOK — Proteção de dados
+  FLok.Caption [TFLok]: Proteção de dados
+  Label2.Caption [TLabel]: Bloqueado até
+  RadProt.Caption [TRadioGroup]: Definir proteção
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+=== TFLOKSEN — Senha de desbloqueio
+  FLokSen.Caption [TFLokSen]: Senha de desbloqueio
+  Label1.Caption [TLabel]: Digite a senha do administrador:
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+  BtConfirma.Caption [TBitBtn]: &Ok
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+=== TFMENSAGEM — Mensagem
+  FMensagem.Caption [TFMensagem]: Mensagem
+  SpeedButton1.Caption [TSpeedButton]: &Voltar
+  SpeedButton1.Hint [TSpeedButton]: Voltar para a tela principal
+=== TFMESSAGE — Mensagem:
+  FMessage.Caption [TFMessage]: Mensagem:
+  BtCancela.Caption [TBitBtn]: &Fechar
+=== TFMOVCAD — FMovCad
+  FMovCad.Caption [TFMovCad]: FMovCad
+  LabTipoMov.Caption [TLabel]: Despesas
+  LabDat.Caption [TLabel]: Data movimento
+  LabDoc.Caption [TLabel]: Documento
+  LbDes.Caption [TLabel]: Descrição
+  LbPes.Caption [TLabel]: Pessoa
+  LbVal.Caption [TLabel]: Valor
+  LbVen.Caption [TLabel]: Vencimento/Pgto.
+  LbObs.Caption [TLabel]: Observações(Cheque,banco, etc)
+  LbConta.Caption [TLabel]: Conta
+  LbCen.Caption [TLabel]: Centro de custo
+  SBCen.Hint [TSpeedButton]: Incluir novo centro de custo
+  SbCalc.Hint [TSpeedButton]: Calculadora
+  SbCalendM.Hint [TSpeedButton]: Exibir calendário
+  SbCalendV.Hint [TSpeedButton]: Exibir calendário
+  LbVen2.Caption [TLabel]: Vencimento
+  BtUserAlt.Hint [TSpeedButton]: Controle de atualizações
+  DBDat.Hint [TDBEdit]: *  Data de processamento do movimento
+  DBDoc.Hint [TDBEdit]: *  Campo opcional para cadastro de nota fiscal, 
+     número de ordem de serviço, número de pedido, etc.
+  DBSit.Caption [TDBRadioGroup]: Situação
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+  Criarnovacontabancria1.Caption [TMenuItem]: Criar nova conta bancária
+=== TFMULCAD — FMulCad
+  FMulCad.Caption [TFMulCad]: FMulCad
+  LabTipoMov.Caption [TLabel]: Despesas
+  LabDat.Caption [TLabel]: Data movimento
+  LabDoc.Caption [TLabel]: Documento
+  LbDes.Caption [TLabel]: Descrição
+  LbPes.Caption [TLabel]: Pessoa
+  LbVal.Caption [TLabel]: Valor da parcela
+  LbVen.Caption [TLabel]: 1º Vencimento
+  LbConta.Caption [TLabel]: Conta
+  LbPar.Caption [TLabel]: Nº Parcelas
+  LbObs.Caption [TLabel]: Observações
+  LbCen.Caption [TLabel]: Centro de custo
+  SbCalc.Hint [TSpeedButton]: Calculadora
+  SbCalendV.Hint [TSpeedButton]: Exibir calendário
+  LabPer.Caption [TLabel]: Periodicidade
+  SbCalendM.Hint [TSpeedButton]: Exibir calendário
+  SBCen.Hint [TSpeedButton]: Incluir novo centro de custo
+  DBDat.Hint [TDBEdit]: *  Data de processamento do movimento
+  DBDoc.Hint [TDBEdit]: *  Campo opcional para cadastro de nota fiscal, 
+     número de ordem de serviço, número de pedido, etc.
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela tudo o que foi inserido/alterado
+  EdPer.Text [TComboBox]: Mensal
+  BoxMov.Caption [TCheckBox]: Data de movimento igual a data de vencimento
+  Criarnovacontabancria1.Caption [TMenuItem]: Criar nova conta bancária
+=== TFMULTDELMOV — FMultDelMov
+  FMultDelMov.Caption [TFMultDelMov]: FMultDelMov
+  RadOp.Caption [TRadioGroup]: Escolha uma opção abaixo:
+  LabDesc.Caption [TLabel]: LabDesc
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+  BtConfirma.Caption [TBitBtn]: Excluir
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+=== TFOBTERDATA — Selecione a data
+  FObterData.Caption [TFObterData]: Selecione a data
+  LabData.Caption [TLabel]: Informe a data:
+  EdDt.Text [TMaskEdit]: /  /
+  BtAvanca.Caption [TBitBtn]: &Avançar
+  BtCancela.Caption [TBitBtn]: &Cancelar
+=== TFOBTERMESANO — FObterMesAno
+  FObterMesAno.Caption [TFObterMesAno]: FObterMesAno
+  Label1.Caption [TLabel]: Mês e ano inicial:
+  BitBtn1.Caption [TBitBtn]: Avançar
+  BitBtn2.Caption [TBitBtn]: &Cancelar
+  EdMesI.Text [TComboBox]: Janeiro
+  Label2.Caption [TLabel]: Mês e ano final:
+  EdMesF.Text [TComboBox]: Dezembro
+=== TFORMWAIT — Processando...
+  FormWait.Caption [TFormWait]: Processando...
+  Lab.Caption [TLabel]: testando
+=== TFPERIODO — Definir período
+  FPeriodo.Caption [TFPeriodo]: Definir período
+  LabDesc.Caption [TLabel]: Selecione o período desejado:
+  FlowPanel1.Caption [TFlowPanel]: FlowPanel1
+  SbEsteAno.Caption [TSpeedButton]: Este ano
+  SbEsteAno.Hint [TSpeedButton]: Este ano de janeiro a dezembro
+  SbMesPassado.Caption [TSpeedButton]: Mês anterior
+  SbMesPassado.Hint [TSpeedButton]: Mês anterior
+  SBEsteMes.Caption [TSpeedButton]: Este mês
+  SBEsteMes.Hint [TSpeedButton]: Mês atual
+  SbSemanaPassada.Caption [TSpeedButton]: Semana passada
+  SbSemanaPassada.Hint [TSpeedButton]: Semana anterior iniciando de Domingo a Sábado
+  SbEstaSemana.Caption [TSpeedButton]: Esta semana
+  SbEstaSemana.Hint [TSpeedButton]: Semana atual de Domingo a Sábado
+  SbOntem.Caption [TSpeedButton]: Ontem
+  SbOntem.Hint [TSpeedButton]: Ontem
+  SbHoje.Caption [TSpeedButton]: Hoje
+  SbHoje.Hint [TSpeedButton]: Hoje
+  SbAmanha.Caption [TSpeedButton]: Amanhã
+  SbAmanha.Hint [TSpeedButton]: Amanhã
+  SbSemanaQueVem.Caption [TSpeedButton]: Semana que vem
+  SbSemanaQueVem.Hint [TSpeedButton]: Próxima semana iniciando de Domingo a Sábado
+  SbMesQueVem.Caption [TSpeedButton]: Mês que vem
+  SbMesQueVem.Hint [TSpeedButton]: Próximo mês
+  ComboFilt.Text [TComboBox]: Filtrar por data de movimento
+  BtAvanca.Caption [TBitBtn]: &Avançar
+  BtCancela.Caption [TBitBtn]: &Cancelar
+  Label1.Caption [TLabel]: Data inicial:
+  EdDtIn.Text [TMaskEdit]: /  /
+  Label2.Caption [TLabel]: Data final:
+  EdDtFn.Text [TMaskEdit]: /  /
+=== TFPESBRS — FPesBrs
+  FPesBrs.Caption [TFPesBrs]: FPesBrs
+  BtPesq.Caption [TBitBtn]: &Localizar
+  BtExclui.Caption [TBitBtn]: &Excluir
+  BtExclui.Hint [TBitBtn]: Exclui cadastro selecionado
+  BtAltera.Caption [TBitBtn]: &Alterar
+  BtAltera.Hint [TBitBtn]: Altera/Consulta cadastro
+  BtInsere.Caption [TBitBtn]: &Incluir
+  BtInsere.Hint [TBitBtn]: Criar novo cadastro
+  SpeedButton1.Caption [TSpeedButton]: &Voltar
+  SpeedButton1.Hint [TSpeedButton]: Voltar para a tela principal
+  BitBtn1.Caption [TBitBtn]: Limpar
+  BitBtn1.Hint [TBitBtn]: Limpar filtragem
+=== TFPESCAD — FPesCad
+  FPesCad.Caption [TFPesCad]: FPesCad
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+  TabSheet1.Caption [TTabSheet]: Dados Cadastrais
+  Label1.Caption [TLabel]: Nome
+  Label2.Caption [TLabel]: CNPJ/CPF
+  Label3.Caption [TLabel]: I.E/R.G
+  Label5.Caption [TLabel]: Endereço
+  Label6.Caption [TLabel]: Bairro
+  Label7.Caption [TLabel]: Cidade
+  Label8.Caption [TLabel]: UF
+  Label9.Caption [TLabel]: CEP
+  LbC01.Caption [TLabel]: Depto. Compras/Vendas
+  LbC02.Caption [TLabel]: Depto.Financeiro
+  LbC03.Caption [TLabel]: Depto. Administrativo
+  LbC04.Caption [TLabel]: Depto. Técnico/Operacional
+  LbCon.Caption [TLabel]: Contatos:
+  Label4.Caption [TLabel]: Telefone(s)
+  Label11.Caption [TLabel]: E-mail
+  Label13.Caption [TLabel]: Data Cadastro
+  BtUserAlt.Hint [TSpeedButton]: Controle de atualizações
+  DBPes.Caption [TDBRadioGroup]: Pessoa
+  DBUtil.Caption [TRadioGroup]: Uso do cadastro:
+  TabSheet2.Caption [TTabSheet]: Perfil do cliente
+  LbFun.Caption [TLabel]: Data de Fundação
+  Label16.Caption [TLabel]: Limite de crédito
+  LbLoc.Caption [TLabel]: Local Pendência
+  LbDtC.Caption [TLabel]: Data Consulta
+  LbMae.Caption [TLabel]: Nome da Mãe
+  Label10.Caption [TLabel]: Referências Comerciais 1
+  Label14.Caption [TLabel]: Referências Comerciais 2
+  Label15.Caption [TLabel]: Referências Comerciais 3
+  Label17.Caption [TLabel]: Telefone
+  Label18.Caption [TLabel]: Telefone
+  Label19.Caption [TLabel]: Telefone
+  Label20.Caption [TLabel]: Banco
+  Label21.Caption [TLabel]: Agência
+  Label22.Caption [TLabel]: Conta
+  Label23.Caption [TLabel]: Telefone
+  Label24.Caption [TLabel]: Referências Comerciais
+  Label25.Caption [TLabel]: Referências Bancárias
+  DBRadioGroup2.Caption [TDBRadioGroup]: Frequência de compra
+  DBRadioGroup3.Caption [TDBRadioGroup]: Classificação do cliente
+  DbCon.Caption [TDBRadioGroup]: Crédito consultado
+  DBPen.Caption [TDBRadioGroup]: Possui pendência de crédito
+  TabSheet3.Caption [TTabSheet]: Dados Bancários
+  Label26.Caption [TLabel]: Banco
+  Label27.Caption [TLabel]: Agência
+  Label28.Caption [TLabel]: Conta
+  Label12.Caption [TLabel]: Titular da Conta
+  TabSheet4.Caption [TTabSheet]: Observações
+  Label29.Caption [TLabel]: Observações
+=== TFPESM — FPesM
+  FPesM.Caption [TFPesM]: FPesM
+  BoxRes.Caption [TGroupBox]: Resultados da pesquisa
+  BtAbre.Caption [TBitBtn]: &Abrir
+  BitBtn1.Caption [TBitBtn]: Gerar Relatório
+  GroupBox1.Caption [TGroupBox]: Localizar
+  Label1.Caption [TLabel]: Digite uma palavra ou expressão à pesquisar:
+  BtClose.Caption [TSpeedButton]: &Fechar
+  BtNovo.Caption [TSpeedButton]: Li&mpar
+  Label2.Caption [TLabel]: Situação:
+  Label3.Caption [TLabel]: Ordenar por:
+  LabCen.Caption [TLabel]: Centro de custo
+  RadioPes.Caption [TRadioGroup]: Localizar em
+  BtPesquisa.Caption [TBitBtn]: &Localizar
+  RadPer.Caption [TGroupBox]: Período (Data de movimento)
+  Label4.Caption [TLabel]: a
+  ComboSit.Text [TComboBox]: Pagos e em aberto
+  ComboOrd.Text [TComboBox]: Data de Movimento
+=== TFPESQ — FPesq
+  FPesq.Caption [TFPesq]: FPesq
+  BoxRes.Caption [TGroupBox]: Resultados da pesquisa
+  BtAbre.Caption [TBitBtn]: &Abrir
+=== TFPRIN — MCC
+  FPrin.Caption [TFPrin]: MCC
+  SbAcesso.Hint [TSpeedButton]: Acesso fácil
+  SBFer.Caption [TSpeedButton]: &Ferramentas
+  SBBan.Caption [TSpeedButton]: &Bancos
+  SBRel.Caption [TSpeedButton]: &Relatórios
+  SBSup.Caption [TSpeedButton]: &Suporte
+  SBAce.Caption [TSpeedButton]: Acesso fácil
+  SBCad.Caption [TSpeedButton]: &Cadastros
+  LbCon.Caption [TLabel]: LbCon
+  Label5.Caption [TLabel]: Conta controle:
+  BtNewMsg.Caption [TSpeedButton]: Nova mensagem:
+  Btmensagem.Caption [TSpeedButton]: bt mensagem
+  SbRegistro.Caption [TSpeedButton]: Registrar licença do MCC
+  SbRegistro.Hint [TSpeedButton]: Acesse:
+   http://www.simpe.com.br 
+   e registre a sua licença
+  Button1.Caption [TButton]: Button1
+  LbLogin.Caption [TLabel]: LbLogin
+  LbUserName.Caption [TLabel]: LbUserName
+  LbLastAccess.Caption [TLabel]: LbLastAccess
+  Label1.Caption [TLabel]: Filtrar:
+  LabOrder.Caption [TLabel]: Ordem:
+  BoxOrder.Hint [TComboBox]: Ordenação
+  BoxOrder.Text [TComboBox]: Data de movimento
+  ListContas.Hint [TComboBox]: Filtrar por conta bancária ou caixa interno
+  EdFiltroSit.Hint [TComboBox]: Filtrar po situação (Pago ou em aberto)
+  EdFiltroSit.Text [TComboBox]: Pagas ou em aberto
+  EdFiltroData.Hint [TComboBox]: Filtrar por campo Data movimento ou Vcto/Pagto.
+  EdFiltroData.Text [TComboBox]: Filtrar por data de movimento
+  EdAno.Hint [TComboBox]: Selecione o ano de filtragem dos lançamentos.
+  EdMes.Hint [TComboBox]: Selecione o mês ou período a ser filtrado.
+  EdMes.Text [TComboBox]: Todo periodo
+  Edlow.Hint [TEdit]: '
+  Edlow.Text [TEdit]: edlow
+  btBusca.Caption [TSpeedButton]: b
+  btBusca.Hint [TSpeedButton]: Busca rápida por campo
+  LbPesq.Caption [TLabel]: LbPesq
+  EdPesqText.Text [TMaskEdit]: EdPesqText
+  TabDespesas.Caption [TTabSheet]: Despesas
+  TabDespesas.Hint [TTabSheet]: D
+  btAlteraD.Caption [TSpeedButton]: &Alterar
+  btAlteraD.Hint [TSpeedButton]: Altera/Consulta despesa selecionada
+  btExcluiD.Caption [TSpeedButton]: &Excluir
+  btExcluiD.Hint [TSpeedButton]: Exclui despesa selecionada
+  BtPesqD.Caption [TSpeedButton]: &Localizar
+  BtPesqD.Hint [TSpeedButton]: Localizar Movimento
+  btBaixaD.Caption [TSpeedButton]: Bai&xar
+  btBaixaD.Hint [TSpeedButton]: Baixa conta em aberto
+  BtReciboD.Caption [TSpeedButton]: Recib&o
+  BtReciboD.Hint [TSpeedButton]: Emitir Recibo
+  btinsereD.Caption [TBitBtn]: &Incluir nova despesa
+  btinsereD.Hint [TBitBtn]: Inclui nova despesa
+  BtUpdateD.Hint [TBitBtn]: Atualizar
+  DBGridD.Title.Caption [TDBGrid]: Observação
+  TabReceitas.Caption [TTabSheet]: Receitas
+  TabReceitas.Hint [TTabSheet]: R
+  btAlteraR.Caption [TSpeedButton]: &Alterar
+  btAlteraR.Hint [TSpeedButton]: Alterar/Consulta receita selecionada
+  btExcluiR.Caption [TSpeedButton]: &Excluir
+  btExcluiR.Hint [TSpeedButton]: Exclui receita selecionada
+  BtPesqR.Caption [TSpeedButton]: &Localizar
+  BtPesqR.Hint [TSpeedButton]: Localizar Movimento
+  btBaixaR.Caption [TSpeedButton]: Bai&xar
+  btBaixaR.Hint [TSpeedButton]: Baixa conta em aberto
+  btReciboR.Caption [TSpeedButton]: &Recibo
+  btReciboR.Hint [TSpeedButton]: Emitir Recibo / Duplicata
+  btInsereR.Caption [TBitBtn]: &Incluir nova receita
+  btInsereR.Hint [TBitBtn]: Inclui nova receita
+  BtUpdateR.Hint [TBitBtn]: Atualizar
+  DBGridR.Title.Caption [TDBGrid]: Observação
+  TabDashboard.Caption [TTabSheet]: Dashboard
+  BtDashLinear.Caption [TSpeedButton]: Linear
+  BtDashCaixa.Caption [TSpeedButton]: Caixa
+  BtDashComp.Caption [TSpeedButton]: Competência
+  TabDashCaixa.Caption [TTabSheet]: Análise em Regime de Caixa:
+  Label7.Caption [TLabel]: Analisar:
+  ComboDashCaixa.Text [TComboBox]: Hoje
+  BtAtualizaDashCaixa.Caption [TBitBtn]: Atualizar
+  CheckVencidos.Caption [TCheckBox]: Considerar os vencidos
+  CheckVencidos.Hint [TCheckBox]: Considerar os vencidos anteriores ao período analisado.
+  LbDescAReceber.Caption [TLabel]: À receber
+  LbValAReceber.Caption [TLabel]: R$ 0,00
+  LbDescApagar.Caption [TLabel]: À pagar
+  LbValApagar.Caption [TLabel]: R$ 0,00
+  LbDescPago.Caption [TLabel]: Pago
+  LbValPagtos.Caption [TLabel]: R$ 0,00
+  LbDescRecebido.Caption [TLabel]: Recebido
+  LbValRec.Caption [TLabel]: R$ 0,00
+  TabDashComp.Caption [TTabSheet]: Análise em Regime de Competência:
+  Label3.Caption [TLabel]: Analisar:
+  ComboDashComp.Text [TComboBox]: Hoje
+  BtAtualizaDashComp.Caption [TBitBtn]: Atualizar
+  LbMargem.Caption [TLabel]: Margem Bruta
+  LabValMargem.Caption [TLabel]: R$ 0,00
+  LbDespesas.Caption [TLabel]: Despesas
+  LabValDespesas.Caption [TLabel]: R$ 0,00
+  LbReceitas.Caption [TLabel]: Receitas
+  LabValReceitas.Caption [TLabel]: R$ 0,00
+  TabDashLinear.Caption [TTabSheet]: Análise linear:
+  BtAtualizaDashLinear.Caption [TSpeedButton]: &Atualizar
+  Label2.Caption [TLabel]: Análise:
+  RadSem.Caption [TRadioButton]: Semanal
+  RadMes.Caption [TRadioButton]: Mensal
+  RadDia.Caption [TRadioButton]: Diária
+  CheckDes.Caption [TCheckBox]: Pagamentos
+  CheckRec.Caption [TCheckBox]: Recebimentos
+  CheckSal.Caption [TCheckBox]: Margem
+  TabSheet1.Caption [TTabSheet]: Saldos
+  CADASTRODECONTAS1.Caption [TMenuItem]: CADASTRO DE CONTAS CONTROLE
+  CADASTRODECONTAS1.Hint [TMenuItem]: Cadastro de Conta Pessoa Física / Conta Empresa
+  N35.Caption [TMenuItem]: -
+  MenuCCustoCad.Caption [TMenuItem]: CADASTRO DE CENTROS DE CUSTO
+  N19.Caption [TMenuItem]: -
+  CADASTRODECLIENTES1.Caption [TMenuItem]: CADASTRO DE CLIENTES
+  N36.Caption [TMenuItem]: -
+  CADASTRODEFORNECEDORES1.Caption [TMenuItem]: CADASTRO DE FORNECEDORES
+  N30.Caption [TMenuItem]: -
+  LEMBRETESDECONTAS1.Caption [TMenuItem]: LEMBRETES DE CONTAS
+  N3.Caption [TMenuItem]: -
+  menuLogoff.Caption [TMenuItem]: IR PARA OUTRA CONTA
+  menuLogoff.Hint [TMenuItem]: Ir para outra Conta Pessoa Física ou Empresa
+  N27.Caption [TMenuItem]: -
+  SAIRDOSISTEMA1.Caption [TMenuItem]: SAIR DO SISTEMA
+  SAIRDOSISTEMA1.Hint [TMenuItem]: Fechar o Sistema
+  CONFIGURAES2.Caption [TMenuItem]: CONFIGURAÇÕES
+  CONFIGURAES2.Hint [TMenuItem]: Configurações
+  ALTERARSENHADEACESSO1.Caption [TMenuItem]: ALTERAR SENHA DE ACESSO
+  N95.Caption [TMenuItem]: -
+  USURIOS1.Caption [TMenuItem]: USUÁRIOS
+  N20.Caption [TMenuItem]: -
+  PROTEODEDADOS1.Caption [TMenuItem]: PROTEÇÃO DE DADOS
+  N93.Caption [TMenuItem]: -
+  MenuConfigBanco.Caption [TMenuItem]: BANCO DE DADOS
+  MenuConfigBanco.Hint [TMenuItem]: Configura o banco de dados local/rede
+  N9.Caption [TMenuItem]: -
+  CORDOSRELATRIOS2.Caption [TMenuItem]: COR DOS RELATÓRIOS
+  CORDOSRELATRIOS2.Hint [TMenuItem]: Selecione a cor de fundo dos cabeçalhos e rodapés dos relatórios
+  Color1.Caption [TMenuItem]: CINZA CLARO
+  N6.Caption [TMenuItem]: -
+  Color2.Caption [TMenuItem]: BRANCO
+  N8.Caption [TMenuItem]: -
+  Color3.Caption [TMenuItem]: CINZA ESCURO
+  N66.Caption [TMenuItem]: -
+  Color4.Caption [TMenuItem]: CREAM
+  N67.Caption [TMenuItem]: -
+  Color5.Caption [TMenuItem]: AZUL CLARO
+  N74.Caption [TMenuItem]: -
+  Color6.Caption [TMenuItem]: VERDE CLARO
+  N28.Caption [TMenuItem]: -
+  GERAODOSRELATRIOS1.Caption [TMenuItem]: GERAÇÃO DOS RELATÓRIOS
+  GeraRel1.Caption [TMenuItem]: GERADO NA TELA DO SISTEMA
+  N80.Caption [TMenuItem]: -
+  GeraRel2.Caption [TMenuItem]: GERADO EM ARQUIVO QRP
+  N81.Caption [TMenuItem]: -
+  GeraRel3.Caption [TMenuItem]: GERADO EM ARQUIVO PDF
+  N88.Caption [TMenuItem]: -
+  GeraRel4.Caption [TMenuItem]: GERADO PELO REPORT PREVIEW
+  N79.Caption [TMenuItem]: -
+  LOGOTIPODAEMPRESA1.Caption [TMenuItem]: LOGOMARCA DA EMPRESA
+  INCLUIR1.Caption [TMenuItem]: INCLUIR
+  N37.Caption [TMenuItem]: -
+  EXCLUIR1.Caption [TMenuItem]: EXCLUIR
+  N1.Caption [TMenuItem]: -
+  MenuConfigContaControle.Caption [TMenuItem]: CONFIGURAÇÕES DA CONTA CONTROLE
+  N44.Caption [TMenuItem]: -
+  ABELAS1.Caption [TMenuItem]: TABELAS
+  ENSDEDESPESAS1.Caption [TMenuItem]: ÍTENS DE DESPESAS
+  N52.Caption [TMenuItem]: -
+  ENSDERECEITAS1.Caption [TMenuItem]: ÍTENS DE RECEITAS
+  N5.Caption [TMenuItem]: -
+  RELATRIOSDEDESPESAS1.Caption [TMenuItem]: RELATÓRIO DE DESPESAS
+  N25.Caption [TMenuItem]: -
+  RELATRIODEDESPESASTOTAIS1.Caption [TMenuItem]: RELATÓRIO DE DESPESAS TOTAIS
+  N4.Caption [TMenuItem]: -
+  RELATRIODERECEITAS1.Caption [TMenuItem]: RELATÓRIO DE RECEITAS
+  N7.Caption [TMenuItem]: -
+  RELATRIODERECEITASTOTAIS1.Caption [TMenuItem]: RELATÓRIO DE RECEITAS TOTAIS
+  N26.Caption [TMenuItem]: -
+  CONTASPAGAR1.Caption [TMenuItem]: CONTAS A PAGAR
+  EMABERTO1.Caption [TMenuItem]: CONTAS EM ABERTO
+  N11.Caption [TMenuItem]: -
+  PAGAS1.Caption [TMenuItem]: CONTAS PAGAS
+  N12.Caption [TMenuItem]: -
+  TODASASCONTAS1.Caption [TMenuItem]: TODAS AS CONTAS
+  N53.Caption [TMenuItem]: -
+  CONTASAPAGARPORFOENCEDOR1.Caption [TMenuItem]: CONTAS A PAGAR POR FORNECEDOR
+  N92.Caption [TMenuItem]: -
+  ANALISEDEPONTUALIDADE2.Caption [TMenuItem]: ANALISE DE PONTUALIDADE  DE PAGAMENTOS
+  N10.Caption [TMenuItem]: -
+  CONTASRECEBER1.Caption [TMenuItem]: CONTAS A RECEBER
+  CONTASEMABERTO1.Caption [TMenuItem]: CONTAS EM ABERTO
+  N13.Caption [TMenuItem]: -
+  CONTASRECEBIDAS1.Caption [TMenuItem]: CONTAS RECEBIDAS
+  N14.Caption [TMenuItem]: -
+  TODASASCONTAS2.Caption [TMenuItem]: TODAS AS CONTAS
+  N54.Caption [TMenuItem]: -
+  CONTASARECEBERPORCLIENTE1.Caption [TMenuItem]: CONTAS A RECEBER POR CLIENTE
+  N91.Caption [TMenuItem]: -
+  ANALISEDEPONTUALIDADE1.Caption [TMenuItem]: ANALISE DE PONTUALIDADE DE RECEBIMENTOS
+  N15.Caption [TMenuItem]: -
+  GRFICODEDESPESAS1.Caption [TMenuItem]: GRÁFICOS GERENCIAIS
+  GRFICODEPSESASXRECEITAS1.Caption [TMenuItem]: GRÁFICO DESPESAS x RECEITAS
+  N29.Caption [TMenuItem]: -
+  GRFICODEDESPESAS2.Caption [TMenuItem]: GRÁFICO DE DESPESAS
+  N17.Caption [TMenuItem]: -
+  GRFICODERECEITAS1.Caption [TMenuItem]: GRÁFICO DE RECEITAS
+  N45.Caption [TMenuItem]: -
+  GRFICODEEVOLUODEDESPESAS1.Caption [TMenuItem]: GRÁFICO DE EVOLUÇÃO DE DESPESAS POR ÍTEM
+  N46.Caption [TMenuItem]: -
+  GRFICODEEVOLUODEDESPESASPORFORNECEDOR1.Caption [TMenuItem]: GRÁFICO DE EVOLUÇÃO DE DESPESAS POR FORNECEDOR
+  N47.Caption [TMenuItem]: -
+  GRFICODEEVOLUODERECEITASPORTEM1.Caption [TMenuItem]: GRÁFICO DE EVOLUÇÃO DE RECEITAS POR ÍTEM
+  N48.Caption [TMenuItem]: -
+  GRFICODEEVOLUODERECEITASPORCLIENTE1.Caption [TMenuItem]: GRÁFICO DE EVOLUÇÃO DE RECEITAS POR CLIENTE
+  N16.Caption [TMenuItem]: -
+  menuAnaliseCCusto.Caption [TMenuItem]: ANÁLISE POR CENTRO DE CUSTO
+  Oramentomensaldedespesasporcentrodecusto1.Caption [TMenuItem]: ORÇAMENTO POR CENTRO DE CUSTO
+  N90.Caption [TMenuItem]: -
+  PROJEOPORCENTRODELUCRO1.Caption [TMenuItem]: PROJEÇÃO POR CENTRO DE LUCRO
+  N89.Caption [TMenuItem]: -
+  RELATRIODEDESPESAS1.Caption [TMenuItem]: RELATÓRIO DE DESPESAS
+  N32.Caption [TMenuItem]: -
+  RELATRIODERECEITAS2.Caption [TMenuItem]: RELATÓRIO DE RECEITAS
+  N42.Caption [TMenuItem]: -
+  RELATRIODEDESPESASTOTAISPORCENTRO1.Caption [TMenuItem]: RELATÓRIO DE DESPESAS TOTAIS POR CENTRO
+  N43.Caption [TMenuItem]: -
+  RELATRIODERECEITASTOTAISPORCENTRO1.Caption [TMenuItem]: RELATÓRIO DE RECEITAS TOTAIS POR CENTRO
+  N22.Caption [TMenuItem]: -
+  RELATO1.Caption [TMenuItem]: RELATÓRIO DE FLUXO DE CAIXA POR CENTRO
+  N33.Caption [TMenuItem]: -
+  GRFICODEDESPESASTOTAISPORCENTRO1.Caption [TMenuItem]: GRÁFICO DE DESPESAS TOTAIS POR CENTRO
+  N41.Caption [TMenuItem]: -
+  GRFICODERECEITASTOTAISPORCENTRODECUSTO1.Caption [TMenuItem]: GRÁFICO DE RECEITAS TOTAIS POR CENTRO
+  N40.Caption [TMenuItem]: -
+  GRFICODEDESPESAS3.Caption [TMenuItem]: GRÁFICO DE DESPESAS
+  N34.Caption [TMenuItem]: -
+  GRFICODERECEITAS2.Caption [TMenuItem]: GRÁFICO DE RECEITAS
+  N31.Caption [TMenuItem]: -
+  CAIXA1.Caption [TMenuItem]: FLUXO DE CAIXA
+  EXTRATODEFECHAMENTODECAIXA2.Caption [TMenuItem]: EXTRATO DE FECHAMENTO DE CAIXA
+  N18.Caption [TMenuItem]: -
+  RELATRIODEFLUXODECAIXA2.Caption [TMenuItem]: FLUXO DE CAIXA (REALIZADO)
+  N84.Caption [TMenuItem]: -
+  FLUXODECAIXAPORDIA1.Caption [TMenuItem]: FLUXO DE CAIXA POR DIA
+  N49.Caption [TMenuItem]: -
+  PREVISODECAIXA1.Caption [TMenuItem]: PREVISÃO DE CAIXA
+  N85.Caption [TMenuItem]: -
+  PREVISODECAIXAPORDIA1.Caption [TMenuItem]: PREVISÃO DE CAIXA POR DIA
+  N38.Caption [TMenuItem]: -
+  BANCOS1.Caption [TMenuItem]: BANCOS
+  EXTRATODECONTABANCRIA2.Caption [TMenuItem]: EXTRATO DE CONTA BANCÁRIA
+  N51.Caption [TMenuItem]: -
+  EXTRATODEPREVISOBANCRIA1.Caption [TMenuItem]: EXTRATO DE PREVISÃO BANCÁRIA
+  N75.Caption [TMenuItem]: -
+  EXTRATODOCAIXAINTERNO2.Caption [TMenuItem]: EXTRATO DO CAIXA INTERNO
+  N77.Caption [TMenuItem]: -
+  RELATRIODESALDODECONTAS1.Caption [TMenuItem]: RELATÓRIO DE SALDO DE CONTAS
+  N94.Caption [TMenuItem]: -
+  RELATRIOCOMPARATIVODESALDOS1.Caption [TMenuItem]: RELATÓRIO COMPARATIVO DE SALDOS
+  N23.Caption [TMenuItem]: -
+  RELATRIODECLIENTES1.Caption [TMenuItem]: RELATÓRIO DE CLIENTES
+  N39.Caption [TMenuItem]: -
+  RELATRIODEFORNECEDORES1.Caption [TMenuItem]: RELATÓRIO DE FORNECEDORES
+  N24.Caption [TMenuItem]: -
+  RELATRIOANAL1.Caption [TMenuItem]: RELATÓRIO ANALÍTICO
+  N71.Caption [TMenuItem]: -
+  RELATRIODEMONSTRATIVO1.Caption [TMenuItem]: RELATÓRIO DEMONSTRATIVO
+  DEMONSTRATIVOANUALDEDESPESAS1.Caption [TMenuItem]: DEMONSTRATIVO ANUAL DE DESPESAS
+  DESPESASPORTEM1.Caption [TMenuItem]: POR ÍTEM
+  N73.Caption [TMenuItem]: -
+  PORFORNECEDOR1.Caption [TMenuItem]: POR FORNECEDOR
+  N56.Caption [TMenuItem]: -
+  menuDemCentroD.Caption [TMenuItem]: POR CENTRO DE CUSTO
+  N61.Caption [TMenuItem]: -
+  menuDemBanD.Caption [TMenuItem]: POR CONTA BANCÁRIA/CAIXA INTERNO
+  N72.Caption [TMenuItem]: -
+  DEMONSTRATIVOANUALDERECEITAS1.Caption [TMenuItem]: DEMONSTRATIVO ANUAL DE RECEITAS
+  PORITEM1.Caption [TMenuItem]: POR ITEM
+  N76.Caption [TMenuItem]: -
+  PORCLIENTE1.Caption [TMenuItem]: POR CLIENTE
+  N64.Caption [TMenuItem]: -
+  menuDemCentroR.Caption [TMenuItem]: POR CENTRO DE LUCRO
+  N65.Caption [TMenuItem]: -
+  menuDemBanR.Caption [TMenuItem]: POR CONTA BANCÁRIA / CAIXA INTERNO
+  CADASTRODECONTAS2.Caption [TMenuItem]: CADASTRO DE CONTAS BANCÁRIAS
+  CADASTRODECONTAS2.Hint [TMenuItem]: Cadastro de contas bancárias da Empresa/Pessoa Física
+  N21.Caption [TMenuItem]: -
+  MOVIMENTAES1.Caption [TMenuItem]: CONTROLE DE MOVIMENTAÇÕES BANCÁRIAS
+  MOVIMENTAES1.Hint [TMenuItem]: Movimentações bancárias com as contas da Empresa/Pessoa Física
+  N59.Caption [TMenuItem]: -
+  IMPORTAREXTRATOBANCRIOOFX1.Caption [TMenuItem]: IMPORTAR EXTRATO BANCÁRIO (OFX)
+  SUPORTEONLINE2.Caption [TMenuItem]: SUPORTE ONLINE
+  N2.Caption [TMenuItem]: -
+  MANUALDOUSURIO1.Caption [TMenuItem]: MANUAL DO USUÁRIO
+  N68.Caption [TMenuItem]: -
+  SOBRE1.Caption [TMenuItem]: SOBRE...
+  N69.Caption [TMenuItem]: -
+  COMANDOSDEFUNODOSUPORTE1.Caption [TMenuItem]: COMANDOS DE FUNÇÃO DO SUPORTE
+  N82.Caption [TMenuItem]: -
+  DetectUpdate.Caption [TMenuItem]: DETECTAR ATUALIZAÇÕES DO SISTEMA
+  Incluirmltiploslanamentos1.Caption [TMenuItem]: Incluir múltiplos lançamentos
+  ActCad.Caption [TAction]: Cadastro
+  ActFer.Caption [TAction]: ActFer
+  ActBan.Caption [TAction]: ActBan
+  ActRel.Caption [TAction]: ActRel
+  ActSup.Caption [TAction]: ActSup
+  ActInc.Caption [TAction]: ActInc
+  ActAlt.Caption [TAction]: ActAlt
+  ActExc.Caption [TAction]: ActExc
+  ActLoc.Caption [TAction]: ActLoc
+  ActBai.Caption [TAction]: ActBai
+  AtcRec.Caption [TAction]: AtcRec
+  ActMan.Caption [TAction]: ActMan
+  Action1.Caption [TAction]: AtualizaSaldos
+  AlterarDadosCadastrais1.Caption [TMenuItem]: Alterar dados Cadastrais
+  AlterarDadosCadastrais1.Hint [TMenuItem]: Altera as suas informações cadastradas no sistema
+  N57.Caption [TMenuItem]: -
+  menuCen.Caption [TMenuItem]: Ativar/Desativar controle por centros de custo/lucro
+  N55.Caption [TMenuItem]: -
+  menuMultDes.Caption [TMenuItem]: Inserir multiplas despesas (parcelamento)
+  N58.Caption [TMenuItem]: -
+  menuMultRec.Caption [TMenuItem]: Inserir multiplas receitas (parcelamento)
+  N63.Caption [TMenuItem]: -
+  Incluirumacontaapagar1.Caption [TMenuItem]: Incluir uma conta a pagar
+  N60.Caption [TMenuItem]: -
+  Incluirumacontaareceber1.Caption [TMenuItem]: Incluir uma conta a receber
+  N62.Caption [TMenuItem]: -
+  CalculadoradoWindows1.Caption [TMenuItem]: Calculadora do Windows
+  menutransfereoutraconta.Caption [TMenuItem]: Transferir lançamento para outra conta
+  N70.Caption [TMenuItem]: -
+  Repetirlanamentonomsseguinte1.Caption [TMenuItem]: Repetir lançamento no mês seguinte
+  Baixarlanamentoselecionado1.Caption [TMenuItem]: Baixar lançamento selecionado
+  N86.Caption [TMenuItem]: -
+  Baixamltipla1.Caption [TMenuItem]: Baixa múltipla
+=== TFPRINT — FPrint
+  FPrint.Caption [TFPrint]: FPrint
+  BtPrin.Caption [TSpeedButton]: &Primeira
+  BtAnt.Caption [TSpeedButton]: &Anterior
+  BtProx.Caption [TSpeedButton]: P&róxima
+  btUlt.Caption [TSpeedButton]: &Última
+  BtImprime.Caption [TSpeedButton]: &Imprimir
+  BtSair.Caption [TSpeedButton]: &Fechar
+  BtExport.Caption [TSpeedButton]: &Exportar
+  BtZoom.Caption [TSpeedButton]: &Opções
+  ExportarparaExel1.Caption [TMenuItem]: Exportar para Excel
+  N13.Caption [TMenuItem]: -
+  ExportarparaCSV1.Caption [TMenuItem]: Exportar para CSV
+  N10.Caption [TMenuItem]: -
+  ExportarparaarquivoTextoTXT1.Caption [TMenuItem]: Exportar para arquivo Texto (TXT)
+  N7.Caption [TMenuItem]: -
+  ExportarparaoMicrosoftExcel1.Caption [TMenuItem]: Exportar a tabela de dados do relatório para o Excel (MS-Office 2003 ou inferior)
+  N1.Caption [TMenuItem]: -
+  ExportarrelatrioparaHTMLDocument1.Caption [TMenuItem]: Exportar a tabela de dados do relatório para HTML Document
+  N2.Caption [TMenuItem]: -
+  ExportarparaarquivoQRP1.Caption [TMenuItem]: Exportar para arquivo QRP
+  N3.Caption [TMenuItem]: -
+  ExportarparaPDF1.Caption [TMenuItem]: Exportar para PDF
+  N5.Caption [TMenuItem]: -
+  Definiodeimpressora1.Caption [TMenuItem]: Definição de impressora
+  N6.Caption [TMenuItem]: -
+  Zoom.Caption [TMenuItem]: Zoom
+  Zoom075.Caption [TMenuItem]: Reduzir (-)
+  N8.Caption [TMenuItem]: -
+  Zoom100.Caption [TMenuItem]: Tela cheia
+  N9.Caption [TMenuItem]: -
+  Zoom150.Caption [TMenuItem]: Aumentar (+)
+  N4.Caption [TMenuItem]: -
+  Reduzirzoom1.Caption [TMenuItem]: Reduzir zoom (-)
+  N11.Caption [TMenuItem]: -
+  elacheia1.Caption [TMenuItem]: Tela cheia
+  N12.Caption [TMenuItem]: -
+  Aumentarzoom1.Caption [TMenuItem]: Aumentar zoom (+)
+=== TFPROCESSING — FProcessing
+  FProcessing.Caption [TFProcessing]: FProcessing
+  Label1.Caption [TLabel]: processando....
+=== TFRECIBO — Emissão de Recibo / Duplicata
+  FRecibo.Caption [TFRecibo]: Emissão de Recibo / Duplicata
+  TabSheet1.Caption [TTabSheet]: Emissão de recibo
+  Label1.Caption [TLabel]: Pagamento para: Nome:
+  Label2.Caption [TLabel]: Recebido de
+  Label3.Caption [TLabel]: Valor
+  Label4.Caption [TLabel]: Data
+  Label5.Caption [TLabel]: Referênte a
+  SpeedButton1.Caption [TSpeedButton]: &Voltar
+  SpeedButton1.Hint [TSpeedButton]: Voltar para a tela principal
+  SpeedButton2.Caption [TSpeedButton]: &Imprimir
+  SpeedButton2.Hint [TSpeedButton]: Imprimir Recibo
+  Label12.Caption [TLabel]: Observação:
+  Label13.Caption [TLabel]: Número de vias:
+  SpeedButton3.Caption [TSpeedButton]: Ms-Word
+  SpeedButton3.Hint [TSpeedButton]: Exporta recibo para o Microsoft Word
+  Label14.Caption [TLabel]: Documento
+  SpeedButton5.Caption [TSpeedButton]: &PDF
+  SpeedButton5.Hint [TSpeedButton]: Gerar arquivo PDF do recibo
+  EdVias.Text [TComboBox]: 1
+  EdValTeste.Text [TEdit]: 1100,01
+  BtDefinePrinter.Caption [TBitBtn]: Definir impressora
+  TabSheet3.Caption [TTabSheet]: Emissão de duplicata
+  Label15.Caption [TLabel]: Fatura Num.
+  Label16.Caption [TLabel]: Num. Ordem
+  Label17.Caption [TLabel]: Valor
+  Label18.Caption [TLabel]: Vencimento
+  Label19.Caption [TLabel]: Sacado
+  Label20.Caption [TLabel]: Endereço
+  Label21.Caption [TLabel]: Bairro
+  Label22.Caption [TLabel]: Municipio-UF
+  Label23.Caption [TLabel]: Praça
+  SpeedButton4.Caption [TSpeedButton]: &Imprimir
+  SpeedButton4.Hint [TSpeedButton]: Imprimir Duplicata
+  SpeedButton6.Caption [TSpeedButton]: &Voltar
+  SpeedButton6.Hint [TSpeedButton]: Voltar para a tela principal
+  Label24.Caption [TLabel]: CNPJ / CPF
+  Label25.Caption [TLabel]: Observação:
+  Label26.Caption [TLabel]: CEP
+  SpeedButton7.Caption [TSpeedButton]: &PDF
+  SpeedButton7.Hint [TSpeedButton]: Gerar arquivo PDF da Duplicata
+  RadTip.Caption [TRadioGroup]: Tipo de duplicata
+  TabSheet2.Caption [TTabSheet]: Configurações
+  GroupBox1.Caption [TGroupBox]: Configuração de Impressão
+  Label10.Caption [TLabel]: cm
+  Label9.Caption [TLabel]: cm
+  Label7.Caption [TLabel]: Margem direita
+  Label6.Caption [TLabel]: Margem superior
+  Label8.Caption [TLabel]: cm
+  Label11.Caption [TLabel]: Margem inferior
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela tudo o que foi inserido/alterado
+=== TFREL1 — FRel1
+  FRel1.Caption [TFRel1]: FRel1
+  TabSheet1.Caption [TTabSheet]: MovCompetencia
+  QRSysData22.Text [TQRSysData]: Data:
+  QRSysData23.Text [TQRSysData]: Hora:
+  QRTitMovComp.Caption [TQRLabel]: RELATÓRIO DE COMPETENCIA
+  QRPerMovComp.Caption [TQRLabel]: Período
+  QRLabel91.Caption [TQRLabel]: Data
+  QRLabel92.Caption [TQRLabel]: Valor
+  LbRPesMovComp.Caption [TQRLabel]: Cliente / Fornecedor
+  LbDesMovComp.Caption [TQRLabel]: Movimento
+  QRLabel30.Caption [TQRLabel]: Situação
+  QRLabel32.Caption [TQRLabel]: Documento
+  QRLabel57.Caption [TQRLabel]: Vencimento
+  QRSysData25.Text [TQRSysData]: Página
+  TabSheet2.Caption [TTabSheet]: MovContas
+  QRSysData1.Text [TQRSysData]: Data:
+  QRSysData2.Text [TQRSysData]: Hora:
+  QRTitMovCont.Caption [TQRLabel]: RELATÓRIO DE CONTAS
+  QRPerMovCont.Caption [TQRLabel]: Período
+  LbPesCont.Caption [TQRLabel]: LbPesCont
+  QRLabel4.Caption [TQRLabel]: Venc.
+  QRLabel5.Caption [TQRLabel]: Valor
+  LbPesMovCont.Caption [TQRLabel]: Cliente / Fornecedor
+  LbDesMovCont.Caption [TQRLabel]: Movimento
+  QRLabel39.Caption [TQRLabel]: Doc.
+  QRLabel11.Caption [TQRLabel]: Observação
+  QRLabel8.Caption [TQRLabel]: Pagto.
+  QRSysData3.Text [TQRSysData]: Página
+  TabSheet3.Caption [TTabSheet]: MovCaixa
+  QRSysData4.Text [TQRSysData]: Data:
+  QRSysData5.Text [TQRSysData]: Hora:
+  QRTitMovCaixa.Caption [TQRLabel]: RELATÓRIO DE CONTAS
+  QRPerMovCaixa.Caption [TQRLabel]: Período
+  QRSaldAnt.Caption [TQRLabel]: Saldo
+  QMovCaixaData.Caption [TQRLabel]: Data
+  QRLabel13.Caption [TQRLabel]: Valor
+  QRLabel14.Caption [TQRLabel]: Cliente / Fornecedor
+  QRLabel15.Caption [TQRLabel]: Descrição
+  QRLabel22.Caption [TQRLabel]: Observações
+  QRMovOutras.Caption [TQRLabel]: QRMovOutras
+  QRPer.Caption [TQRLabel]: QRPerCaixa
+  QRSysData6.Text [TQRSysData]: Página
+  QRPerDia.Caption [TQRLabel]: QRPerDia
+  TabSheet4.Caption [TTabSheet]: GrafCompetencia
+  QRSysData7.Text [TQRSysData]: Data:
+  QRSysData8.Text [TQRSysData]: Hora:
+  QRTitGrafComp.Caption [TQRLabel]: GRÁFICO DESPESA X RECEITA
+  QRPerGrafComp.Caption [TQRLabel]: Período
+  QRSysData9.Text [TQRSysData]: Página
+  TabSheet5.Caption [TTabSheet]: Recibo
+  QRRecibo1.Caption [TQRLabel]: RECIBO R$
+  QRRec1.Caption [TQRLabel]: QRRec1
+  QRRef1.Caption [TQRLabel]: QRRef1
+  QRObs1.Caption [TQRLabel]: QRObs1
+  QRDat1.Caption [TQRLabel]: QRDat1
+  QRLabel19.Caption [TQRLabel]: __________________________________________________
+  QRNom1.Caption [TQRLabel]: QRNom1
+  QRDoc.Caption [TQRLabel]: QRDoc
+  QRDocPes1.Caption [TQRLabel]: QRDocPes1
+  QRRecibo2.Caption [TQRLabel]: RECIBO R$
+  QRRec2.Caption [TQRLabel]: QRRec1
+  QRRef2.Caption [TQRLabel]: QRRef2
+  QRDat2.Caption [TQRLabel]: QRDat2
+  QRLabel85.Caption [TQRLabel]: __________________________________________________
+  QRNom2.Caption [TQRLabel]: QRNom2
+  QRDoc2.Caption [TQRLabel]: QRDoc
+  QRDocPes2.Caption [TQRLabel]: QRDocPes2
+  QRObs2.Caption [TQRLabel]: QRObs1
+  TabSheet6.Caption [TTabSheet]: ExtratoBanco
+  QRSysData10.Text [TQRSysData]: Data:
+  QRSysData11.Text [TQRSysData]: Hora:
+  QRTitExt.Caption [TQRLabel]: EXTRATO DE CONTA BANCÁRIA
+  QRPerExtBan.Caption [TQRLabel]: Período
+  QRBan.Caption [TQRLabel]: LbPesCont
+  QRLabel27.Caption [TQRLabel]: Valor
+  QRLabel31.Caption [TQRLabel]: Operação
+  QRLabel29.Caption [TQRLabel]: Observações (Nº Cheque)
+  QRLabel3.Caption [TQRLabel]: Cliente/Fornec.
+  QRLabel28.Caption [TQRLabel]: Movimento
+  QRLabel26.Caption [TQRLabel]: Data
+  QRSaldoF.Caption [TQRLabel]: Valor
+  QRSysData12.Text [TQRSysData]: Página
+  QRSaldoBanco.Caption [TQRLabel]: QRSaldoBanco
+  TabSheet7.Caption [TTabSheet]: FechamentoCaixa
+  QRSysData13.Text [TQRSysData]: Data:
+  QRSysData14.Text [TQRSysData]: Hora:
+  QRLabel21.Caption [TQRLabel]: EXTRATO DE FECHAMENTO DE CAIXA
+  QRPerFec.Caption [TQRLabel]: Período
+  QRLabel34.Caption [TQRLabel]: Data
+  QRLabel35.Caption [TQRLabel]: Valor
+  QRLabel36.Caption [TQRLabel]: Movimento
+  QRLabel37.Caption [TQRLabel]: Observações (Nº Cheque)
+  QRFecSalF.Caption [TQRLabel]: Saldo Final
+  QRSysData15.Text [TQRSysData]: Página
+  QRLabel40.Caption [TQRLabel]: Conta:
+  QRFecSalIn.Caption [TQRLabel]: Saldo
+  QRFecSalFn.Caption [TQRLabel]: Saldo final
+  TabSheet8.Caption [TTabSheet]: Relatorio de Totais
+  QRSysData16.Text [TQRSysData]: Data:
+  QRSysData17.Text [TQRSysData]: Hora:
+  QRTitMovTot.Caption [TQRLabel]: RELATÓRIO DE MOVIMENTOS TOTAIS
+  QRPerMovTot.Caption [TQRLabel]: Período
+  QRLabel44.Caption [TQRLabel]: Valor
+  QRTotDes.Caption [TQRLabel]: Descrição
+  QRSysData18.Text [TQRSysData]: Página
+  TabSheet9.Caption [TTabSheet]: GrafDespxReceita
+  QRSysData19.Text [TQRSysData]: Data:
+  QRSysData20.Text [TQRSysData]: Hora:
+  QRLabel9.Caption [TQRLabel]: GRÁFICO DESPESA X RECEITA
+  QRGrafDR.Caption [TQRLabel]: Período
+  QRSysData21.Text [TQRSysData]: Página
+  TabSheet10.Caption [TTabSheet]: RelPes
+  QRSysData24.Text [TQRSysData]: Data:
+  QRSysData26.Text [TQRSysData]: Hora:
+  QRTitPes.Caption [TQRLabel]: QRTitPes
+  QRSysData27.Text [TQRSysData]: Página
+  QRLabel43.Caption [TQRLabel]: CNPJ/CPF:
+  QRLabel45.Caption [TQRLabel]: I.E./R.G.:
+  QRLabel46.Caption [TQRLabel]: E-mail:
+  QRLabel47.Caption [TQRLabel]: Endereço:
+  QRLabel48.Caption [TQRLabel]: Bairro:
+  QRLabel49.Caption [TQRLabel]: CEP:
+  QRLabel50.Caption [TQRLabel]: Cidade:
+  QRLabel20.Caption [TQRLabel]: NOME:
+  QRLabel41.Caption [TQRLabel]: Data de cadastro:
+  QRLabel51.Caption [TQRLabel]: CONTATOS:
+  QRLabel52.Caption [TQRLabel]: Comercial:
+  QRLabel53.Caption [TQRLabel]: Financeiro:
+  QRLabel54.Caption [TQRLabel]: Técnico:
+  QRLabel55.Caption [TQRLabel]: Administrativo:
+  QRLabel56.Caption [TQRLabel]: OBSERVAÇÕES:
+  QRLabel70.Caption [TQRLabel]: Telefone(s):
+  TabSheet11.Caption [TTabSheet]: RelTotalCentro
+  QRSysData28.Text [TQRSysData]: Data:
+  QRSysData29.Text [TQRSysData]: Hora:
+  TitRelRMC.Caption [TQRLabel]: RELATÓRIO DE MOVIMENTOS TOTAIS
+  PerTitRelRMC.Caption [TQRLabel]: Período
+  QRLabel61.Caption [TQRLabel]: Valor
+  QRLabel62.Caption [TQRLabel]: Descrição
+  QRSysData30.Text [TQRSysData]: Página
+  QRLabelRMC.Caption [TQRLabel]: QRPerDia
+  TabSheet12.Caption [TTabSheet]: GrafEvol
+  QRSysData31.Text [TQRSysData]: Data:
+  QRSysData32.Text [TQRSysData]: Hora:
+  QREvoTit.Caption [TQRLabel]: GRÁFICO DE EVOLUÇAO
+  QREvoDes.Caption [TQRLabel]: Descriçao
+  QRSysData33.Text [TQRSysData]: Página
+  TabSheet13.Caption [TTabSheet]: CaixaCentroC
+  QRSysData34.Text [TQRSysData]: Data:
+  QRSysData35.Text [TQRSysData]: Hora:
+  QRLabel58.Caption [TQRLabel]: CAIXA POR CENTRO DE CUSTO
+  QRPerFCC.Caption [TQRLabel]: Período
+  QRLabel65.Caption [TQRLabel]: Centro de Custo
+  QRLabel68.Caption [TQRLabel]: Pago
+  QRLabel71.Caption [TQRLabel]: Recebido
+  QRLabel59.Caption [TQRLabel]: Saldo real.
+  QRLabel66.Caption [TQRLabel]: Saldo prev.
+  QRLabel67.Caption [TQRLabel]: A receber
+  QRLabel69.Caption [TQRLabel]: A pagar
+  QRSysData36.Text [TQRSysData]: Página
+  TabSheet14.Caption [TTabSheet]: Analise
+  QRSysData37.Text [TQRSysData]: Data:
+  QRSysData38.Text [TQRSysData]: Hora:
+  QRTitAna.Caption [TQRLabel]: relatório
+  QRPerAna.Caption [TQRLabel]: Período
+  QRCentroCusto.Caption [TQRLabel]: Centro de custo/lucro:
+  QRLabel75.Caption [TQRLabel]: Data
+  QRLabel77.Caption [TQRLabel]: Cliente / Fornecedor
+  QRLabel78.Caption [TQRLabel]: Movimento
+  QRLabel79.Caption [TQRLabel]: Valor
+  QRLabel80.Caption [TQRLabel]: Documento
+  QRLabel81.Caption [TQRLabel]: Vencimento
+  QRLabel82.Caption [TQRLabel]: Observação
+  QRLabel83.Caption [TQRLabel]: Tipo
+  QRLabel84.Caption [TQRLabel]: Conta
+  QRSaldoAnalise.Caption [TQRLabel]: Saldo Receitas - Despesas
+  QRSysData39.Text [TQRSysData]: Página
+  TabSheet15.Caption [TTabSheet]: Contas Pes
+  QRSysData40.Text [TQRSysData]: Data:
+  QRSysData41.Text [TQRSysData]: Hora:
+  QRTitConPes.Caption [TQRLabel]: RELATÓRIO DE CONTAS
+  QRPerConPes.Caption [TQRLabel]: Período
+  QRLabel89.Caption [TQRLabel]: Valor em aberto
+  QRPesConPes.Caption [TQRLabel]: Cliente / Fornecedor
+  QRSysData42.Text [TQRSysData]: Página
+  TabSheet16.Caption [TTabSheet]: RelFluxoDia
+  QRSysData43.Text [TQRSysData]: Data:
+  QRSysData44.Text [TQRSysData]: Hora:
+  QRFluxDiaTit.Caption [TQRLabel]: RELATÓRIO DE CONTAS
+  QRPerFluxDia.Caption [TQRLabel]: Período
+  QRLabel72.Caption [TQRLabel]: Entradas
+  QRLabel73.Caption [TQRLabel]: Data
+  QRLabel17.Caption [TQRLabel]: Saídas
+  QRLabel76.Caption [TQRLabel]: Saldo do dia
+  QRLabel33.Caption [TQRLabel]: Saldo acumulado
+  QRLabel63.Caption [TQRLabel]: Totais:
+  QRSysData45.Text [TQRSysData]: Página
+  TabSheet17.Caption [TTabSheet]: RelSaldos
+  QRSysData46.Text [TQRSysData]: Data:
+  QRSysData47.Text [TQRSysData]: Hora:
+  QRTitSaldos.Caption [TQRLabel]: RELATÓRIO DE SALDO DE CONTAS
+  QRdataSald.Caption [TQRLabel]: QRdataSald
+  QRSysData48.Text [TQRSysData]: Página
+  QRSaldo1.Caption [TQRLabel]: Saldo
+  QRLabel12.Caption [TQRLabel]: Conta
+  QRSaldo2.Caption [TQRLabel]: Saldo2
+  QRCompara.Caption [TQRLabel]: Comparativo
+  QRLabel42.Caption [TQRLabel]: Totais:
+  TabSheet18.Caption [TTabSheet]: Orcamento
+  QRSysData49.Text [TQRSysData]: Data:
+  QRSysData50.Text [TQRSysData]: Hora:
+  QRTitOrcPro.Caption [TQRLabel]: RELATÓRIO ORÇAMENTARIO
+  QRPerOrPro.Caption [TQRLabel]: Período
+  QROrcProCentro.Caption [TQRLabel]: Centro de cuto
+  QRLabel90.Caption [TQRLabel]: Total Realizado
+  QRTitPro.Caption [TQRLabel]: Previsão
+  QRTitOrc.Caption [TQRLabel]: Orçamento
+  QRSysData51.Text [TQRSysData]: Página
+  TabSheet19.Caption [TTabSheet]: Pontualidade
+  QRSysData52.Text [TQRSysData]: Data:
+  QRSysData53.Text [TQRSysData]: Hora:
+  QRTitPontual.Caption [TQRLabel]: RELATÓRIO DE PONTUALIDADE
+  QRPerPontual.Caption [TQRLabel]: Período
+  QRPontualPes.Caption [TQRLabel]: Cliente / Fornecedor
+  QRLabel95.Caption [TQRLabel]: Maior atraso em dias
+  QRLabel1.Caption [TQRLabel]: Maior antecipação em dias
+  QRLabel7.Caption [TQRLabel]: Media de atrasos em dias
+  QRLabel86.Caption [TQRLabel]: Total de ocorrências
+  QRSysData54.Text [TQRSysData]: Página
+  RelExport.Caption [TTabSheet]: RelExport
+  QRExpTit.Caption [TQRLabel]: QRExpTit
+  QRCol01.Caption [TQRLabel]: QRCol01
+  QRCol02.Caption [TQRLabel]: QRCol1
+  QRCol03.Caption [TQRLabel]: QRCol1
+  QRCol06.Caption [TQRLabel]: QRCol1
+  QRCol05.Caption [TQRLabel]: QRCol1
+  QRCol04.Caption [TQRLabel]: QRCol1
+  QRCol12.Caption [TQRLabel]: QRCol1
+  QRCol11.Caption [TQRLabel]: QRCol1
+  QRCol10.Caption [TQRLabel]: QRCol1
+  QRCol09.Caption [TQRLabel]: QRCol1
+  QRCol08.Caption [TQRLabel]: QRCol1
+  QRCol07.Caption [TQRLabel]: QRCol1
+  QRCol13.Caption [TQRLabel]: QRCol1
+  QRCol14.Caption [TQRLabel]: QRCol1
+  QRCol15.Caption [TQRLabel]: QRCol1
+  RelAnaliticoTotal.Caption [TTabSheet]: RelAnaliticoTotal
+  QRSysData60.Text [TQRSysData]: Data:
+  QRSysData61.Text [TQRSysData]: Hora:
+  QRTitRelAnaTot.Caption [TQRLabel]: RELATÓRIO ANALITICO TOTAL
+  QRDesCab.Caption [TQRLabel]: Descrição
+  QRLabel105.Caption [TQRLabel]: Valor
+  QRSysData62.Text [TQRSysData]: Página
+  TabSheet20.Caption [TTabSheet]: RelPesq
+  QRSysData55.Text [TQRSysData]: Data:
+  QRSysData56.Text [TQRSysData]: Hora:
+  QRTitRelPesq.Caption [TQRLabel]: RELATÓRIO DE PESQUISA
+  QRLabel96.Caption [TQRLabel]: Data
+  QRLabel97.Caption [TQRLabel]: Descrição
+  QRLabel98.Caption [TQRLabel]: Nome:
+  QRLabel102.Caption [TQRLabel]: Documento
+  QRLabel101.Caption [TQRLabel]: Situação
+  QRLabel100.Caption [TQRLabel]: Valor
+  QRSysData63.Text [TQRSysData]: Página
+=== TFREL2 — FRel2
+  FRel2.Caption [TFRel2]: FRel2
+  TabSheet1.Caption [TTabSheet]: TabSheet1
+  QRSysData1.Text [TQRSysData]: Data:
+  QRSysData2.Text [TQRSysData]: Hora:
+  QrTitDem.Caption [TQRLabel]: QrTitDem
+  QRPerDem.Caption [TQRLabel]: Período
+  QRDes.Caption [TQRLabel]: Descrição
+  LbDesMovCont.Caption [TQRLabel]: Jan
+  QRLabel1.Caption [TQRLabel]: Fev
+  QRLabel3.Caption [TQRLabel]: Mar
+  QRLabel4.Caption [TQRLabel]: Abr
+  QRLabel19.Caption [TQRLabel]: Mai
+  QRLabel20.Caption [TQRLabel]: Jun
+  QRLabel21.Caption [TQRLabel]: Jul
+  QRLabel22.Caption [TQRLabel]: Ago
+  QRLabel23.Caption [TQRLabel]: Set
+  QRLabel24.Caption [TQRLabel]: Out
+  QRLabel25.Caption [TQRLabel]: Nov
+  QRLabel26.Caption [TQRLabel]: Dez
+  QRLabel27.Caption [TQRLabel]: Media
+  QRLabel28.Caption [TQRLabel]: Total
+  QRLabel29.Caption [TQRLabel]: Totais:
+  QRSysData3.Text [TQRSysData]: Página
+  TabSheet2.Caption [TTabSheet]: Duplicata
+  QRLabel5.Caption [TQRLabel]: FATURA NUM.
+  QRLabel6.Caption [TQRLabel]: FATURA/DUPLICATA
+  QRLabel7.Caption [TQRLabel]: DUPLICATA
+  QRLabel8.Caption [TQRLabel]: VENCIMENTO
+  QRLabel9.Caption [TQRLabel]: VALOR
+  QRLabel10.Caption [TQRLabel]: NUM. DE ORDEM
+  QRLabel11.Caption [TQRLabel]: Nome do Sacado:
+  QRLabel12.Caption [TQRLabel]: Endereço:
+  QRLabel13.Caption [TQRLabel]: CEP/Municipio/UF
+  QRLabel14.Caption [TQRLabel]: Bairro:
+  QRLabel15.Caption [TQRLabel]: CNPJ / CPF:
+  QRLabel16.Caption [TQRLabel]: Praça:
+  QRLabel17.Caption [TQRLabel]: VALOR POR EXTENSO
+  QRDesc.Caption [TQRLabel]: Reconheço(cemos) a exatidão desta duplicata de                                     na importância acima, que pagarei(emos) à                      , ou a sua ordem na praça e vencimento acima.
+  QRFat.Caption [TQRLabel]: QRFat
+  QRVal.Caption [TQRLabel]: QRVal
+  QRDup.Caption [TQRLabel]: QRDup
+  QRVen.Caption [TQRLabel]: QRVen
+  QRSac.Caption [TQRLabel]: QRSac
+  QREnd.Caption [TQRLabel]: QREnd
+  QRBai.Caption [TQRLabel]: QRBai
+  QRCid.Caption [TQRLabel]: QRCid
+  QRDoc.Caption [TQRLabel]: QRDoc
+  QRPra.Caption [TQRLabel]: QRPra
+  QRDataExt.Caption [TQRLabel]: QRDataExt
+  QRLabel18.Caption [TQRLabel]: ASSINATURA DO SACADO
+  QRObs.Caption [TQRLabel]: QRObs
+=== TFSELBAN — FSelBan
+  FSelBan.Caption [TFSelBan]: FSelBan
+  Label1.Caption [TLabel]: Selecione a conta bancária:
+  BtOk.Caption [TBitBtn]: Avançar
+=== TFSPLASH — FSplash
+  FSplash.Caption [TFSplash]: FSplash
+  Label1.Caption [TLabel]: MCC
+=== TFSUPORTE — Suporte MCC
+  FSuporte.Caption [TFSuporte]: Suporte MCC
+  Tab2.Caption [TTabSheet]: Chamados
+  BtNovoChamado.Caption [TSpeedButton]: &Novo chamado
+  BtNovoChamado.Hint [TSpeedButton]: Criar um novo chamado ao suporte
+  BtAtualizaList.Caption [TSpeedButton]: &Atualizar
+  BtAtualizaList.Hint [TSpeedButton]: Atualizar Chamados
+  BtFecha.Caption [TSpeedButton]: &Fechar
+  BtFecha.Hint [TSpeedButton]: Fechar suporte
+  RadActive.Caption [TRadioButton]: Chamados ativos
+  RadActive.Hint [TRadioButton]: Exibir os chamados ativos
+  RadDeactive.Caption [TRadioButton]: Chamados finalizados
+  RadDeactive.Hint [TRadioButton]: Exibir os chamados finalizados
+  DBGrid1.Title.Caption [TDBGrid]: Assunto
+  Tab3.Caption [TTabSheet]: Mensagens
+  BtNovo.Caption [TSpeedButton]: Nova mensagem
+  BtNovo.Hint [TSpeedButton]: Enviar nova mensagem
+  BtAtualiza.Caption [TSpeedButton]: Atualizar
+  BtAtualiza.Hint [TSpeedButton]: Atualizar mensagens
+  BtVolta.Caption [TSpeedButton]: &Voltar
+  BtVolta.Hint [TSpeedButton]: Voltar à lista de chamados
+  BtFinaliza.Caption [TSpeedButton]: Finalizar
+  BtFinaliza.Hint [TSpeedButton]: Finalizar este chamado
+  Label3.Caption [TLabel]: Setor:
+  Label4.Caption [TLabel]: Status:
+  Label2.Caption [TLabel]: Assunto:
+  Label1.Caption [TLabel]: Nome:
+  Label6.Caption [TLabel]: E-mail:
+=== TFSUPORTENEWMSG — Nova mensagem
+  FSuporteNewMsg.Caption [TFSuporteNewMsg]: Nova mensagem
+  Label2.Caption [TLabel]: Assunto:
+  Label3.Caption [TLabel]: Setor:
+  Label1.Caption [TLabel]: Mensagem:
+  SBAnexoS.Caption [TSpeedButton]: Anexar
+  SBAnexoS.Hint [TSpeedButton]: Anexar um arquivo
+  BtCancela.Caption [TBitBtn]: &Cancelar
+  BtCancela.Hint [TBitBtn]: Cancelar envio da mensagem
+  BtEnvia.Caption [TBitBtn]: &Enviar
+  BtEnvia.Hint [TBitBtn]: Enviar mensagem
+  Excluirtem1.Caption [TMenuItem]: Excluir ítem
+  N1.Caption [TMenuItem]: -
+  Excluirtodosostens1.Caption [TMenuItem]: Excluir todos os ítens
+=== TFTERMOS — Termos de uso
+  FTermos.Caption [TFTermos]: Termos de uso
+  Button1.Caption [TButton]: Fechar
+  Button2.Caption [TButton]: Estou de acordo com os Termos de uso e Políticas de privacidade
+=== TFTIT — Suporte - Assunto
+  FTit.Caption [TFTit]: Suporte - Assunto
+  TabSheet1.Caption [TTabSheet]: Selecione o tipo de suporte:
+  BtVoltar1.Caption [TBitBtn]: &Voltar
+  RadCom.Caption [TRadioButton]: Atendimento Comercial
+  RadSup.Caption [TRadioButton]: Suporte Técnico
+  BtAvancar1.Caption [TBitBtn]: &Avançar
+  TabSheet2.Caption [TTabSheet]: Assunto:
+  LabGrup.Caption [TLabel]: LabGrup
+  Label1.Caption [TLabel]: Informe o assunto:
+  BtVoltar2.Caption [TBitBtn]: &Voltar
+  BtAvancar2.Caption [TBitBtn]: &Avançar
+  TabSheet3.Caption [TTabSheet]: Detalhamento do atendimento
+  BtVoltar3.Caption [TBitBtn]: &Voltar
+  BtAvancar3.Caption [TBitBtn]: &Avançar
+  DBGrid1.Title.Caption [TDBGrid]: Selecione uma opção:
+=== TFTITMSG — Orientação do suporte
+  FTitMsg.Caption [TFTitMsg]: Orientação do suporte
+  BitBtn2.Caption [TBitBtn]: Entendido, cancelar o envio da mensagem
+  BtAvanca1.Caption [TBitBtn]: &Continuar para solicitar suporte
+=== TFTRABRS — Controle de Movimentações Bancárias
+  FTraBrs.Caption [TFTraBrs]: Controle de Movimentações Bancárias
+  BtInsereT.Caption [TBitBtn]: &Incluir
+  BtInsereT.Hint [TBitBtn]: Criar nova movimentação bancária
+  BtAltera.Caption [TBitBtn]: &Alterar
+  BtAltera.Hint [TBitBtn]: Altera/Consulta movimento selecionado
+  BtExclui.Caption [TBitBtn]: &Excluir
+  BtExclui.Hint [TBitBtn]: Exclui movimento selecionado
+  SpeedButton1.Caption [TSpeedButton]: &Voltar
+  SpeedButton1.Hint [TSpeedButton]: Voltar para a tela principal
+  Label1.Caption [TLabel]: Exibir:
+  EdMes.Hint [TComboBox]: Selecione o mês ou período a ser filtrado.
+  EdMes.Text [TComboBox]: Todo periodo
+  EdAno.Hint [TComboBox]: Selecione o ano de filtragem dos lançamentos.
+=== TFTRACAD — FTraCad
+  FTraCad.Caption [TFTraCad]: FTraCad
+  Label4.Caption [TLabel]: Data
+  Label5.Caption [TLabel]: Valor
+  Label1.Caption [TLabel]: Conta
+  LbDes.Caption [TLabel]: Conta Destino
+  Label6.Caption [TLabel]: Observações (Cheque)
+  SbCalend.Hint [TSpeedButton]: Exibir calendário
+  SbCalc.Hint [TSpeedButton]: Calculadora
+  LabDes.Caption [TLabel]: LabDes
+  BtUserAlt.Hint [TSpeedButton]: Controle de atualizações
+  DBMov.Caption [TDBRadioGroup]: Movimento
+  DBRadioGroup1.Caption [TDBRadioGroup]: Situação
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela as inserções/ alterações
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava os dados acima digitados
+=== TFUSEBRS — FUseBrs
+  FUseBrs.Caption [TFUseBrs]: FUseBrs
+  BtExclui.Caption [TBitBtn]: &Excluir
+  BtExclui.Hint [TBitBtn]: Excluir
+  BtAltera.Caption [TBitBtn]: &Alterar
+  BtAltera.Hint [TBitBtn]: Alterar
+  BtInsere.Caption [TBitBtn]: &Incluir
+  BtInsere.Hint [TBitBtn]: Novo usuário
+  SpeedButton1.Caption [TSpeedButton]: &Voltar
+  SpeedButton1.Hint [TSpeedButton]: Voltar para a tela principal
+=== TFUSECAD — FUseCad
+  FUseCad.Caption [TFUseCad]: FUseCad
+  TabCadastro.Caption [TTabSheet]: Dados do usuário
+  Label11.Caption [TLabel]: Categoria
+  Label1.Caption [TLabel]: Usuario
+  Label2.Caption [TLabel]: E-mail
+  Label3.Caption [TLabel]: Senha de acesso
+  LabCnf.Caption [TLabel]: Confirmação
+  BtSee.Hint [TSpeedButton]: Visualizar senha
+  BtAlterSenha.Caption [TBitBtn]: Alterar senha
+  RadStatus.Caption [TDBRadioGroup]: Status
+  BtConfirma.Caption [TBitBtn]: &Confirma
+  BtConfirma.Hint [TBitBtn]: Grava alterações
+  BtCancela.Caption [TBitBtn]: Ca&ncela
+  BtCancela.Hint [TBitBtn]: Cancela alterações
+  BtPermissao.Caption [TBitBtn]: Permissões de acesso
+  TabPermissao.Caption [TTabSheet]: Permissões de acesso
+  BtVolta.Caption [TBitBtn]: Voltar
+  TabConfigPer.Caption [TTabSheet]: Acesso aos modulos
+  DBRadioGroup1.Caption [TDBRadioGroup]: Configurações
+  DBRadioGroup3.Caption [TDBRadioGroup]: Controle de despesas
+  DBRadioGroup4.Caption [TDBRadioGroup]: Controle de receitas
+  DBRadioGroup5.Caption [TDBRadioGroup]: Controle de contas bancárias e movimentações
+  DBRadioGroup6.Caption [TDBRadioGroup]: Controle de centros de custo
+  DBRadioGroup2.Caption [TDBRadioGroup]: Fluxo de caixa
+  TabConfigContas.Caption [TTabSheet]: Acesso a contas controle
+  LabConsCheck.Caption [TLabel]: Marque as contas que deseja permitir o acesso:
+=== TFWAIT2 — FWait2
+  FWait2.Caption [TFWait2]: FWait2
+  Label1.Caption [TLabel]: LabStatus

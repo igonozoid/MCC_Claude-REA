@@ -1,0 +1,4 @@
+FMensagem:TFMensagem Left=306 Top=123 Caption='Mensagem' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alBottom Left=0 Top=395 Width=451 Height=41 Color=clWhite BevelOuter=bvNone BorderStyle=bsNone ParentColor=False
+    SpeedButton1:TSpeedButton Left=304 Top=8 Width=140 Height=28 Caption='&Voltar' Font.Color=clNavy Font.Height=-11 Font.Name='Tahoma' Font.Style=[fsBold] Hint=' '#13#10'   Voltar para a tela principal   '#13#10' '
+  WMensagem:TWebBrowser Align=alClient Left=0 Top=0 Width=451 Height=395

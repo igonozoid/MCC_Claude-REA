@@ -1,0 +1,19 @@
+FCenCad:TFCenCad Left=192 Top=107 Caption='FCenCad' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label1:TLabel Left=35 Top=32 Width=46 Height=17 Caption='C'#243'digo:'
+  Label2:TLabel Left=35 Top=61 Width=176 Height=17 Caption='Descri'#231#227'o do Centro de Custo'
+  DBText1:TDBText Left=88 Top=32 Width=45 Height=17 DataField='CenCod'
+  Bevel1:TBevel Left=39 Top=310 Width=246 Height=2
+  BtUserAlt:TSpeedButton Left=296 Top=0 Width=28 Height=28 Flat=True Hint=#13#10'   Controle de atualiza'#231#245'es   '#13#10' '
+  GroupBox1:TGroupBox Left=39 Top=119 Width=245 Height=83 Caption='                                   '
+    LabDes2:TLabel Left=90 Top=27 Width=49 Height=13 Caption='(Mensal)' Font.Color=clWindowText Font.Height=-11 Font.Name='Verdana' Font.Style=[]
+    LabDes:TLabel Left=19 Top=24 Width=65 Height=17 Caption='Or'#231'amento'
+    EdDes:TDBEdit Left=90 Top=46 Width=107 Height=25 Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='CenOrc'
+    CheckDes:TDBCheckBox Left=3 Top=-2 Width=145 Height=17 Caption='Aplicar a Despesas' DataField='CenDes'
+  GroupBox2:TGroupBox Left=39 Top=221 Width=246 Height=83 Caption='                                   '
+    LabRec2:TLabel Left=90 Top=23 Width=49 Height=13 Caption='(Mensal)' Font.Color=clWindowText Font.Height=-11 Font.Name='Verdana' Font.Style=[]
+    LabRec:TLabel Left=19 Top=19 Width=51 Height=17 Caption='Proje'#231#227'o'
+    EdRec:TDBEdit Left=90 Top=42 Width=107 Height=25 Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='CenPro'
+    CheckRec:TDBCheckBox Left=3 Top=0 Width=150 Height=17 Caption='Aplicar a Receitas' DataField='CenRec'
+  DBNom:TDBEdit Left=35 Top=77 Width=250 Height=25 Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='CenNom'
+  BtCancela:TBitBtn Left=39 Top=335 Width=97 Height=39 Caption='Ca&ncela' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Cancela as inser'#231#245'es/ altera'#231#245'es   '#13#10' '
+  BtConfirma:TBitBtn Left=142 Top=335 Width=113 Height=39 Caption='&Confirma' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '

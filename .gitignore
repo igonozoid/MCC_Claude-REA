@@ -1,0 +1,23 @@
+# Repositorio de terceiros (github.com/morluto/rea) — baixar a parte, ver README
+/rea/
+
+# Extracoes brutas do mcc.exe: contem dados do fornecedor (inclusive credencial embutida). Nunca versionar.
+/analise/forms/
+/analise/pe-resources.json
+/analise/artifact.json
+/analise/screens.json
+/analise/outlines/TCM*.txt
+
+# Ambientes e dados locais
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+mcc-clone/dados/
+*.db
+*.db-wal
+*.db-shm
+.claude/
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,7 @@
+FIteBrs:TFIteBrs Left=192 Top=114 Caption='FIteBrs' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=393 Height=71 BorderStyle=bsNone
+    SpeedButton1:TSpeedButton Align=alLeft Left=249 Top=3 Width=79 Height=65 Caption='&Voltar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Voltar para a tela principal   '#13#10' ' Layout=blGlyphTop
+    BtInsere:TBitBtn Align=alLeft Left=3 Top=3 Width=79 Height=65 Caption='&Incluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Layout=blGlyphTop
+    BtAltera:TBitBtn Align=alLeft Left=85 Top=3 Width=79 Height=65 Caption='&Alterar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'Alterar descri'#231#227'o do '#237'tem selecionado'#13#10' ' Layout=blGlyphTop
+    BtExclui:TBitBtn Align=alLeft Left=167 Top=3 Width=79 Height=65 Caption='&Excluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Layout=blGlyphTop
+  Lista:TValueListEditor Align=alClient Left=0 Top=71 Width=393 Height=371

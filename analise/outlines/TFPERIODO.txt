@@ -1,0 +1,29 @@
+FPeriodo:TFPeriodo Left=0 Top=0 Caption='Definir per'#237'odo' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alTop Left=3 Top=3 Width=819 Height=82 BorderStyle=bsNone
+    LabDesc:TLabel Align=alLeft Left=6 Top=3 Width=195 Height=36 Caption='Selecione o per'#237'odo desejado:' Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] Layout=tlCenter
+    FlowPanel1:TFlowPanel Align=alBottom Left=0 Top=42 Width=819 Height=40 Caption='FlowPanel1' BevelOuter=bvNone
+      SbEsteAno:TSpeedButton Align=alLeft Left=3 Top=3 Width=63 Height=30 Caption='Este ano' Hint='Este ano de janeiro a dezembro'
+      SbMesPassado:TSpeedButton Align=alLeft Left=72 Top=3 Width=75 Height=30 Caption='M'#234's anterior' Hint='M'#234's anterior'
+      SBEsteMes:TSpeedButton Align=alLeft Left=153 Top=3 Width=55 Height=30 Caption='Este m'#234's' Hint='M'#234's atual'
+      SbSemanaPassada:TSpeedButton Align=alLeft Left=214 Top=3 Width=94 Height=30 Caption='Semana passada' Hint='Semana anterior iniciando de Domingo a S'#225'bado'
+      SbEstaSemana:TSpeedButton Align=alLeft Left=314 Top=3 Width=73 Height=30 Caption='Esta semana' Hint='Semana atual de Domingo a S'#225'bado'
+      SbOntem:TSpeedButton Align=alLeft Left=393 Top=3 Width=46 Height=30 Caption='Ontem' Hint='Ontem'
+      SbHoje:TSpeedButton Align=alLeft Left=445 Top=3 Width=36 Height=30 Caption='Hoje' Hint='Hoje'
+      SbAmanha:TSpeedButton Align=alLeft Left=487 Top=3 Width=51 Height=30 Caption='Amanh'#227 Hint='Amanh'#227
+      SbSemanaQueVem:TSpeedButton Align=alLeft Left=544 Top=3 Width=92 Height=30 Caption='Semana que vem' Hint='Pr'#243'xima semana iniciando de Domingo a S'#225'bado'
+      SbMesQueVem:TSpeedButton Align=alLeft Left=642 Top=3 Width=74 Height=30 Caption='M'#234's que vem' Hint='Pr'#243'ximo m'#234's'
+    ComboFilt:TComboBox Align=alRight Left=485 Top=9 Width=331 Height=24 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[] Text='Filtrar por data de movimento'
+  ScrollBox2:TScrollBox Align=alBottom Left=3 Top=383 Width=819 Height=45 BorderStyle=bsNone
+    BtAvanca:TBitBtn Align=alRight Left=660 Top=3 Width=156 Height=39 Caption='&Avan'#231'ar'
+    BtCancela:TBitBtn Align=alRight Left=541 Top=3 Width=113 Height=39 Caption='&Cancelar'
+  ScrollBox:TScrollBox Align=alClient Left=3 Top=91 Width=819 Height=286 BorderStyle=bsNone
+    ScrollIn:TScrollBox Align=alLeft Left=0 Top=0 Width=345 Height=286 BorderStyle=bsNone
+      ScrollBox3:TScrollBox Align=alTop Left=3 Top=3 Width=339 Height=41 BorderStyle=bsNone
+        Label1:TLabel Align=alLeft Left=3 Top=3 Width=75 Height=17 Caption='Data inicial:' Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] Alignment=taCenter Layout=tlCenter
+        EdDtIn:TMaskEdit Align=alLeft Left=86 Top=5 Width=100 Height=31 Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[fsBold] Text='  /  /    '
+      CalendIn:TCalendarView Align=alClient Left=3 Top=50 Width=339 Height=233 Font.Color=clWindowText Font.Height=-20 Font.Name='Segoe UI' Font.Style=[]
+    ScrollFn:TScrollBox Align=alClient Left=345 Top=0 Width=474 Height=286 BorderStyle=bsNone
+      ScrollBox4:TScrollBox Align=alTop Left=3 Top=3 Width=468 Height=41 BorderStyle=bsNone
+        Label2:TLabel Align=alLeft Left=3 Top=3 Width=65 Height=17 Caption='Data final:' Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] Alignment=taCenter Layout=tlCenter
+        EdDtFn:TMaskEdit Align=alLeft Left=76 Top=5 Width=100 Height=31 Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[fsBold] Text='  /  /    '
+      CalendFn:TCalendarView Align=alClient Left=3 Top=50 Width=468 Height=233 Font.Color=clWindowText Font.Height=-20 Font.Name='Segoe UI' Font.Style=[]

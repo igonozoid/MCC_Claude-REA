@@ -1,0 +1,13 @@
+FObterMesAno:TFObterMesAno Left=0 Top=0 Caption='FObterMesAno' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  Label1:TLabel Align=alTop Left=7 Top=32 Width=325 Height=16 Caption='M'#234's e ano inicial:' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+  ScrollBox2:TScrollBox Align=alBottom Left=0 Top=168 Width=335 Height=41 BorderStyle=bsNone
+    BitBtn1:TBitBtn Align=alRight Left=229 Top=3 Width=103 Height=35 Caption='Avan'#231'ar'
+    BitBtn2:TBitBtn Align=alRight Left=120 Top=3 Width=103 Height=35 Caption='&Cancelar'
+  ScrollBox4:TScrollBox Align=alTop Left=0 Top=0 Width=335 Height=29 BorderStyle=bsNone
+  ScrollBox1:TScrollBox Align=alTop Left=3 Top=54 Width=329 Height=33 BorderStyle=bsNone
+    EdAnoI:TSpinEdit Align=alRight Left=205 Top=3 Width=121 Height=27 Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[]
+    EdMesI:TComboBox Align=alClient Left=3 Top=3 Width=196 Height=26 Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Text='Janeiro'
+  ScrollBox3:TScrollBox Align=alTop Left=3 Top=93 Width=329 Height=53 BorderStyle=bsNone
+    Label2:TLabel Align=alTop Left=7 Top=3 Width=319 Height=16 Caption='M'#234's e ano final:' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+    EdAnoF:TSpinEdit Align=alRight Left=205 Top=25 Width=121 Height=25 Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[]
+    EdMesF:TComboBox Align=alClient Left=3 Top=25 Width=196 Height=26 Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Text='Dezembro'

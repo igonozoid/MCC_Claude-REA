@@ -1,0 +1,13 @@
+FBanCad:TFBanCad Left=315 Top=200 Caption='FBanCad' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='Verdana' Font.Style=[fsBold]
+  Label1:TLabel Left=25 Top=22 Width=84 Height=17 Caption='Banco e Conta' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label2:TLabel Left=25 Top=78 Width=69 Height=17 Caption='Saldo inicial' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Bevel1:TBevel Left=25 Top=324 Width=440 Height=1
+  Label3:TLabel Left=25 Top=134 Width=30 Height=17 Caption='Logo' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  BtUserAlt:TSpeedButton Left=459 Top=3 Width=28 Height=28 Flat=True Hint=#13#10'   Controle de atualiza'#231#245'es   '#13#10' '
+  DBNom:TDBEdit Left=25 Top=40 Width=144 Height=29 Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI' Font.Style=[fsBold] DataField='BanDes'
+  DBEdit2:TDBEdit Left=25 Top=96 Width=144 Height=29 Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI' Font.Style=[fsBold] DataField='BanSal'
+  DBUtil:TRadioGroup Left=25 Top=211 Width=440 Height=86 Caption='Utiliza'#231#227'o' Font.Color=clWindowText Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+  DBCheckBox1:TDBCheckBox Left=25 Top=188 Width=97 Height=17 Caption='Conta ativa' Font.Color=clWindowText Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='BanAct'
+  BtCancela:TBitBtn Left=25 Top=341 Width=97 Height=39 Caption='Ca&ncela' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Cancela as inser'#231#245'es/ altera'#231#245'es   '#13#10' '
+  BtConfirma:TBitBtn Left=128 Top=341 Width=113 Height=39 Caption='&Confirma' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '
+  ComboLogo:TComboBox Left=25 Top=153 Width=288 Height=26 Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]

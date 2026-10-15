@@ -1,0 +1,26 @@
+FLog:TFLog Left=0 Top=0 Caption='Login de acesso' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  PageControl1:TPageControl Align=alClient Left=3 Top=3 Width=418 Height=304 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] Hint='Ao marcar esta op'#231#227'o, o login utilizado ser'#225' mostrado no hist'#243'rico para os pr'#243'ximos acessos.'
+    Tab1:TTabSheet Caption='Cadastro'
+      SpeedButton1:TSpeedButton Left=15 Top=56 Width=378 Height=65 Caption='Ainda n'#227'o possuo cadastro' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] Flat=True
+      SpeedButton2:TSpeedButton Left=15 Top=127 Width=378 Height=65 Caption='J'#225' tenho um login e  gostaria de acessar a minha conta' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] Flat=True
+    Tab2:TTabSheet Caption='Login'
+      LabNewCad:TLabel Align=alTop Left=265 Top=20 Width=115 Height=15 Caption='Efetuar novo cadastro' Font.Color=clBlack Font.Height=-12 Font.Name='Segoe UI' Font.Style=[fsUnderline] Alignment=taRightJustify
+      GroupBox1:TGroupBox Align=alClient Left=30 Top=55 Width=350 Height=174
+        Bevel2:TBevel Left=29 Top=105 Width=290 Height=2
+        Label1:TLabel Left=29 Top=18 Width=103 Height=18 Caption='Login da conta' Font.Color=clGreen Font.Height=-16 Font.Name='Arial' Font.Style=[]
+        LabSup:TLabel Left=333 Top=0 Width=14 Height=17 Caption=' ? ' Alignment=taRightJustify
+        CheckLog:TCheckBox Left=29 Top=77 Width=180 Height=23 Caption='Salvar login no hist'#243'rico' Hint='Ao marcar esta op'#231#227'o, o login utilizado ser'#225' mostrado no hist'#243'rico para os pr'#243'ximos acessos.'
+        BitBtn1:TBitBtn Left=29 Top=116 Width=122 Height=47 Caption='&Fechar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+        BtAcanca1:TBitBtn Left=165 Top=116 Width=154 Height=47 Caption='Avan'#231'ar' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+        EdLog:TComboBox Left=29 Top=42 Width=290 Height=29 Font.Color=clNavy Font.Height=-16 Font.Name='Segoe UI' Font.Style=[]
+    Tab3:TTabSheet Caption='Usu'#225'rio'
+      Bevel1:TBevel Left=56 Top=175 Width=290 Height=2
+      LbSen:TLabel Left=56 Top=81 Width=98 Height=17 Caption='Senha de acesso' Font.Color=clGreen Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+      LabEml:TLabel Left=56 Top=25 Width=103 Height=17 Caption='E-mail do usu'#225'rio' Font.Color=clGreen Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+      LabResgateSenha:TLabel Left=253 Top=142 Width=93 Height=17 Caption='esqueci a senha' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI' Font.Style=[fsUnderline] Alignment=taRightJustify
+      BtSee:TSpeedButton Left=352 Top=98 Width=36 Height=29 Flat=True Hint='Visualizar senha'
+      EdSen:TMaskEdit Left=56 Top=102 Width=290 Height=25 Font.Color=clNavy Font.Height=-15 Font.Name='Arial' Font.Style=[] Text=''
+      BtCancela:TBitBtn Left=56 Top=186 Width=122 Height=47 Caption='&Fechar' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+      BtConfirm:TBitBtn Left=184 Top=186 Width=162 Height=47 Caption='&Acessar' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+      CheckKey:TCheckBox Left=57 Top=142 Width=97 Height=17 Caption='Salvar senha'
+      EdEml:TComboBox Left=56 Top=46 Width=290 Height=28 Font.Color=clNavy Font.Height=-15 Font.Name='Segoe UI' Font.Style=[]

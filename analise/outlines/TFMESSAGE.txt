@@ -1,0 +1,6 @@
+FMessage:TFMessage Left=0 Top=0 Caption='Mensagem:' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=544 Height=57 BevelOuter=bvNone BorderStyle=bsNone
+    LbNome:TLabel Left=3 Top=24 Width=45 Height=21 Caption='         ' Font.Color=clNavy Font.Height=-17 Font.Name='Tahoma' Font.Style=[]
+  ScrollBox2:TScrollBox Align=alBottom Left=0 Top=332 Width=544 Height=57 BevelOuter=bvNone BorderStyle=bsNone
+    BtCancela:TBitBtn Left=202 Top=12 Width=137 Height=30 Caption='&Fechar' Font.Color=clNavy Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  DBMemo1:TDBMemo Align=alClient Left=0 Top=57 Width=544 Height=275 Font.Color=clNavy Font.Height=-15 Font.Name='Arial' Font.Style=[] DataField='MsgMsg'

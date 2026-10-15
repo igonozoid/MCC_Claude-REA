@@ -1,0 +1,33 @@
+FConcilia:TFConcilia Left=0 Top=0 Caption='Extrato banc'#225'rio' Color=clBtnFace Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  PageC:TPageControl Align=alClient Left=0 Top=30 Width=984 Height=452
+    Page1:TTabSheet Caption='1 de 4: Selecionar conta' Font.Color=#3090cf Font.Height=-15 Font.Name='Arial' Font.Style=[]
+      ScrollConta:TScrollBox Left=208 Top=208 Width=473 Height=129 Color=clActiveCaption BorderStyle=bsNone ParentColor=False
+        Label1:TLabel Align=alTop Left=20 Top=10 Width=433 Height=17 Caption='Selecione a conta banc'#225'ria:' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+        BtVolta1:TSpeedButton Align=alLeft Left=20 Top=64 Width=188 Height=50 Caption='&Voltar' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+        BtAvanca1:TBitBtn Align=alClient Left=233 Top=64 Width=220 Height=50 Caption='&Avancar' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+        ComboBanConcilia:TComboBox Align=alTop Left=20 Top=30 Width=433 Height=26 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+      M1:TMemo Left=208 Top=20 Width=473 Height=161 Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[] BorderStyle=bsNone Hint='IMPORTAR EXTRATO BANC'#193'RIO OFX|'
+    Page2:TTabSheet Caption='2 de 4: Selecionar arquivo'
+      M2:TMemo Left=184 Top=12 Width=476 Height=149 Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[] BorderStyle=bsNone
+      Scrollimport:TScrollBox Left=184 Top=96 Width=473 Height=145 Color=clActiveCaption BorderStyle=bsNone ParentColor=False
+        ScrollBox3:TScrollBox Align=alBottom Left=0 Top=80 Width=473 Height=65 BorderStyle=bsNone
+          BtVolta2:TSpeedButton Align=alLeft Left=15 Top=15 Width=130 Height=35 Caption='&Voltar'
+          BtImport:TBitBtn Align=alClient Left=151 Top=15 Width=307 Height=35 Caption='&Importar Extrato banc'#225'rio OFX'
+        ScrollBox6:TScrollBox Align=alBottom Left=0 Top=39 Width=473 Height=41 BorderStyle=bsNone
+          Label2:TLabel Align=alLeft Left=15 Top=3 Width=103 Height=17 Caption='Conta banc'#225'ria:' Alignment=taRightJustify
+          DBText1:TDBText Align=alClient Left=124 Top=3 Width=61 Height=18 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='BanDes'
+    Page3:TTabSheet Caption='3 de 4: Identificar lan'#231'amentos'
+      DBGrid1:TDBGrid Align=alClient Left=0 Top=65 Width=976 Height=296 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+      ScrollBox2:TScrollBox Align=alTop Left=0 Top=0 Width=976 Height=65 BorderStyle=bsNone
+        RadFilt:TRadioGroup Align=alClient Left=3 Top=8 Width=873 Height=49 Caption='Filtrar'
+      ScrollBox5:TScrollBox Align=alBottom Left=0 Top=361 Width=976 Height=59 BorderStyle=bsNone
+        BtVolta3:TSpeedButton Align=alLeft Left=551 Top=8 Width=130 Height=43 Caption='&Voltar'
+        BtValida:TBitBtn Align=alLeft Left=3 Top=8 Width=214 Height=43 Caption='Validar registro' Hint='Validar '#237'tens do extrato:|'#13#10'Com base nos dados do extrato, aponte para cada '#13#10'lan'#231'amento a sua devida descri'#231#227'o da despesa ou '#13#10'receita e o cliente ou fornecedor correspondente.'#13#10'|5'
+        BtRegister:TBitBtn Align=alLeft Left=223 Top=8 Width=322 Height=43 Caption='Cadastrar os registros validados'
+    Page4:TTabSheet Caption='4 de 4: Realizar importa'#231#227'o'
+      ScrollBox4:TScrollBox Align=alTop Left=0 Top=0 Width=976 Height=63 BorderStyle=bsNone
+        BtVolta4:TSpeedButton Align=alLeft Left=259 Top=8 Width=130 Height=47 Caption='&Voltar'
+        BitBtn3:TBitBtn Align=alLeft Left=3 Top=8 Width=250 Height=47 Caption='Registrar lan'#231'amento'
+      DBGrid2:TDBGrid Align=alClient Left=0 Top=63 Width=976 Height=357 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=984 Height=30 BorderStyle=bsNone
+  BalloonHint1:TBalloonHint Left=748 Top=282

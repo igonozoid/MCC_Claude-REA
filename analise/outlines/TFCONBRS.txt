@@ -1,0 +1,11 @@
+FConBrs:TFConBrs Left=192 Top=107 Caption='Cadastro de Contas Controle' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=713 Height=68 Color=#c0c7e2 BorderStyle=bsNone ParentColor=False
+    LabLim:TLabel Left=400 Top=24 Width=15 Height=13 Caption='     '
+    BtExclui:TBitBtn Align=alLeft Left=167 Top=3 Width=79 Height=62 Caption='&Excluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Exclui conta selecionada   '#13#10' ' Layout=blGlyphTop
+    BtAltera:TBitBtn Align=alLeft Left=85 Top=3 Width=79 Height=62 Caption='&Alterar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Altera/Consulta conta selecionada   '#13#10'  ' Layout=blGlyphTop
+    BtInsere:TBitBtn Align=alLeft Left=3 Top=3 Width=79 Height=62 Caption='&Incluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Criar nova conta   '#13#10' ' Layout=blGlyphTop
+    ScrollMenu:TScrollBox Align=alLeft Left=246 Top=0 Width=140 Height=68 BorderStyle=bsNone
+      SpeedButton2:TSpeedButton Align=alClient Left=3 Top=33 Width=137 Height=32 Caption='&Voltar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Voltar para a tela principal   '#13#10' '
+      DBNavigator1:TDBNavigator Align=alTop Left=3 Top=3 Width=137 Height=27
+  Bar:TStatusBar Left=0 Top=441 Width=713 Height=19
+  DBGrid1:TDBGrid Align=alClient Left=0 Top=68 Width=713 Height=373 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]

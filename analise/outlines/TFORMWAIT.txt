@@ -1,0 +1,7 @@
+FormWait:TFormWait Left=192 Top=107 Caption='Processando...' Color=#3090c7 Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[] BorderStyle=bsNone
+  Panel1:TPanel Align=alClient Left=0 Top=0 Width=346 Height=135 Caption=' ' Color=clWhite BevelOuter=bvNone
+    Lab:TLabel Align=alBottom Left=1 Top=97 Width=340 Height=21 Caption='testando' Font.Color=clGray Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Alignment=taCenter
+    ScrollBox1:TScrollBox Align=alBottom Left=1 Top=90 Width=340 Height=7 BorderStyle=bsNone
+    ScrollBox2:TScrollBox Align=alBottom Left=1 Top=118 Width=340 Height=12 Font.Color=clWindowText Font.Height=-12 Font.Name='Arial' Font.Style=[] BorderStyle=bsNone
+    ActivityIndicator:TActivityIndicator Left=142 Top=7
+    ProgressBar:TProgressBar Align=alBottom Left=9 Top=74 Width=324 Height=13 Visible=False

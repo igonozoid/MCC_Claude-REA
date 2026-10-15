@@ -1,0 +1,11 @@
+FBanBrs:TFBanBrs Left=243 Top=153 Caption='Contas Banc'#225'rias' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='Verdana' Font.Style=[fsBold]
+  ScrollMenu:TScrollBox Align=alTop Left=0 Top=0 Width=499 Height=71 BorderStyle=bsNone
+    BtExclui:TBitBtn Align=alLeft Left=167 Top=3 Width=79 Height=65 Caption='&Excluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Exclui o registro selecionado   '#13#10' ' Layout=blGlyphTop
+    BtAltera:TBitBtn Align=alLeft Left=85 Top=3 Width=79 Height=65 Caption='&Alterar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Altera/Consulta movimento selecionado   '#13#10'  ' Layout=blGlyphTop
+    BtInsere:TBitBtn Align=alLeft Left=3 Top=3 Width=79 Height=65 Caption='&Incluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Inserir nova conta banc'#225'ria   '#13#10' ' Layout=blGlyphTop
+    ScrollBox1:TScrollBox Align=alClient Left=246 Top=0 Width=253 Height=71 BevelOuter=bvNone BorderStyle=bsNone
+      Panel1:TPanel Align=alClient Left=0 Top=0 Width=253 Height=71 BevelOuter=bvNone
+        SpeedButton1:TSpeedButton Align=alBottom Left=3 Top=38 Width=247 Height=30 Caption='&Voltar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Voltar para a tela principal   '#13#10' '
+        DBNavigator1:TDBNavigator Align=alClient Left=3 Top=3 Width=247 Height=29
+  Bar:TStatusBar Left=0 Top=330 Width=499 Height=19
+  DBGrid1:TDBGrid Align=alClient Left=0 Top=71 Width=499 Height=259 Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[]

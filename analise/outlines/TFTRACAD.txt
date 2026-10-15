@@ -1,0 +1,21 @@
+FTraCad:TFTraCad Left=192 Top=107 Caption='FTraCad' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label4:TLabel Left=20 Top=135 Width=27 Height=17 Caption='Data'
+  Label5:TLabel Left=199 Top=135 Width=30 Height=17 Caption='Valor'
+  Label1:TLabel Left=20 Top=85 Width=34 Height=17 Caption='Conta'
+  LbDes:TLabel Left=199 Top=85 Width=82 Height=17 Caption='Conta Destino'
+  Label6:TLabel Left=20 Top=269 Width=132 Height=17 Caption='Observa'#231#245'es (Cheque)'
+  Bevel1:TBevel Left=20 Top=332 Width=337 Height=1
+  SbCalend:TSpeedButton Left=158 Top=145 Width=31 Height=32 Flat=True Hint='Exibir calend'#225'rio'
+  SbCalc:TSpeedButton Left=308 Top=145 Width=31 Height=32 Flat=True Hint='Calculadora'
+  LabDes:TLabel Left=140 Top=193 Width=216 Height=67 Caption='LabDes' Font.Color=clWindowText Font.Height=-12 Font.Name='Segoe UI' Font.Style=[]
+  BtUserAlt:TSpeedButton Left=349 Top=1 Width=28 Height=28 Flat=True Hint=#13#10'   Controle de atualiza'#231#245'es   '#13#10' '
+  DBEdit4:TDBEdit Left=20 Top=152 Width=136 Height=25 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='TraDat'
+  DBEdit5:TDBEdit Left=199 Top=152 Width=107 Height=25 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='TraVal'
+  DBMov:TDBRadioGroup Left=20 Top=34 Width=337 Height=40 Caption='Movimento' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='TraTip'
+  DBRadioGroup1:TDBRadioGroup Left=20 Top=189 Width=96 Height=68 Caption='Situa'#231#227'o' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='TraSit'
+  DBEdit6:TDBEdit Left=20 Top=288 Width=337 Height=25 Color=clInfoBk Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='TraObs'
+  ComboOri:TComboBox Left=19 Top=102 Width=170 Height=26 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+  ComboDes:TComboBox Left=199 Top=102 Width=158 Height=26 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+  BtCancela:TBitBtn Left=19 Top=340 Width=97 Height=39 Caption='Ca&ncela' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Cancela as inser'#231#245'es/ altera'#231#245'es   '#13#10' '
+  BtConfirma:TBitBtn Left=122 Top=340 Width=113 Height=39 Caption='&Confirma' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '
+  Calc:TRxCalculator Left=330 Top=147

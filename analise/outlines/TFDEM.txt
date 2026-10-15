@@ -1,0 +1,6 @@
+FDem:TFDem Align=alClient Left=192 Top=115 Caption='Demonstrativo de resultados' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  Box:TScrollBox Align=alTop Left=0 Top=0 Width=865 Height=46 Color=clMoneyGreen BevelOuter=bvNone BorderStyle=bsNone ParentColor=False
+    LabTit:TLabel Left=8 Top=6 Width=220 Height=17 Caption='Relat'#243'rio Demonstrativo anual de ' Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]
+    LabAno:TLabel Left=8 Top=26 Width=42 Height=15 Caption='LabAno' Font.Color=clWindowText Font.Height=-12 Font.Name='Arial' Font.Style=[]
+    BtPrint:TButton Align=alRight Left=741 Top=5 Width=121 Height=36 Caption='&Vers'#227'o para impress'#227'o'
+  Grid:TDBGrid Align=alClient Left=0 Top=46 Width=865 Height=499

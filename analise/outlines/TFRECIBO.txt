@@ -1,0 +1,75 @@
+FRecibo:TFRecibo Left=274 Top=106 Caption='Emiss'#227'o de Recibo / Duplicata' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='Verdana' Font.Style=[fsBold]
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=384 Height=16 BevelOuter=bvNone BorderStyle=bsNone
+  PageControl1:TPageControl Align=alClient Left=0 Top=16 Width=384 Height=458
+    TabSheet1:TTabSheet Caption='Emiss'#227'o de recibo'
+      Label1:TLabel Left=20 Top=12 Width=156 Height=13 Caption='Pagamento para: Nome:'
+      Label2:TLabel Left=20 Top=61 Width=79 Height=13 Caption='Recebido de'
+      Label3:TLabel Left=20 Top=107 Width=34 Height=13 Caption='Valor'
+      Label4:TLabel Left=134 Top=107 Width=30 Height=13 Caption='Data'
+      Bevel1:TBevel Left=20 Top=373 Width=340 Height=3
+      Label5:TLabel Left=20 Top=214 Width=76 Height=13 Caption='Refer'#234'nte a'
+      SpeedButton1:TSpeedButton Left=20 Top=384 Width=76 Height=28 Caption='&Voltar' Font.Color=clNavy Font.Height=-11 Font.Name='Tahoma' Font.Style=[fsBold] Hint=' '#13#10'   Voltar para a tela principal   '#13#10' '
+      SpeedButton2:TSpeedButton Left=263 Top=384 Width=97 Height=28 Caption='&Imprimir' Font.Color=clNavy Font.Height=-11 Font.Name='Tahoma' Font.Style=[fsBold] Hint=' '#13#10'   Imprimir Recibo   '#13#10' '
+      Label12:TLabel Left=20 Top=259 Width=81 Height=13 Caption='Observa'#231#227'o:'
+      Label13:TLabel Left=204 Top=339 Width=106 Height=13 Caption='N'#250'mero de vias:'
+      SpeedButton3:TSpeedButton Left=95 Top=384 Width=92 Height=28 Caption='Ms-Word' Font.Color=clNavy Font.Height=-11 Font.Name='Verdana' Font.Style=[fsBold] Hint='Exporta recibo para o Microsoft Word'
+      Label14:TLabel Left=256 Top=107 Width=73 Height=13 Caption='Documento'
+      Bevel5:TBevel Left=20 Top=313 Width=340 Height=3
+      SpeedButton5:TSpeedButton Left=187 Top=384 Width=77 Height=28 Caption='&PDF' Font.Color=clNavy Font.Height=-11 Font.Name='Tahoma' Font.Style=[fsBold] Hint=' '#13#10'   Gerar arquivo PDF do recibo   '#13#10' '
+      EdNom:TEdit Left=20 Top=27 Width=340 Height=21
+      EdRec:TEdit Left=20 Top=75 Width=340 Height=21
+      EdExt:TRichEdit Left=20 Top=153 Width=340 Height=51 Color=#e5e5e5 Font.Color=clWindowText Font.Height=-9 Font.Name='Arial' Font.Style=[fsBold]
+      EdRef:TEdit Left=20 Top=229 Width=340 Height=21
+      M:TRichEdit Left=20 Top=150 Width=371 Height=47 Font.Color=clWindowText Font.Height=-8 Font.Name='Verdana' Font.Style=[] Visible=False
+      EdObs:TEdit Left=20 Top=274 Width=340 Height=21
+      EdVias:TComboBox Left=313 Top=335 Width=47 Height=21 Text='1'
+      EdDoc:TEdit Left=256 Top=122 Width=104 Height=21
+      EdVal:TEdit Left=22 Top=122 Width=95 Height=21
+      EdDat:TDateTimePicker Left=134 Top=123 Width=106 Height=21
+      EdValTeste:TEdit Left=22 Top=327 Width=95 Height=21 Color=clActiveCaption Text='1100,01' Visible=False
+      BtDefinePrinter:TBitBtn Left=22 Top=333 Width=137 Height=25 Caption='Definir impressora' Visible=False
+    TabSheet3:TTabSheet Caption='Emiss'#227'o de duplicata'
+      Label15:TLabel Left=15 Top=13 Width=80 Height=13 Caption='Fatura Num.'
+      Label16:TLabel Left=137 Top=13 Width=80 Height=13 Caption='Num. Ordem'
+      Label17:TLabel Left=155 Top=109 Width=34 Height=13 Caption='Valor'
+      Label18:TLabel Left=263 Top=13 Width=76 Height=13 Caption='Vencimento'
+      Label19:TLabel Left=15 Top=156 Width=47 Height=13 Caption='Sacado'
+      Label20:TLabel Left=15 Top=201 Width=61 Height=13 Caption='Endere'#231'o'
+      Label21:TLabel Left=15 Top=245 Width=40 Height=13 Caption='Bairro'
+      Label22:TLabel Left=15 Top=290 Width=84 Height=13 Caption='Municipio-UF'
+      Label23:TLabel Left=202 Top=290 Width=37 Height=13 Caption='Pra'#231'a'
+      SpeedButton4:TSpeedButton Left=207 Top=384 Width=102 Height=28 Caption='&Imprimir' Font.Color=clNavy Font.Height=-11 Font.Name='Tahoma' Font.Style=[fsBold] Hint=' '#13#10'   Imprimir Duplicata   '#13#10' '
+      SpeedButton6:TSpeedButton Left=15 Top=384 Width=92 Height=28 Caption='&Voltar' Font.Color=clNavy Font.Height=-11 Font.Name='Tahoma' Font.Style=[fsBold] Hint=' '#13#10'   Voltar para a tela principal   '#13#10' '
+      Bevel4:TBevel Left=15 Top=375 Width=353 Height=3
+      Label24:TLabel Left=15 Top=111 Width=71 Height=13 Caption='CNPJ / CPF'
+      Label25:TLabel Left=15 Top=333 Width=81 Height=13 Caption='Observa'#231#227'o:'
+      Label26:TLabel Left=263 Top=109 Width=24 Height=13 Caption='CEP'
+      SpeedButton7:TSpeedButton Left=106 Top=384 Width=102 Height=28 Caption='&PDF' Font.Color=clNavy Font.Height=-11 Font.Name='Tahoma' Font.Style=[fsBold] Hint=' '#13#10'   Gerar arquivo PDF da Duplicata   '#13#10' '
+      EdFat:TEdit Left=15 Top=28 Width=98 Height=21
+      EdOrd:TEdit Left=137 Top=28 Width=102 Height=21
+      EdSac:TEdit Left=15 Top=172 Width=353 Height=21
+      EdEnd:TEdit Left=15 Top=218 Width=353 Height=21
+      EdBai:TEdit Left=15 Top=260 Width=353 Height=21
+      EdCidDup:TEdit Left=15 Top=305 Width=181 Height=21
+      EdPra:TEdit Left=202 Top=305 Width=166 Height=21
+      RadTip:TRadioGroup Left=15 Top=60 Width=353 Height=44 Caption='Tipo de duplicata' Font.Color=clWindowText Font.Height=-11 Font.Name='Verdana' Font.Style=[fsBold]
+      EdDoc1:TEdit Left=15 Top=127 Width=137 Height=21
+      EdValDup:TEdit Left=156 Top=127 Width=104 Height=21
+      EdVen:TDateTimePicker Left=262 Top=28 Width=106 Height=22
+      EdObsDup:TEdit Left=15 Top=348 Width=353 Height=21
+      EdCEPDup:TEdit Left=266 Top=128 Width=104 Height=21
+    TabSheet2:TTabSheet Caption='Configura'#231#245'es'
+      Bevel2:TBevel Left=16 Top=194 Width=273 Height=3
+      GroupBox1:TGroupBox Left=16 Top=24 Width=273 Height=153 Caption='Configura'#231#227'o de Impress'#227'o'
+        Bevel3:TBevel Left=15 Top=87 Width=231 Height=3
+        Label10:TLabel Left=232 Top=52 Width=19 Height=13 Caption='cm'
+        Label9:TLabel Left=99 Top=56 Width=19 Height=13 Caption='cm'
+        Label7:TLabel Left=146 Top=31 Width=99 Height=13 Caption='Margem direita'
+        Label6:TLabel Left=14 Top=32 Width=111 Height=13 Caption='Margem superior'
+        Label8:TLabel Left=99 Top=121 Width=19 Height=13 Caption='cm'
+        Label11:TLabel Left=14 Top=97 Width=105 Height=13 Caption='Margem inferior'
+        DBEdit1:TDBEdit Left=14 Top=48 Width=84 Height=21 DataField='CnfSup'
+        DBEdit2:TDBEdit Left=146 Top=47 Width=84 Height=21 DataField='CnfDir'
+        DBEdit3:TDBEdit Left=14 Top=113 Width=84 Height=21 DataField='CnfVia'
+      BtConfirma:TBitBtn Left=116 Top=203 Width=84 Height=29 Caption='&Confirma' Font.Color=clNavy Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '
+      BtCancela:TBitBtn Left=16 Top=203 Width=84 Height=29 Caption='Ca&ncela' Font.Color=clNavy Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[] Hint=' '#13#10'   Cancela tudo o que foi inserido/alterado   '#13#10' '

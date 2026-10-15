@@ -1,0 +1,17 @@
+FPrint:TFPrint Left=192 Top=107 Caption='FPrint' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  Panel:TPanel Align=alTop Left=0 Top=0 Width=799 Height=78 BevelOuter=bvNone
+    BtPrin:TSpeedButton Align=alLeft Left=3 Top=3 Width=60 Height=58 Caption='&Primeira' Layout=blGlyphTop
+    BtAnt:TSpeedButton Align=alLeft Left=66 Top=3 Width=60 Height=58 Caption='&Anterior' Layout=blGlyphTop
+    BtProx:TSpeedButton Align=alLeft Left=129 Top=3 Width=60 Height=58 Caption='P&r'#243'xima' Layout=blGlyphTop
+    btUlt:TSpeedButton Align=alLeft Left=192 Top=3 Width=60 Height=58 Caption='&'#218'ltima' Layout=blGlyphTop
+    BtImprime:TSpeedButton Align=alLeft Left=255 Top=3 Width=60 Height=58 Caption='&Imprimir' Layout=blGlyphTop
+    BtSair:TSpeedButton Align=alLeft Left=438 Top=3 Width=60 Height=58 Caption='&Fechar' Layout=blGlyphTop
+    BtExport:TSpeedButton Align=alLeft Left=318 Top=3 Width=60 Height=58 Caption='&Exportar' Layout=blGlyphTop
+    BtZoom:TSpeedButton Align=alLeft Left=381 Top=3 Width=54 Height=58 Caption='&Op'#231#245'es' Layout=blGlyphTop
+    Splitter1:TSplitter Align=alBottom Left=0 Top=64 Width=799 Height=14
+  ScrollBox1:TScrollBox Align=alBottom Left=0 Top=417 Width=799 Height=18
+    LbPrg:TLabel Align=alLeft Left=0 Top=0 Width=36 Height=14
+    LabPag:TLabel Align=alRight Left=703 Top=0 Width=92 Height=14 Alignment=taCenter
+    PB:TProgressBar Align=alClient Left=36 Top=0 Width=667 Height=14
+  Scrol:TScrollBox Align=alClient Left=0 Top=78 Width=799 Height=339
+    Preview:TQRPreview Align=alClient Left=0 Top=0 Width=795 Height=335

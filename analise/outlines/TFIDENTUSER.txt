@@ -1,0 +1,9 @@
+FIdentUser:TFIdentUser Left=0 Top=0 Caption='Identifica'#231#227'o' Color=clBtnFace Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Panel1:TPanel Align=alClient Left=3 Top=15 Width=412 Height=109 BevelOuter=bvNone
+    Label1:TLabel Align=alTop Left=3 Top=60 Width=406 Height=17 Caption='E-mail:'
+    Label2:TLabel Align=alTop Left=3 Top=6 Width=406 Height=17 Caption='Nome:'
+    EdEml:TEdit Align=alTop Left=3 Top=80 Width=406 Height=25
+    EdNome:TEdit Align=alTop Left=3 Top=26 Width=406 Height=25
+  Panel2:TPanel Align=alBottom Left=3 Top=133 Width=412 Height=50 BevelOuter=bvNone
+    BtOk:TBitBtn Align=alRight Left=253 Top=3 Width=156 Height=44
+    BtCancela:TBitBtn Align=alRight Left=134 Top=3 Width=113 Height=44 Caption='Cancela'

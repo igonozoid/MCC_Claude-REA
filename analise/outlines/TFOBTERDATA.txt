@@ -1,0 +1,8 @@
+FObterData:TFObterData Left=0 Top=0 Caption='Selecione a data' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alTop Left=3 Top=3 Width=628 Height=43 BorderStyle=bsNone
+    LabData:TLabel Align=alLeft Left=3 Top=3 Width=97 Height=37 Caption='Informe a data:' Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] Alignment=taCenter Layout=tlCenter
+    EdDt:TMaskEdit Align=alLeft Left=108 Top=5 Width=100 Height=33 Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[fsBold] Text='  /  /    '
+  ScrollBox3:TScrollBox Align=alBottom Left=3 Top=411 Width=628 Height=47 BorderStyle=bsNone
+    BtAvanca:TBitBtn Align=alRight Left=469 Top=3 Width=156 Height=41 Caption='&Avan'#231'ar'
+    BtCancela:TBitBtn Align=alRight Left=350 Top=3 Width=113 Height=41 Caption='&Cancelar'
+  Calend:TCalendarView Align=alClient Left=3 Top=52 Width=628 Height=341 Font.Color=clWindowText Font.Height=-20 Font.Name='Segoe UI' Font.Style=[]

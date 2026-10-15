@@ -1,0 +1,3565 @@
+{
+ "TabHst": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "Cod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Desc",
+    "type": "TStringField",
+    "size": "100",
+    "label": null
+   },
+   {
+    "name": "Par",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "qMemTit": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "TITCOD",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TITSOF",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TITGRU",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TITPAR",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TITDES",
+    "type": "TStringField",
+    "size": "100",
+    "label": null
+   },
+   {
+    "name": "TITMSG",
+    "type": "TMemoField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TITSHO",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TITOKE",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TITACT",
+    "type": "TFloatField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TITWOR",
+    "type": "TMemoField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TITORD",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mCli": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "CLICOD",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CLINOM",
+    "type": "TStringField",
+    "size": "25",
+    "label": null
+   },
+   {
+    "name": "CLIEML",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "CLISOF",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CLIIDE",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mDataAtual": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "DATAATUAL",
+    "type": "TDateField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "DIA",
+    "type": "TSmallintField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MES",
+    "type": "TSmallintField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ANO",
+    "type": "TSmallintField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "HORAATUAL",
+    "type": "TTimeField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "HORA",
+    "type": "TSmallintField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MINUTO",
+    "type": "TSmallintField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mFil": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "FILCOD",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "FILCLI",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "FILCHA",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "FILFIL",
+    "type": "TBlobField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "FILNOM",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   },
+   {
+    "name": "FILSIZ",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "FILORI",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mNomeFil": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "FILCOD",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "FILNOM",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   }
+  ]
+ },
+ "mCha": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "CHACOD",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHACAD",
+    "type": "TDateField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHAASS",
+    "type": "TStringField",
+    "size": "200",
+    "label": null
+   },
+   {
+    "name": "CHASET",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHASTA",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHACLI",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHADAT",
+    "type": "TDateField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHAHOR",
+    "type": "TTimeField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Setor",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   },
+   {
+    "name": "Status",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "Detalhes",
+    "type": "TStringField",
+    "size": "13",
+    "label": null
+   },
+   {
+    "name": "LastAlt",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mAva": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "AVACOD",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "AVACHA",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "AVADAT",
+    "type": "TDateField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "AVAGER",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "AVASUP",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "AVATEM",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "AVADES",
+    "type": "TMemoField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mChaD": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "CHACOD",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHACAD",
+    "type": "TDateField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHAASS",
+    "type": "TStringField",
+    "size": "200",
+    "label": null
+   },
+   {
+    "name": "CHASET",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHASTA",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHACLI",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHADAT",
+    "type": "TDateField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHAHOR",
+    "type": "TTimeField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHAMGS",
+    "type": "TMemoField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHAINT",
+    "type": "TMemoField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CHALIN",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Setor",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   },
+   {
+    "name": "Status",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "LastDataHoraStatCha",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   }
+  ]
+ },
+ "mQueMCData": {
+  "form": "TCMSUPORTE.dfm",
+  "fields": [
+   {
+    "name": "CodLic",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "Chave",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "Val",
+    "type": "TStringField",
+    "size": "8",
+    "label": null
+   },
+   {
+    "name": "Versao",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "Nome",
+    "type": "TStringField",
+    "size": "70",
+    "label": null
+   },
+   {
+    "name": "ChaveTem",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "NomePC",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "DataAtual",
+    "type": "TDateField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mPess": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "PesNom",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   }
+  ]
+ },
+ "mDess": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Item",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   }
+  ]
+ },
+ "mMov": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDat",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDoc",
+    "type": "TStringField",
+    "size": null,
+    "label": "Documento"
+   },
+   {
+    "name": "MovDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Descrição"
+   },
+   {
+    "name": "MovPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "MovVal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Valor"
+   },
+   {
+    "name": "MovSit",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovVen",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovObs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "MovTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovSDt",
+    "type": "TStringField",
+    "size": "8",
+    "label": null
+   },
+   {
+    "name": "MovSVt",
+    "type": "TStringField",
+    "size": "8",
+    "label": null
+   },
+   {
+    "name": "MovBan",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovSt1",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "MovSt2",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "MovIn1",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovIn2",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDt1",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Descricao",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "Pessoa",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "Situacao",
+    "type": "TStringField",
+    "size": "18",
+    "label": "Situação"
+   },
+   {
+    "name": "Conta",
+    "type": "TStringField",
+    "size": "12",
+    "label": null
+   },
+   {
+    "name": "CentroCusto",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "CodLog",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TempId",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mCens": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "CenCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CenEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CenNom",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Centro de custo"
+   },
+   {
+    "name": "CenDes",
+    "type": "TBooleanField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CenRec",
+    "type": "TBooleanField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CenOrc",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Orçamento"
+   },
+   {
+    "name": "CenPro",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Projeção"
+   },
+   {
+    "name": "AplicDes",
+    "type": "TStringField",
+    "size": "3",
+    "label": "Aplicado a Despesas"
+   },
+   {
+    "name": "AplicRec",
+    "type": "TStringField",
+    "size": "3",
+    "label": "Aplicado a Receitas"
+   }
+  ]
+ },
+ "mSaldoResult": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "BanCod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanDes",
+    "type": "TStringField",
+    "size": "12",
+    "label": "Conta"
+   },
+   {
+    "name": "BanLog",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Saldo",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mCon": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "ConCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": "Código"
+   },
+   {
+    "name": "ConPes",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "ConNom",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Conta controle"
+   },
+   {
+    "name": "ConEnd",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Endereço"
+   },
+   {
+    "name": "ConBai",
+    "type": "TStringField",
+    "size": "25",
+    "label": "Bairro"
+   },
+   {
+    "name": "ConCid",
+    "type": "TStringField",
+    "size": "25",
+    "label": "Cidade"
+   },
+   {
+    "name": "ConEst",
+    "type": "TStringField",
+    "size": "30",
+    "label": "Estado"
+   },
+   {
+    "name": "ConCEP",
+    "type": "TStringField",
+    "size": "10",
+    "label": "CEP"
+   },
+   {
+    "name": "ConTel",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Telefone"
+   },
+   {
+    "name": "ConEml",
+    "type": "TStringField",
+    "size": "50",
+    "label": "E-mail"
+   },
+   {
+    "name": "ConCIn",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Saldo inicial caixa interno"
+   },
+   {
+    "name": "ConRam",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "ConRa2",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "ConSt1",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "ConSt2",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "ConSt3",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "ConCen",
+    "type": "TBooleanField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ConSal",
+    "type": "TBooleanField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ConDo1",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ConDo2",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ConWEB",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "ConOP1",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "ConOp2",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "ConOp3",
+    "type": "TStringField",
+    "size": "3",
+    "label": null
+   },
+   {
+    "name": "ConOp4",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "ConOp5",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "StrEnd",
+    "type": "TStringField",
+    "size": "400",
+    "label": null
+   },
+   {
+    "name": "Pessoa",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   }
+  ]
+ },
+ "mMovMultDel": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Data",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovSit",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "Vencimento",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Observacao",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "MovTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovSt1",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "MovIn1",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Situacao",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   }
+  ]
+ },
+ "mBan": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "BanCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanDes",
+    "type": "TStringField",
+    "size": "12",
+    "label": "Conta"
+   },
+   {
+    "name": "BanTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "BanSal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Saldo inicial"
+   },
+   {
+    "name": "BanLim",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanAct",
+    "type": "TBooleanField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanLog",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserInc",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserIncDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAlt",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAltDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Status",
+    "type": "TStringField",
+    "size": "7",
+    "label": null
+   }
+  ]
+ },
+ "mBans": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "BanCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanDes",
+    "type": "TStringField",
+    "size": "12",
+    "label": null
+   },
+   {
+    "name": "BanLog",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mTra": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "TraCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TraEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TraTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "TraSit",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "TraDat",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Data"
+   },
+   {
+    "name": "TraSDt",
+    "type": "TStringField",
+    "size": "8",
+    "label": null
+   },
+   {
+    "name": "TraOri",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TraDes",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TraVal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Valor"
+   },
+   {
+    "name": "TraObs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "UserInc",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserIncDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAlt",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAltDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Movimento",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "ContaO",
+    "type": "TStringField",
+    "size": "12",
+    "label": "Conta"
+   },
+   {
+    "name": "ContaD",
+    "type": "TStringField",
+    "size": "12",
+    "label": "Conta Destino"
+   }
+  ]
+ },
+ "mPes": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "PesCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesPes",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesDo1",
+    "type": "TStringField",
+    "size": "18",
+    "label": "CPF / CMPJ"
+   },
+   {
+    "name": "PesDo2",
+    "type": "TStringField",
+    "size": "15",
+    "label": "R.G. / Inscr. Estadual"
+   },
+   {
+    "name": "PesNom",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Nome"
+   },
+   {
+    "name": "PesEnd",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Endereço"
+   },
+   {
+    "name": "PesBai",
+    "type": "TStringField",
+    "size": "25",
+    "label": "Bairro"
+   },
+   {
+    "name": "PesCai",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesCid",
+    "type": "TStringField",
+    "size": "25",
+    "label": "Cidade"
+   },
+   {
+    "name": "PesEst",
+    "type": "TStringField",
+    "size": "2",
+    "label": "Estado"
+   },
+   {
+    "name": "PesCEP",
+    "type": "TStringField",
+    "size": "10",
+    "label": "CEP"
+   },
+   {
+    "name": "PesFun",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesSFu",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "PesCla",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesFre",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesLim",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesObs",
+    "type": "TMemoField",
+    "size": null,
+    "label": "Observação"
+   },
+   {
+    "name": "PesCO1",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesCo2",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesCo3",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesCo4",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesCon",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesPen",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesLoc",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesMae",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesDtC",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesSDC",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "PesRC1",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   },
+   {
+    "name": "PesRC2",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   },
+   {
+    "name": "PesRC3",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   },
+   {
+    "name": "PesRT1",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesRT2",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesRT3",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesBan",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesAge",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "PesCta",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "PesTBa",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   },
+   {
+    "name": "PesTel",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesEml",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "UserInc",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserIncDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAlt",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAltDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mUsu": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "UsuCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuCli",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "UsuNom",
+    "type": "TStringField",
+    "size": null,
+    "label": "Nome do usuário"
+   },
+   {
+    "name": "UsuEml",
+    "type": "TStringField",
+    "size": "40",
+    "label": "E-mail"
+   },
+   {
+    "name": "UsuSen",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   },
+   {
+    "name": "UsuPo1",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuPo2",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuPo3",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuPo4",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuPo5",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuPo6",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuPo7",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuPo8",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuCon",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuLog",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UsuCha",
+    "type": "TStringField",
+    "size": "9",
+    "label": null
+   },
+   {
+    "name": "UsuMsg",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ListContasPermissao",
+    "type": "TStringField",
+    "size": "100",
+    "label": null
+   },
+   {
+    "name": "UsuDataHoraLog",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ListFilterContasPermissao",
+    "type": "TStringField",
+    "size": "300",
+    "label": null
+   },
+   {
+    "name": "Tipo",
+    "type": "TStringField",
+    "size": "13",
+    "label": "Categoria"
+   }
+  ]
+ },
+ "mMsg": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MsgCod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MsgMsg",
+    "type": "TMemoField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MsgClose",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MsgNotCancel",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MSGLink",
+    "type": "TStringField",
+    "size": "75",
+    "label": null
+   }
+  ]
+ },
+ "mBaixaMult": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDoc",
+    "type": "TStringField",
+    "size": null,
+    "label": "Documento"
+   },
+   {
+    "name": "MovDat",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Data Movimento"
+   },
+   {
+    "name": "MovVen",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Vencimento"
+   },
+   {
+    "name": "MovVal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Valor"
+   },
+   {
+    "name": "MovSit",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Descrição"
+   },
+   {
+    "name": "MovPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Nome"
+   },
+   {
+    "name": "MovEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovObs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "MultPos",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mMovLembrete": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDat",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Data movimento"
+   },
+   {
+    "name": "MovDoc",
+    "type": "TStringField",
+    "size": null,
+    "label": "Documento"
+   },
+   {
+    "name": "MovDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Descrição"
+   },
+   {
+    "name": "MovPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Nome"
+   },
+   {
+    "name": "MovVal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Valor"
+   },
+   {
+    "name": "MovSit",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovVen",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Vencimento"
+   },
+   {
+    "name": "MovObs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "MovTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovDt1",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Detalhes",
+    "type": "TStringField",
+    "size": "14",
+    "label": null
+   },
+   {
+    "name": "StrVen",
+    "type": "TStringField",
+    "size": "10",
+    "label": "Vencimento"
+   },
+   {
+    "name": "StrPag",
+    "type": "TStringField",
+    "size": "10",
+    "label": "Pagamento"
+   }
+  ]
+ },
+ "mrMovDet": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Data",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDoc",
+    "type": "TStringField",
+    "size": null,
+    "label": "Documento"
+   },
+   {
+    "name": "MovDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Descrição"
+   },
+   {
+    "name": "MovPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Nome"
+   },
+   {
+    "name": "MovVal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Valor"
+   },
+   {
+    "name": "MovSit",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovVen",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Vencimento"
+   },
+   {
+    "name": "MovObs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "MovTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "Situacao",
+    "type": "TStringField",
+    "size": "10",
+    "label": "Situação"
+   }
+  ]
+ },
+ "mrMovTot": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Descricao",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "Total",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mrFec": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Codx",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Data",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Descricao",
+    "type": "TStringField",
+    "size": "35",
+    "label": "Descrição"
+   },
+   {
+    "name": "Mov",
+    "type": "TStringField",
+    "size": "52",
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Tipo",
+    "type": "TStringField",
+    "size": "4",
+    "label": null
+   },
+   {
+    "name": "Obs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "BanDes",
+    "type": "TStringField",
+    "size": "12",
+    "label": null
+   },
+   {
+    "name": "BanCod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Conta2",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Cred",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Crédito"
+   },
+   {
+    "name": "Deb",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Débito"
+   }
+  ]
+ },
+ "mrConP": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "Total",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mrBan": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Cod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Data",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Mov",
+    "type": "TStringField",
+    "size": "48",
+    "label": null
+   },
+   {
+    "name": "Nome",
+    "type": "TStringField",
+    "size": "41",
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Tipo",
+    "type": "TStringField",
+    "size": "4",
+    "label": null
+   },
+   {
+    "name": "Obs",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "Cred",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Crédito"
+   },
+   {
+    "name": "Deb",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Débito"
+   }
+  ]
+ },
+ "mrFlux": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDat",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Data movimento"
+   },
+   {
+    "name": "Tipo",
+    "type": "TStringField",
+    "size": "7",
+    "label": null
+   },
+   {
+    "name": "MovDoc",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Descrição"
+   },
+   {
+    "name": "MovPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Nome"
+   },
+   {
+    "name": "MovVal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovSit",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovVen",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Data Vecto./Pagto."
+   },
+   {
+    "name": "MovObs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "MovTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "ValDes",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Débito"
+   },
+   {
+    "name": "ValRec",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Crédito"
+   }
+  ]
+ },
+ "mPesq": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovDat",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Data"
+   },
+   {
+    "name": "MovVen",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Vencimento"
+   },
+   {
+    "name": "MovDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Descrição"
+   },
+   {
+    "name": "MovPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Nome"
+   },
+   {
+    "name": "MovDoc",
+    "type": "TStringField",
+    "size": null,
+    "label": "Documento"
+   },
+   {
+    "name": "MovSit",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovVal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Valor"
+   },
+   {
+    "name": "MovObs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "Situacao",
+    "type": "TStringField",
+    "size": "10",
+    "label": "Situação"
+   }
+  ]
+ },
+ "mtabIteG": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Cod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Descr",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "Tipo",
+    "type": "TStringField",
+    "size": "2",
+    "label": null
+   }
+  ]
+ },
+ "mrOrcPro": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "CenCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CenNom",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Centro de Custo/Lucro"
+   },
+   {
+    "name": "CenOrc",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Orçamento"
+   },
+   {
+    "name": "CenPro",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Projeção"
+   },
+   {
+    "name": "Total",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Total apurado"
+   },
+   {
+    "name": "Tipo",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "Situacao",
+    "type": "TStringField",
+    "size": "18",
+    "label": "Situação"
+   }
+  ]
+ },
+ "mrCCT": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "CenNom",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Centro de custo"
+   },
+   {
+    "name": "MovDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Descrição do movimento"
+   },
+   {
+    "name": "Total",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mrFCC": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "CenNom",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Centro de custo"
+   },
+   {
+    "name": "CenCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TotalPago",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Total Pago"
+   },
+   {
+    "name": "TotalRecebido",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Total Recebido"
+   },
+   {
+    "name": "TotalaPagar",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Total a Pagar"
+   },
+   {
+    "name": "TotalaReceber",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Total a Receber"
+   },
+   {
+    "name": "SaldoReal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Saldo Realizado"
+   },
+   {
+    "name": "SaldoPrev",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Saldo Previsto"
+   }
+  ]
+ },
+ "mrMvC": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "CenNom",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Centro de custo"
+   },
+   {
+    "name": "Total",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Valor"
+   }
+  ]
+ },
+ "mrGCC": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mTabPess": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Nom",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "Tip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   }
+  ]
+ },
+ "mrEvo": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "AnoMes",
+    "type": "TWideStringField",
+    "size": "4000",
+    "label": null
+   },
+   {
+    "name": "Periodo",
+    "type": "TStringField",
+    "size": "8",
+    "label": null
+   },
+   {
+    "name": "Meses",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mrPes": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "PesCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesPes",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesDo1",
+    "type": "TStringField",
+    "size": "18",
+    "label": "Documento"
+   },
+   {
+    "name": "PesDo2",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   },
+   {
+    "name": "PesNom",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Nome"
+   },
+   {
+    "name": "PesEnd",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Endereço"
+   },
+   {
+    "name": "PesBai",
+    "type": "TStringField",
+    "size": "25",
+    "label": "Bairro"
+   },
+   {
+    "name": "PesCai",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesCid",
+    "type": "TStringField",
+    "size": "25",
+    "label": "Cidade"
+   },
+   {
+    "name": "PesEst",
+    "type": "TStringField",
+    "size": "2",
+    "label": "Estado"
+   },
+   {
+    "name": "PesCEP",
+    "type": "TStringField",
+    "size": "10",
+    "label": "CEP"
+   },
+   {
+    "name": "PesFun",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesSFu",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "PesCla",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesFre",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesLim",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesObs",
+    "type": "TMemoField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesCO1",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesCo2",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesCo3",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesCo4",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesCon",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesPen",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "PesLoc",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesMae",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "PesDtC",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesSDC",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "PesRC1",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   },
+   {
+    "name": "PesRC2",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   },
+   {
+    "name": "PesRC3",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   },
+   {
+    "name": "PesRT1",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesRT2",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesRT3",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesBan",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "PesAge",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "PesCta",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "PesTBa",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   },
+   {
+    "name": "PesTel",
+    "type": "TStringField",
+    "size": "50",
+    "label": "Telefone"
+   },
+   {
+    "name": "PesEml",
+    "type": "TStringField",
+    "size": "50",
+    "label": "E-mail"
+   },
+   {
+    "name": "UserInc",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAlt",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAltDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserIncDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mrAnaD": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDat",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Data"
+   },
+   {
+    "name": "MovDoc",
+    "type": "TStringField",
+    "size": null,
+    "label": "Documento"
+   },
+   {
+    "name": "MovDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Descrição"
+   },
+   {
+    "name": "MovPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Nome"
+   },
+   {
+    "name": "MovVal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Valor"
+   },
+   {
+    "name": "MovSit",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovVen",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Vencimento"
+   },
+   {
+    "name": "MovObs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "MovTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "MovQtd",
+    "type": "TFloatField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovNot",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovBan",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovCon",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovSDt",
+    "type": "TStringField",
+    "size": "8",
+    "label": null
+   },
+   {
+    "name": "MovSVt",
+    "type": "TStringField",
+    "size": "8",
+    "label": null
+   },
+   {
+    "name": "MovSt1",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "MovSt2",
+    "type": "TStringField",
+    "size": "50",
+    "label": null
+   },
+   {
+    "name": "MovDt1",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovDt2",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovIn1",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovIN2",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovVl1",
+    "type": "TFloatField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MovVl2",
+    "type": "TFloatField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserInc",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAlt",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserAltDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "UserIncDt",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanCod",
+    "type": "TFDAutoIncField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanDes",
+    "type": "TStringField",
+    "size": "12",
+    "label": "Conta"
+   },
+   {
+    "name": "BanTip",
+    "type": "TStringField",
+    "size": "1",
+    "label": null
+   },
+   {
+    "name": "BanSal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanLim",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanAct",
+    "type": "TBooleanField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanLog",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "CentroCusto",
+    "type": "TStringField",
+    "size": "30",
+    "label": "Centro de Custo"
+   },
+   {
+    "name": "Deb",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Cred",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Tipo",
+    "type": "TStringField",
+    "size": "4",
+    "label": null
+   }
+  ]
+ },
+ "mrAnaT": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Agrupamento",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mrDemM": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Descricao",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "Jan",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Fev",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Mar",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Abr",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Mai",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Jun",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Jul",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Ago",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Spt",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Set"
+   },
+   {
+    "name": "Out",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Nov",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Dez",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Media",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Total",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mrFluxDia": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovVen",
+    "type": "TSQLTimeStampField",
+    "size": null,
+    "label": "Data"
+   },
+   {
+    "name": "TotalD",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Saidas"
+   },
+   {
+    "name": "TotalR",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Entradas"
+   },
+   {
+    "name": "SaldoDia",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Saldo no Dia"
+   },
+   {
+    "name": "SaldoAcumulado",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Saldo Acumulado"
+   }
+  ]
+ },
+ "mrPont": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "MovPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "Ocorrencias",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MaiorAtr",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MaiorAnt",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "MediaAtr",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mrGrafDR": {
+  "form": "TCM_MCC.dfm",
+  "fields": [
+   {
+    "name": "Unnamed1",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TotalD",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "TotalR",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mTabSald": {
+  "form": "TDADOS.dfm",
+  "fields": [
+   {
+    "name": "Conta",
+    "type": "TStringField",
+    "size": "12",
+    "label": null
+   },
+   {
+    "name": "Saldo",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanLog",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanCod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mTabRSald": {
+  "form": "TDADOS.dfm",
+  "fields": [
+   {
+    "name": "BanCod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": "Conta"
+   },
+   {
+    "name": "Conta",
+    "type": "TStringField",
+    "size": "12",
+    "label": null
+   },
+   {
+    "name": "Saldo1",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Saldo2",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Compara",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mtabSaldGraf": {
+  "form": "TDADOS.dfm",
+  "fields": [
+   {
+    "name": "Periodo",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mTabRealizado": {
+  "form": "TDADOS.dfm",
+  "fields": [
+   {
+    "name": "TipoMovimento",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "RGB",
+    "type": "TStringField",
+    "size": "12",
+    "label": null
+   }
+  ]
+ },
+ "mTabPrevisto": {
+  "form": "TDADOS.dfm",
+  "fields": [
+   {
+    "name": "TipoMovimento",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "RGB",
+    "type": "TStringField",
+    "size": "12",
+    "label": null
+   }
+  ]
+ },
+ "mTabMargem1": {
+  "form": "TDADOS.dfm",
+  "fields": [
+   {
+    "name": "Descricao",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "RGB",
+    "type": "TStringField",
+    "size": "12",
+    "label": null
+   }
+  ]
+ },
+ "mTabDashLin": {
+  "form": "TDADOS.dfm",
+  "fields": [
+   {
+    "name": "Periodo",
+    "type": "TStringField",
+    "size": "10",
+    "label": null
+   },
+   {
+    "name": "ValorD",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ValorR",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "Saldo",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mTabMargem2": {
+  "form": "TDADOS.dfm",
+  "fields": [
+   {
+    "name": "Descricao",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   },
+   {
+    "name": "Valor",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "RGB",
+    "type": "TStringField",
+    "size": "15",
+    "label": null
+   }
+  ]
+ },
+ "mTabExt": {
+  "form": "TFCONCILIA.dfm",
+  "fields": [
+   {
+    "name": "ExtCod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ExtDat",
+    "type": "TDateField",
+    "size": null,
+    "label": "Data"
+   },
+   {
+    "name": "ExtOpe",
+    "type": "TStringField",
+    "size": "1",
+    "label": "Operação"
+   },
+   {
+    "name": "ExtVal",
+    "type": "TCurrencyField",
+    "size": null,
+    "label": "Valor"
+   },
+   {
+    "name": "ExtDes",
+    "type": "TStringField",
+    "size": "30",
+    "label": "Descrição"
+   },
+   {
+    "name": "ExtDoc",
+    "type": "TStringField",
+    "size": null,
+    "label": "Documento"
+   },
+   {
+    "name": "ExtDsc",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Descrição"
+   },
+   {
+    "name": "ExtPes",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Nome do cliente/fornecedor"
+   },
+   {
+    "name": "ExtObs",
+    "type": "TStringField",
+    "size": "40",
+    "label": "Observação"
+   },
+   {
+    "name": "ExtSta",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "ExtCen",
+    "type": "TIntegerField",
+    "size": null,
+    "label": "Centro de custo"
+   },
+   {
+    "name": "Status",
+    "type": "TStringField",
+    "size": "100",
+    "label": null
+   },
+   {
+    "name": "Status2",
+    "type": "TStringField",
+    "size": null,
+    "label": "Status"
+   }
+  ]
+ },
+ "mTabBan": {
+  "form": "TFCONCILIA.dfm",
+  "fields": [
+   {
+    "name": "BanCod",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanDes",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   },
+   {
+    "name": "BanEmp",
+    "type": "TIntegerField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mtabIte": {
+  "form": "TFCONCILIA.dfm",
+  "fields": [
+   {
+    "name": "IteDes",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   },
+   {
+    "name": "IteTip",
+    "type": "TStringField",
+    "size": null,
+    "label": null
+   }
+  ]
+ },
+ "mTabDes": {
+  "form": "TFCONCILIA.dfm",
+  "fields": [
+   {
+    "name": "Des",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   }
+  ]
+ },
+ "mTabPes": {
+  "form": "TFCONCILIA.dfm",
+  "fields": [
+   {
+    "name": "Des",
+    "type": "TStringField",
+    "size": "40",
+    "label": null
+   }
+  ]
+ },
+ "mTabFiles": {
+  "form": "TFSUPORTENEWMSG.dfm",
+  "fields": [
+   {
+    "name": "NomeArq",
+    "type": "TStringField",
+    "size": "30",
+    "label": null
+   }
+  ]
+ }
+}

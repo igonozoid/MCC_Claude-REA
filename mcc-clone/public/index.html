@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MCC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="deslogado">
+  <header class="topo">
+    <div class="marca">MCC <small>controle financeiro</small></div>
+    <nav class="menus">
+      <div class="menu"><button>Cadastros</button>
+        <div class="sub">
+          <a data-acao="cad:empresas" data-perm="config:2">Cadastro de contas controle</a>
+          <a data-acao="cad:centros" data-perm="centros">Cadastro de centros de custo</a>
+          <a data-acao="cad:clientes" data-perm="receitas">Cadastro de clientes</a>
+          <a data-acao="cad:fornecedores" data-perm="despesas">Cadastro de fornecedores</a>
+          <hr>
+          <a data-acao="lembretes" data-perm="despesas|receitas">Lembretes de contas</a>
+          <a data-acao="trocar-empresa">Ir para outra conta</a>
+        </div>
+      </div>
+      <div class="menu"><button>Ferramentas</button>
+        <div class="sub">
+          <a data-acao="cad:itensD" data-perm="despesas">Ítens de despesas</a>
+          <a data-acao="cad:itensR" data-perm="receitas">Ítens de receitas</a>
+          <hr>
+          <a data-acao="parcelarD" data-perm="despesas:2">Inserir múltiplas despesas (parcelamento)</a>
+          <a data-acao="parcelarR" data-perm="receitas:2">Inserir múltiplas receitas (parcelamento)</a>
+          <a data-acao="baixa-multipla" data-perm="despesas:2|receitas:2">Baixa múltipla</a>
+          <a data-acao="transferir-empresa" data-perm="despesas:2|receitas:2">Transferir lançamentos para outra conta</a>
+          <hr>
+          <a data-acao="excluidos" data-perm="despesas|receitas">Registros excluídos</a>
+          <a data-acao="exportar" data-perm="despesas|receitas">Exportar lançamentos (CSV)</a>
+        </div>
+      </div>
+      <div class="menu"><button>Bancos</button>
+        <div class="sub">
+          <a data-acao="cad:contas" data-perm="bancos">Cadastro de contas bancárias</a>
+          <a data-acao="movbancarias" data-perm="bancos">Controle de movimentações bancárias</a>
+          <a data-acao="ofx" data-perm="bancos:2">Importar extrato bancário (OFX)</a>
+        </div>
+      </div>
+      <div class="menu"><button>Relatórios</button>
+        <div class="sub" id="menuRel"></div>
+      </div>
+    </nav>
+    <div class="empresa">Conta controle: <b id="nomeEmpresa">—</b>
+      <span id="protecaoInfo" class="selo" hidden title="Proteção de dados ativa"></span></div>
+    <div class="menu usuario"><button title="Usuário"><span id="nomeUsuario">—</span> ▾</button>
+      <div class="sub direita">
+        <a data-acao="trocar-empresa">Ir para outra conta controle</a>
+        <a data-acao="senha">Alterar senha de acesso</a>
+        <a data-acao="usuarios" data-perm="config:2">Usuários e permissões</a>
+        <a data-acao="protecao" data-perm="config:2">Proteção de dados</a>
+        <hr>
+        <a data-acao="sair">Sair do sistema</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="filtros">
+    <label>Situação
+      <select id="fSit"><option value="V">Contas pagas</option><option value="P">Contas em aberto</option><option value="" selected>Pagas ou em aberto</option></select>
+    </label>
+    <label>Conta <select id="fConta"><option value="">Todas as contas</option></select></label>
+    <label>Filtrar por
+      <select id="fCampo"><option value="data_mov">Data de movimento</option><option value="vencimento">Data de vcto/pagto</option><option value="ambos">Data mov/ven/pgo</option></select>
+    </label>
+    <label>Ano <select id="fAno"></select></label>
+    <label>Período <select id="fMes"></select></label>
+    <label>Ordem
+      <select id="fOrdem">
+        <option value="data">Data de movimento</option><option value="vencimento">Data de pgto/vcto</option>
+        <option value="documento">Documento</option><option value="descricao">Descrição</option>
+        <option value="pessoa">Cliente/Fornecedor</option><option value="valor">Valor</option>
+        <option value="situacao">Situação</option><option value="observacao">Observação</option>
+      </select>
+    </label>
+    <label class="cresce">Busca rápida <input id="fBusca" type="search" placeholder="descrição, pessoa, documento, valor…"></label>
+  </section>
+
+  <nav class="abas" id="abas">
+    <button data-aba="D" class="ativa">Despesas</button>
+    <button data-aba="R">Receitas</button>
+    <button data-aba="dash">Dashboard</button>
+    <button data-aba="saldos">Saldos</button>
+  </nav>
+
+  <main id="conteudo"></main>
+
+  <dialog id="dlg"><form method="dialog" id="dlgForm"></form></dialog>
+  <dialog id="dlgSenha" class="pequeno"><form method="dialog" id="dlgSenhaForm">
+    <header><span>Senha de desbloqueio</span></header>
+    <div class="corpo"><p id="dlgSenhaMsg"></p>
+      <div class="campos"><label class="inteiro">Digite a senha do administrador:<input type="password" name="senha" required autocomplete="off"></label></div></div>
+    <footer><button class="btn" value="cancel" formnovalidate>Cancela</button><button class="btn pri" value="ok">Ok</button></footer>
+  </form></dialog>
+  <div id="toast" role="status"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+FLemb:TFLemb Left=105 Top=46 Caption='Lembrete de contas' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[] BorderStyle=bsToolWindow
+  ScrollBox1:TScrollBox Align=alBottom Left=0 Top=472 Width=685 Height=49 BevelOuter=bvNone BorderStyle=bsNone
+    Label1:TLabel Left=40 Top=15 Width=157 Height=13 Caption='Ativar lembrete novamente' Font.Color=clNavy Font.Height=-11 Font.Name='Verdana' Font.Style=[]
+    ComboAb:TComboBox Left=200 Top=12 Width=175 Height=22 Font.Color=clWindowText Font.Height=-11 Font.Name='Verdana' Font.Style=[] Text='Amanh'#227
+    BtFecha:TBitBtn Left=425 Top=6 Width=105 Height=30 Caption='&Fechar'
+  ScrollBox3:TScrollBox Align=alRight Left=655 Top=41 Width=30 Height=431 BorderStyle=bsNone
+  ScrollBox4:TScrollBox Align=alTop Left=0 Top=0 Width=685 Height=41
+    LabData:TLabel Left=43 Top=8 Width=72 Height=16 Caption='                        ' Font.Color=clNavy Font.Height=-13 Font.Name='MS Sans Serif' Font.Style=[fsUnderline]
+  ScrollBox5:TScrollBox Align=alLeft Left=0 Top=41 Width=30 Height=431 BorderStyle=bsNone
+    BtAbrir:TBitBtn Left=-2 Top=87 Width=30 Height=127 Caption='&Abrir>' Visible=False Layout=blGlyphTop
+  PageControl1:TPageControl Align=alClient Left=30 Top=41 Width=625 Height=431 Font.Color=clWindowText Font.Height=-13 Font.Name='Verdana' Font.Style=[fsBold]
+    TabSheet1:TTabSheet Caption='Contas '#224' Pagar' Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[] Hint='D'
+      DBGrid1:TDBGrid Align=alClient Left=3 Top=15 Width=611 Height=368 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+    TabSheet2:TTabSheet Caption='Contas '#224' Receber' Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[] Hint='R'
+      DBGrid2:TDBGrid Align=alClient Left=3 Top=15 Width=611 Height=368 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]

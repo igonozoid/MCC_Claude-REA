@@ -1,0 +1,11 @@
+FCenBrs:TFCenBrs Left=192 Top=107 Caption='Cadastro de Centros de Custo' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  SpeedButton2:TSpeedButton Left=254 Top=44 Width=140 Height=28 Caption='&Voltar' Font.Color=clNavy Font.Height=-11 Font.Name='Tahoma' Font.Style=[fsBold] Hint=' '#13#10'   Voltar para a tela principal   '#13#10' '
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=704 Height=71 BorderStyle=bsNone
+    BtExclui:TBitBtn Align=alLeft Left=167 Top=3 Width=79 Height=65 Caption='&Excluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Exclui centro de custo selecionado   '#13#10' ' Layout=blGlyphTop
+    BtAltera:TBitBtn Align=alLeft Left=85 Top=3 Width=79 Height=65 Caption='&Alterar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Altera/Consulta centro de custo selecionado   '#13#10'  ' Layout=blGlyphTop
+    BtInsere:TBitBtn Align=alLeft Left=3 Top=3 Width=79 Height=65 Caption='&Incluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Criar novo centro de custo   '#13#10' ' Layout=blGlyphTop
+    ScrollMenu:TScrollBox Align=alLeft Left=246 Top=0 Width=140 Height=71 BorderStyle=bsNone
+      SpeedButton1:TSpeedButton Align=alClient Left=3 Top=36 Width=137 Height=32 Caption='&Voltar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Voltar para a tela principal   '#13#10' '
+      DBNavigator1:TDBNavigator Align=alTop Left=3 Top=3 Width=137 Height=30
+  Bar:TStatusBar Left=0 Top=366 Width=704 Height=19
+  DBGrid1:TDBGrid Align=alClient Left=0 Top=71 Width=704 Height=295 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]

@@ -1,0 +1,11 @@
+FChart:TFChart Left=192 Top=124 Caption='FChart' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  PageControl1:TPageControl Align=alClient Left=0 Top=0 Width=744 Height=545
+    TabSheet1:TTabSheet Caption='CharCustoItem'
+      ChartCustoItem:TChart Left=0 Top=0 Width=700 Height=450
+        Series1:TPieSeries 
+    TabSheet2:TTabSheet Caption='ChartDespRec'
+      ChartDespRec:TChart Left=3 Top=24 Width=700 Height=400
+        HorizBarSeries1:TBarSeries 
+    TabSheet3:TTabSheet Caption='ChartEvol'
+      ChartEvo:TChart Left=0 Top=0 Width=700 Height=450
+        HorizBarSeries2:TBarSeries 

@@ -1,0 +1,6 @@
+FPesq:TFPesq Left=198 Top=94 Caption='FPesq' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-12 Font.Name='Verdana' Font.Style=[]
+  BoxRes:TGroupBox Left=15 Top=211 Width=361 Height=189 Caption='Resultados da pesquisa'
+    ScrollBox1:TScrollBox Align=alBottom Left=2 Top=146 Width=357 Height=41 BevelOuter=bvNone BorderStyle=bsNone
+      Bevel1:TBevel Left=7 Top=19 Width=271 Height=3
+      BtAbre:TBitBtn Left=280 Top=5 Width=74 Height=32 Caption='&Abrir' Font.Color=clNavy Font.Height=-11 Font.Name='Verdana' Font.Style=[fsBold]
+    DBGrid1:TDBGrid Align=alClient Left=2 Top=16 Width=357 Height=130 Font.Color=clWindowText Font.Height=-12 Font.Name='Arial' Font.Style=[]

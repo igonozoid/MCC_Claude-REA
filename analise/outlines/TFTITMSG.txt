@@ -1,0 +1,5 @@
+FTitMsg:TFTitMsg Left=0 Top=0 Caption='Orienta'#231#227'o do suporte' Color=clGradientInactiveCaption Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+  ScrollBox5:TScrollBox Left=20 Top=451 Width=717 Height=4
+  BitBtn2:TBitBtn Left=20 Top=473 Width=396 Height=37 Caption='Entendido, cancelar o envio da mensagem' Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[]
+  BtAvanca1:TBitBtn Left=422 Top=473 Width=315 Height=37 Caption='&Continuar para solicitar suporte' Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[]
+  RxRichEdit1:TRxRichEdit Left=20 Top=24 Width=717 Height=401 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]

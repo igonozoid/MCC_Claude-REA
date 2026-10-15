@@ -1,0 +1,41 @@
+FBaixaMult:TFBaixaMult Left=142 Top=45 Caption='FBaixaMult' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=421 Height=146 BevelOuter=bvNone BorderStyle=bsNone
+    Bevel2:TBevel Left=86 Top=84 Width=298 Height=2
+    Bevel3:TBevel Left=17 Top=132 Width=366 Height=2
+    Bevel4:TBevel Left=382 Top=84 Width=2 Height=49
+    Bevel5:TBevel Left=16 Top=85 Width=2 Height=47
+    Bevel6:TBevel Left=16 Top=84 Width=8 Height=2
+    Label1:TLabel Left=23 Top=101 Width=25 Height=13 Caption='Entre'
+    Label2:TLabel Left=162 Top=101 Width=6 Height=13 Caption='a'
+    Label10:TLabel Left=23 Top=76 Width=65 Height=13 Caption=' Vencimento: '
+    LabPes:TLabel Left=16 Top=23 Width=36 Height=13 Caption='LabPes' Hint=''''
+    EdDataI:TDateTimePicker Left=54 Top=98 Width=102 Height=21
+    EdDataF:TDateTimePicker Left=176 Top=98 Width=102 Height=21
+    EdPes:TComboBox Left=16 Top=40 Width=369 Height=21
+  ScrollBox2:TScrollBox Align=alBottom Left=0 Top=446 Width=421 Height=128 BorderStyle=bsNone
+    Bevel7:TBevel Align=alTop Left=0 Top=0 Width=421 Height=2
+    Label4:TLabel Left=293 Top=27 Width=69 Height=13 Caption='Data da baixa:'
+    LabTot:TLabel Left=217 Top=7 Width=38 Height=15 Caption='LabTot' Font.Color=clRed Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+    Label9:TLabel Left=80 Top=6 Width=110 Height=15 Caption='Total a ser baixado:' Font.Color=clWindowText Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+    LabCon:TLabel Left=80 Top=27 Width=98 Height=13 Caption='Conta a ser debitada'
+    Bevel1:TBevel Left=80 Top=75 Width=314 Height=1
+    btBaixa:TSpeedButton Left=275 Top=82 Width=119 Height=32 Caption='Bai&xar todas' Font.Color=clNavy Font.Height=-11 Font.Name='Tahoma' Font.Style=[fsBold] Hint=' '#13#10'   Baixa todos os lan'#231'amentos que est'#227'o sendo exibidos   '#13#10' '
+    EdDataBaixa:TDateTimePicker Left=293 Top=42 Width=100 Height=26 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold]
+    ComboBan:TComboBox Left=80 Top=43 Width=180 Height=26 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold]
+  DBGrid1:TDBGrid Align=alClient Left=0 Top=146 Width=421 Height=300 Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[] BorderStyle=bsNone
+  Panel:TPanel Left=148 Top=166 Width=246 Height=229 Color=clMoneyGreen Visible=False
+    Label3:TLabel Left=14 Top=16 Width=59 Height=13 Caption='Vencimento:'
+    LabDes:TLabel Left=14 Top=95 Width=48 Height=13 Caption='Descri'#231#227'o'
+    Label5:TLabel Left=119 Top=16 Width=55 Height=13 Caption='Documento'
+    LabPes2:TLabel Left=14 Top=135 Width=28 Height=13 Caption='Nome'
+    Label7:TLabel Left=14 Top=178 Width=58 Height=13 Caption='Observa'#231#227'o'
+    Label6:TLabel Left=119 Top=56 Width=24 Height=13 Caption='Valor'
+    Label8:TLabel Left=14 Top=56 Width=78 Height=13 Caption='Data Movimento'
+    SpeedButton1:TSpeedButton Left=225 Top=9 Width=13 Height=13 Caption='X' Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[fsBold] Hint='Fechar'
+    DBEdit1:TDBEdit Left=15 Top=32 Width=100 Height=22 Color=clBtnFace Font.Color=clNavy Font.Height=-11 Font.Name='Arial' Font.Style=[fsBold] DataField='MovVen'
+    DBEdit2:TDBEdit Left=15 Top=111 Width=217 Height=22 Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[] DataField='MovDes'
+    DBEdit3:TDBEdit Left=120 Top=32 Width=111 Height=22 Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[] DataField='MovDoc'
+    DBEdit4:TDBEdit Left=15 Top=151 Width=217 Height=22 Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[] DataField='MovPes'
+    DBEdit5:TDBEdit Left=15 Top=194 Width=217 Height=22 Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[] DataField='MovObs'
+    DBEdit6:TDBEdit Left=14 Top=72 Width=100 Height=22 Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[] DataField='MovDat'
+    DBEdit7:TDBEdit Left=120 Top=72 Width=111 Height=22 Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[fsBold] DataField='MovVal'

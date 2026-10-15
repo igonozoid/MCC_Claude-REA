@@ -1,0 +1,35 @@
+FMulCad:TFMulCad Left=192 Top=133 Caption='FMulCad' Color=clBtnFace Font.Color=clNavy Font.Height=-13 Font.Name='Verdana' Font.Style=[fsBold]
+  PanelFundo1:TPanel Align=alClient Left=0 Top=0 Width=503 Height=438 Font.Color=clNavy Font.Height=-13 Font.Name='Verdana' Font.Style=[fsBold] BevelOuter=bvNone
+    LabTipoMov:TLabel Align=alTop Left=3 Top=3 Width=492 Height=32 Caption='Despesas' Font.Color=clNavy Font.Height=-27 Font.Name='Arial Rounded MT Bold' Font.Style=[] Alignment=taRightJustify
+    PanelFundo2:TPanel Align=alClient Left=8 Top=46 Width=487 Height=384
+      LabDat:TLabel Left=336 Top=17 Width=92 Height=15 Caption='Data movimento' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      LabDoc:TLabel Left=199 Top=17 Width=65 Height=15 Caption='Documento' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      LbDes:TLabel Left=25 Top=68 Width=58 Height=15 Caption='Descri'#231#227'o' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      LbPes:TLabel Left=25 Top=116 Width=43 Height=15 Caption='Pessoa' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      LbVal:TLabel Left=25 Top=164 Width=92 Height=15 Caption='Valor da parcela' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      LbVen:TLabel Left=200 Top=164 Width=81 Height=15 Caption='1'#186' Vencimento' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      LbConta:TLabel Left=25 Top=17 Width=33 Height=15 Caption='Conta' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      LbPar:TLabel Left=372 Top=164 Width=66 Height=15 Caption='N'#186' Parcelas' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      LbObs:TLabel Left=25 Top=216 Width=76 Height=15 Caption='Observa'#231#245'es' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      Line:TBevel Left=25 Top=306 Width=438 Height=2
+      LbCen:TLabel Left=26 Top=116 Width=90 Height=15 Caption='Centro de custo' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      SbCalc:TSpeedButton Left=140 Top=177 Width=25 Height=25 Font.Color=clBlack Font.Height=-13 Font.Name='Arial Rounded MT Bold' Font.Style=[] Flat=True Hint='Calculadora'
+      SbCalendV:TSpeedButton Left=326 Top=177 Width=25 Height=25 Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold] Flat=True Hint='Exibir calend'#225'rio'
+      LabPer:TLabel Left=25 Top=259 Width=78 Height=15 Caption='Periodicidade' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold]
+      SbCalendM:TSpeedButton Left=438 Top=30 Width=25 Height=25 Flat=True Hint='Exibir calend'#225'rio'
+      SBCen:TSpeedButton Left=440 Top=129 Width=23 Height=23 Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[fsBold] Flat=True Hint=' '#13#10'Incluir novo centro de custo'#13#10' '
+      DBDat:TDBEdit Left=330 Top=30 Width=100 Height=26 Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='MovDat' Hint=' *  Data de processamento do movimento'
+      DBDoc:TDBEdit Left=199 Top=30 Width=116 Height=26 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='MovDoc' Hint=' *  Campo opcional para cadastro de nota fiscal, '#13#10'     n'#250'mero de ordem de servi'#231'o, n'#250'mero de pedido, etc.'
+      DBVal:TDBEdit Left=25 Top=178 Width=114 Height=26 Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='MovVal'
+      DBVen:TDBEdit Left=197 Top=178 Width=121 Height=26 Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='MovVen'
+      DBPar:TDBEdit Left=373 Top=178 Width=91 Height=26 Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='MovIn1'
+      DBObs:TDBEdit Left=26 Top=231 Width=438 Height=26 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='MovObs'
+      BtConfirma:TBitBtn Left=141 Top=314 Width=110 Height=35 Caption='&Confirma' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '
+      BtCancela:TBitBtn Left=25 Top=315 Width=110 Height=35 Caption='Ca&ncela' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Cancela tudo o que foi inserido/alterado   '#13#10' '
+      DBCen:TDBLookupComboBox Left=25 Top=133 Width=410 Height=26 Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='MovIn2'
+      EdPer:TComboBox Left=25 Top=273 Width=161 Height=26 Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] Text='Mensal'
+      BoxMov:TCheckBox Left=192 Top=272 Width=284 Height=22 Caption='Data de movimento igual a data de vencimento' Font.Color=clNavy Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      ComboBan:TComboBox Left=26 Top=30 Width=146 Height=26 Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold]
+      EdDes:TRxLookupEdit Left=25 Top=84 Width=437 Height=24 Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] Text=''
+      EdPes:TRxLookupEdit Left=25 Top=132 Width=437 Height=24 Color=clWhite Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] Text=''
+  Calc:TRxCalculator Left=467 Top=104

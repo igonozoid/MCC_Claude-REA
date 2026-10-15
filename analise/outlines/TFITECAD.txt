@@ -1,0 +1,6 @@
+FIteCad:TFIteCad Left=192 Top=114 Caption='Alterando '#237'tem' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  Label1:TLabel Left=25 Top=13 Width=57 Height=17 Caption='Descri'#231#227'o' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Bevel1:TBevel Left=25 Top=74 Width=360 Height=2
+  BtConfirma:TBitBtn Left=133 Top=82 Width=102 Height=38 Caption='&Confirma' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '
+  BtCancela:TBitBtn Left=25 Top=85 Width=102 Height=38 Caption='Ca&ncela' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] Hint=' '#13#10'   Cancela tudo o que foi inserido/alterado   '#13#10' '
+  EdDes:TEdit Left=25 Top=33 Width=360 Height=25 Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]

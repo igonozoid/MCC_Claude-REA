@@ -1,0 +1,20 @@
+FTit:TFTit Left=0 Top=0 Caption='Suporte - Assunto' Color=clGradientInactiveCaption Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  PageControl1:TPageControl Align=alClient Left=15 Top=15 Width=754 Height=402 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]
+    TabSheet1:TTabSheet Caption='Selecione o tipo de suporte:'
+      BtVoltar1:TBitBtn Left=491 Top=292 Width=100 Height=41 Caption='&Voltar' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+      RadCom:TRadioButton Left=248 Top=77 Width=239 Height=54 Caption='Atendimento Comercial' Font.Color=clNavy Font.Height=-19 Font.Name='Arial' Font.Style=[]
+      RadSup:TRadioButton Left=248 Top=149 Width=194 Height=23 Caption='Suporte T'#233'cnico' Font.Color=clNavy Font.Height=-19 Font.Name='Arial' Font.Style=[]
+      ScrollBox5:TScrollBox Left=30 Top=250 Width=690 Height=4
+      BtAvancar1:TBitBtn Left=597 Top=292 Width=121 Height=41 Caption='&Avan'#231'ar' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+    TabSheet2:TTabSheet Caption='Assunto:'
+      LabGrup:TLabel Left=30 Top=78 Width=61 Height=18 Caption='LabGrup' Font.Color=clNavy Font.Height=-16 Font.Name='Arial' Font.Style=[]
+      Label1:TLabel Left=30 Top=121 Width=109 Height=16 Caption='Informe o assunto:' Font.Color=clNavy Font.Height=-13 Font.Name='Tahoma' Font.Style=[]
+      EdAss:TEdit Left=30 Top=141 Width=690 Height=26 Font.Color=clBlack Font.Height=-16 Font.Name='Arial' Font.Style=[]
+      ScrollBox1:TScrollBox Left=30 Top=250 Width=690 Height=4
+      BtVoltar2:TBitBtn Left=496 Top=292 Width=100 Height=41 Caption='&Voltar' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+      BtAvancar2:TBitBtn Left=602 Top=292 Width=121 Height=41 Caption='&Avan'#231'ar' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+    TabSheet3:TTabSheet Caption='Detalhamento do atendimento'
+      ScrollBox7:TScrollBox Align=alBottom Left=0 Top=320 Width=746 Height=50 BevelOuter=bvNone BorderStyle=bsNone
+        BtVoltar3:TBitBtn Align=alRight Left=516 Top=5 Width=100 Height=40 Caption='&Voltar' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        BtAvancar3:TBitBtn Align=alRight Left=622 Top=5 Width=121 Height=40 Caption='&Avan'#231'ar' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+      DBGrid1:TDBGrid Align=alClient Left=0 Top=0 Width=746 Height=320 Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[]

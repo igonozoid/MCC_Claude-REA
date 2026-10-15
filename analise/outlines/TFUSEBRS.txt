@@ -1,0 +1,10 @@
+FUseBrs:TFUseBrs Left=0 Top=0 Caption='FUseBrs' Color=#c0c7e2 Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=576 Height=73 BorderStyle=bsNone
+    LabLim:TLabel Left=416 Top=29 Width=36 Height=13 Caption='            '
+    BtExclui:TBitBtn Align=alLeft Left=167 Top=3 Width=79 Height=67 Caption='&Excluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint='Excluir' Layout=blGlyphTop
+    BtAltera:TBitBtn Align=alLeft Left=85 Top=3 Width=79 Height=67 Caption='&Alterar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint='Alterar' Layout=blGlyphTop
+    BtInsere:TBitBtn Align=alLeft Left=3 Top=3 Width=79 Height=67 Caption='&Incluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=#13#10'   Novo usu'#225'rio   '#13#10' ' Layout=blGlyphTop
+    Panel1:TPanel Align=alLeft Left=246 Top=0 Width=140 Height=73 BevelOuter=bvNone
+      SpeedButton1:TSpeedButton Align=alBottom Left=3 Top=37 Width=134 Height=33 Caption='&Voltar' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Voltar para a tela principal   '#13#10' '
+      DBNavigator1:TDBNavigator Align=alClient Left=3 Top=3 Width=134 Height=31
+  DBGrid1:TDBGrid Align=alClient Left=0 Top=73 Width=576 Height=303 Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]

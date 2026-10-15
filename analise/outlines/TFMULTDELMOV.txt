@@ -1,0 +1,8 @@
+FMultDelMov:TFMultDelMov Left=0 Top=0 Caption='FMultDelMov' Color=clBtnFace Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  RadOp:TRadioGroup Align=alBottom Left=3 Top=310 Width=641 Height=119 Caption='Escolha uma op'#231#227'o abaixo:'
+  Panel1:TPanel Align=alTop Left=3 Top=3 Width=641 Height=62 BevelOuter=bvNone
+    LabDesc:TLabel Align=alClient Left=3 Top=3 Width=635 Height=56 Caption='LabDesc' Layout=tlCenter
+  Panel2:TPanel Align=alBottom Left=0 Top=432 Width=647 Height=39 BevelOuter=bvNone
+    BtCancela:TBitBtn Align=alRight Left=440 Top=3 Width=97 Height=33 Caption='Ca&ncela' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Cancela as inser'#231#245'es/ altera'#231#245'es   '#13#10' '
+    BtConfirma:TBitBtn Align=alRight Left=543 Top=3 Width=101 Height=33 Caption='Excluir' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '
+  DBGrid1:TDBGrid Align=alClient Left=0 Top=68 Width=647 Height=239 Font.Color=clGray Font.Height=-15 Font.Name='Arial' Font.Style=[]

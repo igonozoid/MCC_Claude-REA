@@ -1,0 +1,28 @@
+FConciliaCad:TFConciliaCad Left=0 Top=0 Caption='FConciliaCad' Color=#8fb7cf Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  Label3:TLabel Left=363 Top=178 Width=76 Height=17 Caption='Documento' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  LbDes:TLabel Left=23 Top=235 Width=67 Height=17 Caption='Descri'#231#227'o' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  LbPes:TLabel Left=23 Top=286 Width=50 Height=17 Caption='Pessoa' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  LbObs:TLabel Left=23 Top=342 Width=221 Height=17 Caption='Observa'#231#245'es(Cheque,banco, etc)' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  Line:TBevel Left=23 Top=462 Width=454 Height=3
+  LbCen:TLabel Left=23 Top=396 Width=104 Height=17 Caption='Centro de custo' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  Bevel1:TBevel Left=23 Top=153 Width=454 Height=2
+  LbTip:TLabel Left=25 Top=191 Width=66 Height=32 Caption='LbTip' Font.Color=clSilver Font.Height=-27 Font.Name='Arial' Font.Style=[fsUnderline]
+  DBDoc:TDBEdit Left=364 Top=201 Width=113 Height=25 Color=clInfoBk DataField='ExtDoc' Hint=' *  Campo opcional para cadastro de nota fiscal, '#13#10'     n'#250'mero de ordem de servi'#231'o, n'#250'mero de pedido, etc.'
+  DBObs:TDBEdit Left=23 Top=365 Width=454 Height=26 Color=clInfoBk Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='ExtObs'
+  BtConfirma:TBitBtn Left=361 Top=471 Width=120 Height=37 Caption='&Confirma' Font.Color=clNavy Font.Height=-15 Font.Name='Arial' Font.Style=[] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '
+  BtCancela:TBitBtn Left=231 Top=471 Width=124 Height=37 Caption='&Fechar' Font.Color=clNavy Font.Height=-15 Font.Name='Arial' Font.Style=[] Hint=' '#13#10'   Cancela tudo o que foi inserido/alterado   '#13#10' '
+  DBCen:TDBLookupComboBox Left=23 Top=415 Width=454 Height=26 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='ExtCen'
+  BtIgnora:TBitBtn Left=19 Top=471 Width=206 Height=37 Caption='&Ignorar lan'#231'amento' Font.Color=clNavy Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  ScrollExt:TScrollBox Align=alTop Left=25 Top=15 Width=451 Height=128
+    LbVal:TLabel Left=307 Top=74 Width=32 Height=17 Caption='Valor' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+    LbVen:TLabel Left=146 Top=72 Width=128 Height=17 Caption='Data de pagamento' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+    LbConta:TLabel Left=3 Top=74 Width=99 Height=17 Caption='Conta banc'#225'ria' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+    Label1:TLabel Left=3 Top=3 Width=139 Height=17 Caption='Descri'#231#227'o no extrato:' Font.Color=clBlack Font.Height=-15 Font.Name='Arial' Font.Style=[]
+    DBVal:TDBEdit Left=306 Top=91 Width=134 Height=26 Color=#f0fbff Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='ExtVal'
+    DBVen:TDBEdit Left=146 Top=91 Width=111 Height=26 Color=#f0fbff Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='ExtDat'
+    DBConta:TDBEdit Left=3 Top=91 Width=113 Height=26 Color=#f0fbff Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='BanDes' Hint=' *  Data de processamento do movimento'
+    EdDesCad:TEdit Left=3 Top=26 Width=437 Height=26 Color=#f0fbff Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] Text='EdDesCad'
+  ScCorR:TScrollBox Left=131 Top=200 Width=100 Height=27 Color=clMoneyGreen Visible=False ParentColor=False
+  ScCorD:TScrollBox Left=231 Top=200 Width=100 Height=27 Color=#8fb7cf Visible=False ParentColor=False
+  EdDes:TRxLookupEdit Left=23 Top=253 Width=453 Height=25 Font.Color=clBlack Font.Height=-16 Font.Name='Arial' Font.Style=[fsBold] Text=''
+  EdPes:TRxLookupEdit Left=24 Top=309 Width=453 Height=25 Font.Color=clBlack Font.Height=-16 Font.Name='Arial' Font.Style=[fsBold] Text=''

@@ -1,0 +1,6 @@
+FSplash:TFSplash Left=192 Top=107 Caption='FSplash' Color=clWhite Font.Color=#46c241 Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[] BorderStyle=bsNone
+  ScrollBox1:TScrollBox Align=alClient Left=3 Top=3 Width=594 Height=282 Color=#f9f9f9 BevelOuter=bvNone BorderStyle=bsNone ParentColor=False
+    sb:TSpeedButton Left=4 Top=4 Width=256 Height=256 Flat=True
+    Image2:TImage Align=alLeft Left=0 Top=0 Width=256 Height=267
+    Label1:TLabel Left=279 Top=72 Width=212 Height=115 Caption='MCC' Font.Color=#0080c0 Font.Height=-96 Font.Name='Gadugi' Font.Style=[fsBold] Alignment=taCenter
+    Bar:TProgressBar Align=alBottom Left=0 Top=270 Width=594 Height=7

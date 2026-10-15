@@ -1,0 +1,6 @@
+FCodValida:TFCodValida Left=0 Top=0 Caption='C'#243'digo de valida'#231#227'o' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  Bevel1:TBevel Left=24 Top=150 Width=342 Height=2
+  Label1:TLabel Left=24 Top=23 Width=345 Height=16 Caption='Informe abaixo o c'#243'digo de valida'#231#227'o enviado no seu e-mail.' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+  SpeedButton1:TSpeedButton Left=24 Top=116 Width=196 Height=28 Caption='Enviar o codigo novamente' Flat=True
+  EdCod:TMaskEdit Left=24 Top=58 Width=196 Height=32 Font.Color=clWindowText Font.Height=-21 Font.Name='Arial' Font.Style=[] Text=''
+  BtConfirma:TBitBtn Left=226 Top=58 Width=88 Height=34 Caption='&OK' Font.Color=clNavy Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[fsBold]

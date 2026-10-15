@@ -1,0 +1,10 @@
+FAva:TFAva Left=0 Top=0 Caption='Avalia'#231#227'o do suporte' Color=clWhite Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] BorderStyle=bsDialog
+  Rad1:TDBRadioGroup Align=alTop Left=20 Top=90 Width=706 Height=60 Caption='Avalia'#231#227'o geral do atendimento, resolu'#231#227'o do problema ou esclarecimento de d'#250'vida:' Font.Color=clNavy Font.Height=-15 Font.Name='Arial' Font.Style=[] DataField='AVAGER'
+  Rad2:TDBRadioGroup Align=alTop Left=20 Top=180 Width=706 Height=60 Caption='Aten'#231#227'o e cordialidade do atendente:' Font.Color=clNavy Font.Height=-15 Font.Name='Arial' Font.Style=[] DataField='AVASUP'
+  Rad3:TDBRadioGroup Align=alTop Left=20 Top=270 Width=706 Height=60 Caption='Tempo de resposta ao atendimento:' Font.Color=clNavy Font.Height=-15 Font.Name='Arial' Font.Style=[] DataField='AVATEM'
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=746 Height=65 BevelOuter=bvNone BorderStyle=bsNone
+    Label1:TLabel Align=alBottom Left=3 Top=32 Width=740 Height=18 Caption='Com base no atendimento recebido, aponte uma nota conforme os '#237'tens abaixo:' Font.Color=clNavy Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+  ScrollBox2:TScrollBox Align=alTop Left=0 Top=345 Width=746 Height=118 BevelOuter=bvNone BorderStyle=bsNone
+    Label5:TLabel Align=alTop Left=20 Top=3 Width=706 Height=17 Caption='Coment'#225'rios:' Font.Color=clNavy Font.Height=-15 Font.Name='Arial' Font.Style=[]
+    DBMemo1:TDBMemo Align=alClient Left=20 Top=26 Width=570 Height=89 Font.Color=clBlack Font.Height=-13 Font.Name='Arial' Font.Style=[] DataField='AVADES'
+    Button1:TButton Align=alRight Left=613 Top=83 Width=113 Height=32 Caption='&Confirma' Font.Color=clNavy Font.Height=-13 Font.Name='Arial' Font.Style=[]

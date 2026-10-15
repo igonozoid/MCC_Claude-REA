@@ -1,0 +1,40 @@
+FSuporte:TFSuporte Left=0 Top=0 Caption='Suporte MCC' Color=clWhite Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]
+  PageControl:TPageControl Align=alClient Left=15 Top=72 Width=859 Height=437
+    Tab2:TTabSheet Caption='Chamados'
+      ScrollBox2:TScrollBox Align=alClient Left=3 Top=3 Width=845 Height=399 BevelOuter=bvNone BorderStyle=bsNone
+        ScrollBox3:TScrollBox Align=alTop Left=15 Top=15 Width=815 Height=63 Color=clGradientInactiveCaption BevelOuter=bvNone BorderStyle=bsNone ParentColor=False
+          BtNovoChamado:TSpeedButton Align=alLeft Left=5 Top=12 Width=162 Height=39 Caption='&Novo chamado' Flat=True Hint='Criar um novo chamado ao suporte'
+          BtAtualizaList:TSpeedButton Align=alLeft Left=572 Top=12 Width=108 Height=39 Caption='&Atualizar' Flat=True Hint='Atualizar Chamados'
+          BtFecha:TSpeedButton Align=alLeft Left=705 Top=12 Width=108 Height=39 Caption='&Fechar' Flat=True Hint='Fechar suporte'
+          RadActive:TRadioButton Align=alLeft Left=202 Top=20 Width=139 Height=23 Caption='Chamados ativos' Hint='Exibir os chamados ativos'
+          RadDeactive:TRadioButton Align=alLeft Left=376 Top=20 Width=171 Height=23 Caption='Chamados finalizados' Hint='Exibir os chamados finalizados'
+        DBGrid1:TDBGrid Align=alClient Left=15 Top=86 Width=815 Height=298 Color=clWhite
+    Tab3:TTabSheet Caption='Mensagens'
+      ScrollBox4:TScrollBox Align=alClient Left=3 Top=3 Width=845 Height=399 BevelOuter=bvNone BorderStyle=bsNone
+        MAux:TMemo Left=294 Top=112 Width=137 Height=97 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] Visible=False
+        MAlt:TMemo Left=151 Top=112 Width=137 Height=97 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] Visible=False
+        MOriginal:TMemo Left=8 Top=110 Width=137 Height=97 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] Visible=False
+        ScrollBox5:TScrollBox Align=alTop Left=6 Top=3 Width=833 Height=100 Color=clGradientInactiveCaption BevelOuter=bvNone BorderStyle=bsNone ParentColor=False
+          ScrollBox8:TScrollBox Align=alBottom Left=0 Top=59 Width=833 Height=41 BevelOuter=bvNone BorderStyle=bsNone
+            BtNovo:TSpeedButton Align=alLeft Left=5 Top=3 Width=161 Height=35 Caption='Nova mensagem' Flat=True Hint='Enviar nova mensagem'
+            BtAtualiza:TSpeedButton Align=alLeft Left=176 Top=3 Width=108 Height=35 Caption='Atualizar' Flat=True Hint='Atualizar mensagens'
+            BtVolta:TSpeedButton Align=alLeft Left=412 Top=3 Width=91 Height=35 Caption='&Voltar' Flat=True Hint='Voltar '#224' lista de chamados'
+            BtFinaliza:TSpeedButton Align=alLeft Left=294 Top=3 Width=108 Height=35 Caption='Finalizar' Flat=True Hint='Finalizar este chamado'
+          ScrollBox9:TScrollBox Align=alTop Left=0 Top=0 Width=833 Height=29 BorderStyle=bsNone
+            DBText2:TDBText Align=alLeft Left=51 Top=3 Width=55 Height=23 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] DataField='Setor'
+            Label3:TLabel Align=alLeft Left=3 Top=3 Width=39 Height=23 Caption='Setor:' Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]
+            Label4:TLabel Align=alRight Left=720 Top=3 Width=46 Height=23 Caption='Status:' Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]
+            DBText3:TDBText Align=alRight Left=775 Top=3 Width=55 Height=23 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] DataField='Status'
+          ScrollBox10:TScrollBox Align=alBottom Left=0 Top=30 Width=833 Height=29 BorderStyle=bsNone
+            Label2:TLabel Align=alLeft Left=3 Top=3 Width=57 Height=23 Caption='Assunto:' Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[]
+            DBText1:TDBText Align=alLeft Left=69 Top=3 Width=55 Height=23 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] DataField='CHAASS'
+        ScrollBox6:TScrollBox Align=alBottom Left=3 Top=360 Width=839 Height=36 BevelOuter=bvNone BorderStyle=bsNone
+          DBStatus:TDBText Align=alLeft Left=6 Top=6 Width=63 Height=24 DataField='MSGSTA'
+        RxMsgShow:TRxRichEdit Align=alClient Left=6 Top=109 Width=833 Height=245 Color=clGradientInactiveCaption Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] BorderStyle=bsNone Alignment=taCenter
+        Memo1:TMemo Left=643 Top=110 Width=137 Height=97 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[] Visible=False
+  ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=889 Height=57 BorderStyle=bsNone
+    ScrollBox7:TScrollBox Align=alBottom Left=0 Top=16 Width=889 Height=41 BorderStyle=bsNone
+      Label1:TLabel Align=alLeft Left=10 Top=10 Width=43 Height=21 Caption='Nome:'
+      LabNom:TDBText Align=alLeft Left=73 Top=10 Width=4 Height=21 DataField='CLINOM'
+      LabEml:TDBText Align=alLeft Left=158 Top=10 Width=4 Height=21 DataField='CLIEML'
+      Label6:TLabel Align=alLeft Left=97 Top=10 Width=46 Height=21 Caption='E-mail:'

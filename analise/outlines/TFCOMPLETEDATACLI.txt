@@ -1,0 +1,6 @@
+FCompleteDataCli:TFCompleteDataCli Left=0 Top=0 Caption='Complete seu cadastro' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  LabDoc:TLabel Left=16 Top=55 Width=66 Height=17 Caption='CPF / CNPJ' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+  LabNom:TLabel Left=16 Top=28 Width=164 Height=21 Caption='                                         ' Font.Color=clWindowText Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+  BtConfirma:TBitBtn Left=135 Top=123 Width=231 Height=45 Caption='&Confirma' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+  BtCancela:TBitBtn Left=16 Top=124 Width=113 Height=45 Caption='Cancelar'
+  EdDoc:TMaskEdit Left=16 Top=77 Width=350 Height=28 Font.Color=clWindowText Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Text='  .   .   /    -  '

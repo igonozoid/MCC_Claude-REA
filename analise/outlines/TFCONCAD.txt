@@ -1,0 +1,32 @@
+FConCad:TFConCad Left=245 Top=17 Caption='FConCad' Color=#c0c7e2 Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Bevel5:TBevel Left=19 Top=503 Width=399 Height=2
+  Label13:TLabel Left=5 Top=54 Width=10 Height=32 Caption='*' Font.Color=clBlack Font.Height=-24 Font.Name='Segoe UI' Font.Style=[]
+  DBText2:TDBText Left=19 Top=58 Width=45 Height=17 Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] DataField='Pessoa'
+  Label3:TLabel Left=19 Top=109 Width=114 Height=17 Caption='Endere'#231'o completo' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label2:TLabel Left=19 Top=160 Width=35 Height=17 Caption='Bairro' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label4:TLabel Left=19 Top=211 Width=41 Height=17 Caption='Cidade' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label5:TLabel Left=258 Top=214 Width=15 Height=17 Caption='UF' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label6:TLabel Left=318 Top=214 Width=22 Height=17 Caption='CEP' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label7:TLabel Left=19 Top=263 Width=63 Height=17 Caption='Telefone(s)' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label8:TLabel Left=19 Top=314 Width=36 Height=17 Caption='E-mail' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label14:TLabel Left=4 Top=276 Width=10 Height=32 Caption='*' Font.Color=clBlack Font.Height=-24 Font.Name='Segoe UI' Font.Style=[]
+  LabEd1:TLabel Left=19 Top=364 Width=43 Height=17 Caption='LabEd1' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  LabEd2:TLabel Left=220 Top=364 Width=43 Height=17 Caption='LabEd2' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label1:TLabel Left=19 Top=416 Width=51 Height=17 Caption='Web Site' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label12:TLabel Left=19 Top=475 Width=230 Height=17 Caption='* campo de preenchimento obrigat'#243'rio'
+  BtUserAlt:TSpeedButton Left=402 Top=-1 Width=28 Height=28 Flat=True Hint=#13#10'   Controle de atualiza'#231#245'es   '#13#10' '
+  RadioPes:TDBRadioGroup Left=234 Top=23 Width=184 Height=43 Caption='Pessoa' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConPes'
+  DBNome:TDBEdit Left=21 Top=77 Width=398 Height=28 Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConNom'
+  DBEnd:TDBEdit Left=19 Top=130 Width=398 Height=28 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConEnd'
+  DBEdit1:TDBEdit Left=19 Top=181 Width=261 Height=28 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConBai'
+  DBEdit4:TDBEdit Left=19 Top=232 Width=228 Height=28 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConCid'
+  DBComboBox1:TDBComboBox Left=255 Top=232 Width=54 Height=28 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConEst'
+  DBEdit6:TDBEdit Left=315 Top=232 Width=103 Height=28 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConCEP'
+  DBEdit7:TDBEdit Left=19 Top=283 Width=398 Height=28 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConTel'
+  DBEml:TDBEdit Left=19 Top=334 Width=398 Height=28 Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConEml'
+  EdDoc1:TDBEdit Left=19 Top=385 Width=197 Height=28 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConDo1'
+  EdDoc2:TDBEdit Left=220 Top=385 Width=198 Height=28 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConDo2'
+  DBEdit2:TDBEdit Left=19 Top=436 Width=398 Height=28 Color=clInfoBk Font.Color=clBlack Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConWeb'
+  BtConfirma:TBitBtn Left=122 Top=511 Width=113 Height=39 Caption='&Confirma' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '
+  BtConfig:TBitBtn Left=289 Top=470 Width=128 Height=28 Caption='Configura'#231#245'es' Font.Color=clNavy Font.Height=-15 Font.Name='Segoe UI' Font.Style=[] Hint=' '#13#10'   Configura'#231#245'es da conta controle   '#13#10' '
+  BtCancela:TBitBtn Left=19 Top=511 Width=97 Height=39 Caption='Ca&ncela' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Cancela as inser'#231#245'es/ altera'#231#245'es   '#13#10' '

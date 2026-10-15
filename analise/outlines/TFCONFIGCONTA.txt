@@ -1,0 +1,17 @@
+FConfigConta:TFConfigConta Left=0 Top=0 Caption='Configura'#231#245'es da conta controle' Color=clBtnFace Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label9:TLabel Left=8 Top=70 Width=195 Height=34 Caption='Saldo inicial em caixa:'#13#10'Valor dispon'#237'vel no Caixa Interno:' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label15:TLabel Left=8 Top=191 Width=244 Height=51 Caption='A listagem de '#237'tens de despesas e '#13#10'receitas s'#227'o espec'#237'ficas dos lan'#231'amentos '#13#10'realizados nesta conta controle:' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label16:TLabel Left=8 Top=265 Width=224 Height=51 Caption='Ao incluir um novo lan'#231'amento de '#13#10'despesa ou receita, o cursor dever'#225' '#13#10'estar posicionado no seguinte campo:' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Label17:TLabel Left=15 Top=358 Width=188 Height=34 Caption='Conta banc'#225'ria padr'#227'o para a '#13#10'inclus'#227'o de despesas e receitas:' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  Bevel1:TBevel Left=15 Top=413 Width=433 Height=3
+  Panel1:TPanel Align=alTop Left=0 Top=0 Width=466 Height=49 BevelOuter=bvNone
+    Label1:TLabel Align=alTop Left=3 Top=3 Width=460 Height=17 Caption='Conta controle:'
+    DBText1:TDBText Align=alTop Left=3 Top=26 Width=460 Height=21 Color=clWhite Font.Color=clWindowText Font.Height=-15 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='ConNom' Alignment=taCenter ParentColor=False
+  DBEdit9:TDBEdit Left=330 Top=79 Width=118 Height=25 Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] DataField='ConCIn'
+  DBCheckBox1:TDBCheckBox Left=11 Top=119 Width=233 Height=17 Caption='&Trabalhar com centros de custo' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] DataField='ConCen'
+  DBCheckBox2:TDBCheckBox Left=11 Top=145 Width=233 Height=17 Caption='&Exibir saldos na tela principal' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] DataField='ConSal'
+  DBRadioGroup1:TDBRadioGroup Left=260 Top=191 Width=188 Height=44 Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] DataField='ConOp1'
+  DBRadioGroup2:TDBRadioGroup Left=260 Top=265 Width=188 Height=65 Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI' Font.Style=[] DataField='ConOp2'
+  BoxContaDef:TComboBox Left=260 Top=370 Width=188 Height=22 Font.Color=clNavy Font.Height=15 Font.Name='Verdana' Font.Style=[]
+  BtCancela:TBitBtn Left=15 Top=422 Width=97 Height=39 Caption='Ca&ncela' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Cancela as inser'#231#245'es/ altera'#231#245'es   '#13#10' '
+  BtConfirma:TBitBtn Left=118 Top=422 Width=113 Height=39 Caption='&Confirma' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '

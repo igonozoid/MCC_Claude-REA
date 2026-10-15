@@ -1,0 +1,34 @@
+FMovCad:TFMovCad Left=192 Top=107 Caption='FMovCad' Color=clBtnFace Font.Color=clNavy Font.Height=-16 Font.Name='Segoe UI' Font.Style=[fsBold]
+  PanelFundo1:TPanel Align=alClient Left=0 Top=0 Width=506 Height=509 BevelOuter=bvNone
+    LabTipoMov:TLabel Align=alTop Left=3 Top=3 Width=495 Height=37 Caption='Despesas' Font.Color=clNavy Font.Height=-27 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Alignment=taRightJustify
+    PanelFundo2:TPanel Align=alClient Left=8 Top=51 Width=490 Height=450 Color=clActiveCaption
+      LabDat:TLabel Left=333 Top=17 Width=90 Height=15 Caption='Data movimento' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      LabDoc:TLabel Left=196 Top=16 Width=64 Height=15 Caption='Documento' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      LbDes:TLabel Left=25 Top=68 Width=56 Height=15 Caption='Descri'#231#227'o' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      LbPes:TLabel Left=26 Top=115 Width=43 Height=15 Caption='Pessoa' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      LbVal:TLabel Left=26 Top=162 Width=27 Height=15 Caption='Valor' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      LbVen:TLabel Left=25 Top=211 Width=95 Height=15 Caption='Vencimento/Pgto.' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      LbObs:TLabel Left=25 Top=263 Width=184 Height=15 Caption='Observa'#231#245'es(Cheque,banco, etc)' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      Line:TBevel Left=26 Top=337 Width=437 Height=2
+      LbConta:TLabel Left=25 Top=15 Width=33 Height=15 Caption='Conta' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      LbCen:TLabel Left=26 Top=115 Width=87 Height=15 Caption='Centro de custo' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      SBCen:TSpeedButton Left=439 Top=127 Width=24 Height=25 Font.Color=clBlack Font.Height=-13 Font.Name='MS Sans Serif' Font.Style=[] Hint=' '#13#10'Incluir novo centro de custo'#13#10' '
+      SbCalc:TSpeedButton Left=142 Top=180 Width=28 Height=25 Flat=True Hint='Calculadora'
+      SbCalendM:TSpeedButton Left=443 Top=31 Width=25 Height=25 Font.Color=clBlack Font.Height=-13 Font.Name='Verdana' Font.Style=[] Flat=True Hint='Exibir calend'#225'rio'
+      SbCalendV:TSpeedButton Left=142 Top=228 Width=25 Height=25 Flat=True Hint='Exibir calend'#225'rio'
+      LbVen2:TLabel Left=224 Top=211 Width=64 Height=15 Caption='Vencimento' Font.Color=clBlack Font.Height=-12 Font.Name='Arial' Font.Style=[]
+      BtUserAlt:TSpeedButton Left=463 Top=-3 Width=28 Height=28 Flat=True Hint=#13#10'   Controle de atualiza'#231#245'es   '#13#10' '
+      DBDat:TDBEdit Left=327 Top=30 Width=110 Height=29 Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='MovDat' Hint=' *  Data de processamento do movimento'
+      DBDoc:TDBEdit Left=200 Top=30 Width=121 Height=29 Color=clInfoBk Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='MovDoc' Hint=' *  Campo opcional para cadastro de nota fiscal, '#13#10'     n'#250'mero de ordem de servi'#231'o, n'#250'mero de pedido, etc.'
+      DBVal:TDBEdit Left=25 Top=176 Width=111 Height=29 Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='MovVal'
+      DBVen:TDBEdit Left=25 Top=228 Width=111 Height=29 Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='MovVen'
+      DBObs:TDBEdit Left=25 Top=278 Width=438 Height=29 Color=clInfoBk Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='MovObs'
+      DBSit:TDBRadioGroup Left=224 Top=168 Width=239 Height=46 Caption='Situa'#231#227'o' Font.Color=clNavy Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='MovSit'
+      DBCen:TDBLookupComboBox Left=25 Top=127 Width=409 Height=29 Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] DataField='MovIn2'
+      DBVen2:TDBEdit Left=224 Top=232 Width=110 Height=26 Font.Color=#484848 Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='MovDt1' ParentColor=True
+      ComboBan:TComboBox Left=26 Top=31 Width=153 Height=26 Font.Color=#484848 Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+      BtCancela:TBitBtn Left=26 Top=361 Width=97 Height=39 Caption='Ca&ncela' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Cancela as inser'#231#245'es/ altera'#231#245'es   '#13#10' '
+      BtConfirma:TBitBtn Left=129 Top=361 Width=154 Height=39 Caption='&Confirma' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint=' '#13#10'   Grava os dados acima digitados   '#13#10' '
+      EdDes:TRxLookupEdit Left=26 Top=80 Width=437 Height=29 Color=clWhite Font.Color=clBlack Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Text=''
+      EdPes:TRxLookupEdit Left=25 Top=127 Width=437 Height=29 Color=clWhite Font.Color=clBlack Font.Height=-16 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Text=''
+  Calc:TRxCalculator Left=464 Top=176

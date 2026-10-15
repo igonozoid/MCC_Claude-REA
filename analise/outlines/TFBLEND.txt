@@ -1,0 +1,1 @@
+FBlend:TFBlend Left=0 Top=0 Caption='FBlend' Color=clBlack Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[] BorderStyle=bsNone

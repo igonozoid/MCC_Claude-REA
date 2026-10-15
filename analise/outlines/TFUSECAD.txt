@@ -1,0 +1,40 @@
+FUseCad:TFUseCad Left=0 Top=0 Caption='FUseCad' Color=clBtnFace Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI' Font.Style=[]
+  PageControl:TPageControl Align=alClient Left=3 Top=3 Width=416 Height=555
+    TabCadastro:TTabSheet Caption='Dados do usu'#225'rio'
+      ScrollBox1:TScrollBox Align=alTop Left=0 Top=0 Width=408 Height=4
+      ScrollBox2:TScrollBox Align=alClient Left=0 Top=4 Width=408 Height=490 BorderStyle=bsNone
+        Label11:TLabel Left=20 Top=10 Width=57 Height=17 Caption='Categoria'
+        Bevel1:TBevel Left=20 Top=69 Width=331 Height=2
+        Label1:TLabel Left=20 Top=96 Width=44 Height=16 Caption='Usuario' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        Label2:TLabel Left=20 Top=155 Width=37 Height=16 Caption='E-mail' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        Label3:TLabel Left=20 Top=211 Width=101 Height=16 Caption='Senha de acesso' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        LabCnf:TLabel Left=176 Top=211 Width=72 Height=16 Caption='Confirma'#231#227'o' Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        BtSee:TSpeedButton Left=324 Top=232 Width=37 Height=25 Flat=True Hint='Visualizar senha'
+        Bevel2:TBevel Left=20 Top=346 Width=331 Height=2
+        BtAlterSenha:TBitBtn Left=172 Top=229 Width=178 Height=29 Caption='Alterar senha'
+        DBEdit10:TDBEdit Left=20 Top=30 Width=185 Height=25 Color=clBtnFace DataField='Tipo'
+        EdUser:TDBEdit Left=20 Top=115 Width=330 Height=26 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='UsuNom'
+        EdEmail:TDBEdit Left=20 Top=174 Width=330 Height=26 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='UsuEml'
+        EdSenha:TDBEdit Left=20 Top=231 Width=146 Height=26 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold] DataField='UsuSen'
+        RadStatus:TDBRadioGroup Left=226 Top=8 Width=125 Height=47 Caption='Status' DataField='UsuLog'
+        EdCnf:TEdit Left=172 Top=231 Width=146 Height=26 Font.Color=clWindowText Font.Height=-15 Font.Name='Arial' Font.Style=[fsBold]
+        BtConfirma:TBitBtn Left=253 Top=361 Width=99 Height=41 Caption='&Confirma' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint='Grava altera'#231#245'es'
+        BtCancela:TBitBtn Left=152 Top=361 Width=95 Height=41 Caption='Ca&ncela' Font.Color=clBlack Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold] Hint='Cancela altera'#231#245'es'
+        BtPermissao:TBitBtn Left=172 Top=283 Width=179 Height=41 Caption='Permiss'#245'es de acesso'
+    TabPermissao:TTabSheet Caption='Permiss'#245'es de acesso'
+      ScrollBox3:TScrollBox Align=alTop Left=0 Top=0 Width=408 Height=4
+      ScrollBox4:TScrollBox Align=alClient Left=3 Top=34 Width=402 Height=457 BorderStyle=bsNone
+        Panel1:TPanel Align=alBottom Left=0 Top=416 Width=402 Height=41 BevelOuter=bvNone
+          BtVolta:TBitBtn Align=alRight Left=275 Top=3 Width=117 Height=35 Caption='Voltar' Font.Color=clWindowText Font.Height=-13 Font.Name='Segoe UI Semibold' Font.Style=[fsBold]
+        PageControlPermissoes:TPageControl Align=alClient Left=3 Top=3 Width=396 Height=410
+          TabConfigPer:TTabSheet Caption='Acesso aos modulos'
+            DBRadioGroup1:TDBRadioGroup Align=alTop Left=3 Top=5 Width=376 Height=38 Caption='Configura'#231#245'es' DataField='UsuPo1'
+            DBRadioGroup3:TDBRadioGroup Align=alTop Left=3 Top=51 Width=376 Height=38 Caption='Controle de despesas' DataField='UsuPo2'
+            DBRadioGroup4:TDBRadioGroup Align=alTop Left=3 Top=97 Width=376 Height=38 Caption='Controle de receitas' DataField='UsuPo3'
+            DBRadioGroup5:TDBRadioGroup Align=alTop Left=3 Top=235 Width=376 Height=38 Caption='Controle de contas banc'#225'rias e movimenta'#231#245'es' DataField='UsuPo5'
+            DBRadioGroup6:TDBRadioGroup Align=alTop Left=3 Top=189 Width=376 Height=38 Caption='Controle de centros de custo' DataField='UsuPo4'
+            DBRadioGroup2:TDBRadioGroup Align=alTop Left=3 Top=143 Width=376 Height=38 Caption='Fluxo de caixa' DataField='UsuPo6'
+          TabConfigContas:TTabSheet Caption='Acesso a contas controle'
+            LabConsCheck:TLabel Align=alTop Left=3 Top=68 Width=282 Height=17 Caption='Marque as contas que deseja permitir o acesso:'
+            RadioCon:TRadioGroup Align=alTop Left=3 Top=3 Width=382 Height=47
+            CheckList:TCheckListBox Align=alClient Left=3 Top=91 Width=382 Height=195 Font.Color=clWindowText Font.Height=-12 Font.Name='Segoe UI' Font.Style=[]

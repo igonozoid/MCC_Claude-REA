@@ -1,0 +1,12 @@
+{
+  "name": "mcc-clone",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reimplementação web do MCC (controle financeiro) a partir da análise do mcc.exe com REA",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  }
+}

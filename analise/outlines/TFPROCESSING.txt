@@ -1,0 +1,3 @@
+FProcessing:TFProcessing Left=0 Top=0 Caption='FProcessing' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  Label1:TLabel Left=208 Top=152 Width=77 Height=13 Caption='processando....'
+  ActivityIndicator1:TActivityIndicator Left=208 Top=64

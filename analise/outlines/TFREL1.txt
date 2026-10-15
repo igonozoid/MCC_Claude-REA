@@ -1,0 +1,651 @@
+FRel1:TFRel1 Left=143 Top=27 Caption='FRel1' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  PageControl1:TPageControl Align=alClient Left=0 Top=0 Width=1501 Height=692
+    TabSheet1:TTabSheet Caption='MovCompetencia'
+      QMovComp:TQuickRep Left=16 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand40:TQRBand Left=57 Top=113 Width=1078 Height=35 Color=clYellow
+          QRSysData22:TQRSysData Left=8 Top=4 Width=105 Height=35 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData23:TQRSysData Left=184 Top=4 Width=106 Height=35 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand41:TQRBand Left=57 Top=148 Width=1078 Height=184
+          QRDBText90:TQRDBText Left=310 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRTitMovComp:TQRLabel Left=361 Top=127 Width=356 Height=35 Caption='RELAT'#211'RIO DE COMPETENCIA' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerMovComp:TQRLabel Left=507 Top=150 Width=64 Height=24 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QMovCompImg:TQRImage Left=1 Top=9 Width=300 Height=150
+          QRDBText3:TQRDBText Left=310 Top=45 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand42:TQRBand Left=57 Top=332 Width=1078 Height=46 Color=clYellow
+          QRLabel91:TQRLabel Left=3 Top=9 Width=44 Height=35 Caption='Data' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel92:TQRLabel Left=1004 Top=9 Width=50 Height=35 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          LbRPesMovComp:TQRLabel Left=207 Top=9 Width=193 Height=35 Caption='Cliente / Fornecedor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          LbDesMovComp:TQRLabel Left=496 Top=9 Width=105 Height=35 Caption='Movimento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel30:TQRLabel Left=886 Top=9 Width=83 Height=35 Caption='Situa'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel32:TQRLabel Left=81 Top=9 Width=109 Height=35 Caption='Documento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel57:TQRLabel Left=762 Top=9 Width=112 Height=35 Caption='Vencimento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand43:TQRBand Left=57 Top=413 Width=1078 Height=46 Color=clYellow
+          QRExpMovComp:TQRExpr Left=844 Top=14 Width=229 Height=35 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand44:TQRBand Left=57 Top=459 Width=1078 Height=35 Color=clYellow
+          QRSysData25:TQRSysData Left=35 Top=12 Width=115 Height=35 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand45:TQRBand Left=57 Top=378 Width=1078 Height=35
+          QRPgto:TQRDBText Left=3 Top=4 Width=86 Height=30 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='Data' Alignment=taLeftJustify
+          QRPesMovComp:TQRDBText Left=206 Top=4 Width=296 Height=30 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovPes' Alignment=taLeftJustify
+          QRDesMovComp:TQRDBText Left=503 Top=4 Width=297 Height=30 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovDes' Alignment=taLeftJustify
+          QRDBText30:TQRDBText Left=891 Top=4 Width=56 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='Situacao' Alignment=taCenter
+          QRValFluxo:TQRDBText Left=1026 Top=4 Width=47 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovVal' Alignment=taRightJustify
+          QRDBText56:TQRDBText Left=87 Top=4 Width=117 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovDoc' Alignment=taLeftJustify
+          QRDBText62:TQRDBText Left=802 Top=4 Width=80 Height=30 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovVen' Alignment=taCenter
+    TabSheet2:TTabSheet Caption='MovContas'
+      QMovCont:TQuickRep Left=0 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand1:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData1:TQRSysData Left=8 Top=4 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData2:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand2:TQRBand Left=57 Top=150 Width=1078 Height=212
+          QRTitMovCont:TQRLabel Left=398 Top=126 Width=282 Height=28 Caption='RELAT'#211'RIO DE CONTAS' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerMovCont:TQRLabel Left=507 Top=158 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          LbPesCont:TQRLabel Left=6 Top=184 Width=919 Height=26 Caption='LbPesCont' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QMovContImg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText1:TQRDBText Left=310 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText2:TQRDBText Left=310 Top=44 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand3:TQRBand Left=57 Top=362 Width=1078 Height=44 Color=clYellow
+          QRLabel4:TQRLabel Left=1 Top=10 Width=51 Height=26 Caption='Venc.' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel5:TQRLabel Left=1008 Top=10 Width=47 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          LbPesMovCont:TQRLabel Left=343 Top=10 Width=179 Height=26 Caption='Cliente / Fornecedor' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          LbDesMovCont:TQRLabel Left=572 Top=10 Width=99 Height=26 Caption='Movimento' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel39:TQRLabel Left=199 Top=10 Width=40 Height=26 Caption='Doc.' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel11:TQRLabel Left=834 Top=10 Width=106 Height=26 Caption='Observa'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel8:TQRLabel Left=93 Top=9 Width=56 Height=26 Caption='Pagto.' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand4:TQRBand Left=57 Top=443 Width=1078 Height=46 Color=clYellow
+          QRExpMovCont1:TQRExpr Left=787 Top=9 Width=278 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand5:TQRBand Left=57 Top=489 Width=1078 Height=37 Color=clYellow
+          QRSysData3:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand6:TQRBand Left=57 Top=406 Width=1078 Height=37
+          QRDBText8:TQRDBText Left=1 Top=4 Width=44 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrVen' Alignment=taLeftJustify
+          QRPesMovCont:TQRDBText Left=344 Top=4 Width=225 Height=28 Color=clWhite Font.Color=clWindowText Font.Height=-12 Font.Name='Arial' Font.Style=[] DataField='MovPes' Alignment=taLeftJustify
+          QRDesMovCont:TQRDBText Left=575 Top=4 Width=254 Height=28 Color=clWhite Font.Color=clWindowText Font.Height=-12 Font.Name='Arial' Font.Style=[] DataField='MovDes' Alignment=taLeftJustify
+          QRDBText57:TQRDBText Left=200 Top=4 Width=140 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovDoc' Alignment=taCenter
+          QRDBText14:TQRDBText Left=832 Top=4 Width=171 Height=32 Color=clWhite Font.Color=clWindowText Font.Height=-12 Font.Name='Arial' Font.Style=[] DataField='MovObs' Alignment=taLeftJustify
+          QRDBText10:TQRDBText Left=1016 Top=3 Width=53 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovVal' Alignment=taRightJustify
+          QRDBText9:TQRDBText Left=93 Top=6 Width=44 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrPag' Alignment=taLeftJustify
+    TabSheet3:TTabSheet Caption='MovCaixa'
+      QMovCaixa:TQuickRep Left=4 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand7:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData4:TQRSysData Left=8 Top=4 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData5:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand8:TQRBand Left=57 Top=150 Width=1078 Height=201
+          QRTitMovCaixa:TQRLabel Left=398 Top=129 Width=282 Height=28 Caption='RELAT'#211'RIO DE CONTAS' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerMovCaixa:TQRLabel Left=507 Top=162 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRSaldAnt:TQRLabel Left=8 Top=177 Width=47 Height=26 Caption='Saldo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QMovCaixaImg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText11:TQRDBText Left=310 Top=9 Width=771 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText12:TQRDBText Left=310 Top=46 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand9:TQRBand Left=57 Top=351 Width=1078 Height=44 Color=clYellow
+          QMovCaixaData:TQRLabel Left=6 Top=10 Width=44 Height=26 Caption='Data' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel13:TQRLabel Left=996 Top=10 Width=50 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel14:TQRLabel Left=143 Top=10 Width=193 Height=26 Caption='Cliente / Fornecedor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel15:TQRLabel Left=402 Top=10 Width=95 Height=26 Caption='Descri'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel22:TQRLabel Left=692 Top=10 Width=126 Height=26 Caption='Observa'#231#245'es' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand10:TQRBand Left=57 Top=527 Width=1078 Height=194 Color=clYellow
+          QRExpr1:TQRExpr Left=874 Top=9 Width=193 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRExpr2:TQRExpr Left=875 Top=45 Width=193 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRSaldPer:TQRExpr Left=676 Top=86 Width=392 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRMovOutras:TQRLabel Left=942 Top=120 Width=136 Height=26 Caption='QRMovOutras' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRPer:TQRLabel Left=951 Top=152 Width=115 Height=26 Caption='QRPerCaixa' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand11:TQRBand Left=57 Top=721 Width=1078 Height=37 Color=clYellow
+          QRSysData6:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand12:TQRBand Left=57 Top=437 Width=1078 Height=35
+          QRDBText15:TQRDBText Left=0 Top=9 Width=87 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovVen' Alignment=taLeftJustify
+          QRDBText17:TQRDBText Left=402 Top=8 Width=284 Height=27 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovDes' Alignment=taLeftJustify
+          QRDBText18:TQRDBText Left=95 Top=8 Width=29 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='Tipo' Alignment=taCenter
+          QRDBText19:TQRDBText Left=1026 Top=9 Width=47 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovVal' Alignment=taRightJustify
+          QRDBText21:TQRDBText Left=975 Top=8 Width=37 Height=27 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='Saldo' Alignment=taRightJustify
+          QRDBText51:TQRDBText Left=688 Top=8 Width=281 Height=27 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovObs' Alignment=taLeftJustify
+          QRDBText16:TQRDBText Left=146 Top=8 Width=242 Height=27 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovPes' Alignment=taLeftJustify
+        BandSaldo:TQRBand Left=57 Top=472 Width=1078 Height=55
+          QRPerCaixa:TQRExpr Left=245 Top=8 Width=392 Height=26 Color=clGreen Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRPerDia:TQRLabel Left=977 Top=1 Width=98 Height=26 Caption='QRPerDia' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Verdana' Font.Style=[fsItalic] Alignment=taRightJustify
+        QRGroup:TQRGroup Left=57 Top=395 Width=1078 Height=42
+          QRStrDat:TQRDBText Left=17 Top=8 Width=72 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='MovVen' Alignment=taLeftJustify
+    TabSheet4:TTabSheet Caption='GrafCompetencia'
+      QGrafComp:TQuickRep Left=43 Top=-209 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand13:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData7:TQRSysData Left=37 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData8:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand14:TQRBand Left=57 Top=150 Width=1078 Height=180
+          QRTitGrafComp:TQRLabel Left=360 Top=118 Width=358 Height=28 Caption='GR'#193'FICO DESPESA X RECEITA' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerGrafComp:TQRLabel Left=507 Top=150 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QGrafCompImg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText20:TQRDBText Left=303 Top=12 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText22:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand17:TQRBand Left=57 Top=1053 Width=1078 Height=37 Color=clYellow
+          QRSysData9:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand18:TQRBand Left=57 Top=330 Width=1078 Height=723
+          QRImageComp:TQRImage Left=8 Top=9 Width=1050 Height=675
+    TabSheet5:TTabSheet Caption='Recibo'
+      QRecibo:TQuickRep Left=83 Top=-560 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand16:TQRBand Left=85 Top=113 Width=1021 Height=687
+          QRLabel2:TQRLabel Left=0 Top=307 Width=1018 Height=11 Caption='   ' Color=clWhite Font.Color=clWindowText Font.Height=-8 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText25:TQRDBText Left=460 Top=148 Width=555 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRRecibo1:TQRLabel Left=456 Top=51 Width=555 Height=50 Caption='RECIBO R$' Color=clWhite Font.Color=clWindowText Font.Height=-40 Font.Name='Arial' Font.Style=[fsUnderline] Alignment=taCenter
+          QReciboImg:TQRImage Left=1 Top=1 Width=450 Height=225
+          QRRec1:TQRLabel Left=3 Top=333 Width=77 Height=26 Caption='QRRec1' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRExt1:TQRRichText Left=6 Top=366 Width=1005 Height=47 Color=clWindow Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[fsItalic] Alignment=taLeftJustify
+          QRRef1:TQRLabel Left=3 Top=415 Width=73 Height=26 Caption='QRRef1' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRObs1:TQRLabel Left=3 Top=487 Width=79 Height=26 Caption='QRObs1' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDat1:TQRLabel Left=877 Top=521 Width=73 Height=26 Caption='QRDat1' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taRightJustify
+          QRLabel19:TQRLabel Left=235 Top=594 Width=551 Height=26 Caption='__________________________________________________' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRNom1:TQRLabel Left=230 Top=620 Width=561 Height=26 Caption='QRNom1' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsItalic] Alignment=taCenter
+          QRDBText4:TQRDBText Left=6 Top=231 Width=1014 Height=54 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+          QRDoc:TQRLabel Left=3 Top=449 Width=66 Height=26 Caption='QRDoc' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDocPes1:TQRLabel Left=455 Top=648 Width=111 Height=26 Caption='QRDocPes1' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+        BandRecibo2:TQRBand Left=85 Top=800 Width=1021 Height=717
+          QRLabel6:TQRLabel Left=0 Top=318 Width=1018 Height=11 Caption='   ' Color=clWhite Font.Color=clWindowText Font.Height=-8 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText5:TQRDBText Left=456 Top=161 Width=555 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRRecibo2:TQRLabel Left=456 Top=63 Width=555 Height=50 Caption='RECIBO R$' Color=clWhite Font.Color=clWindowText Font.Height=-40 Font.Name='Arial' Font.Style=[fsUnderline] Alignment=taCenter
+          QReciboImg2:TQRImage Left=-3 Top=9 Width=450 Height=225
+          QRRec2:TQRLabel Left=3 Top=345 Width=77 Height=26 Caption='QRRec1' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRExt2:TQRRichText Left=6 Top=378 Width=1005 Height=47 Color=clWindow Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[fsItalic] Alignment=taLeftJustify
+          QRRef2:TQRLabel Left=3 Top=428 Width=73 Height=26 Caption='QRRef2' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDat2:TQRLabel Left=877 Top=532 Width=73 Height=26 Caption='QRDat2' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taRightJustify
+          QRLabel85:TQRLabel Left=235 Top=606 Width=551 Height=26 Caption='__________________________________________________' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRNom2:TQRLabel Left=230 Top=644 Width=561 Height=26 Caption='QRNom2' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsItalic] Alignment=taCenter
+          QRDBText6:TQRDBText Left=3 Top=242 Width=1014 Height=54 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+          QRDoc2:TQRLabel Left=3 Top=460 Width=66 Height=26 Caption='QRDoc' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRLabel18:TQRLabel Left=0 Top=3 Width=1022 Height=11 Caption='   ' Color=clWhite Font.Color=clWindowText Font.Height=-8 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDocPes2:TQRLabel Left=455 Top=670 Width=111 Height=26 Caption='QRDocPes2' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRObs2:TQRLabel Left=3 Top=487 Width=79 Height=26 Caption='QRObs1' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+    TabSheet6:TTabSheet Caption='ExtratoBanco'
+      QuickExtBan:TQuickRep Left=-4 Top=-24 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand15:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData10:TQRSysData Left=8 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData11:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand19:TQRBand Left=57 Top=150 Width=1078 Height=202
+          QRTitExt:TQRLabel Left=356 Top=122 Width=365 Height=28 Caption='EXTRATO DE CONTA BANC'#193'RIA' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerExtBan:TQRLabel Left=507 Top=159 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRBan:TQRLabel Left=6 Top=176 Width=919 Height=26 Caption='LbPesCont' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QuickExtBanImg:TQRImage Left=1 Top=3 Width=300 Height=150
+          QRDBText32:TQRDBText Left=310 Top=45 Width=770 Height=71 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+          QRDBText33:TQRDBText Left=303 Top=12 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+        QRBand20:TQRBand Left=57 Top=352 Width=1078 Height=44 Color=clYellow
+          QRLabel27:TQRLabel Left=1016 Top=10 Width=50 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel31:TQRLabel Left=890 Top=10 Width=93 Height=26 Caption='Opera'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel29:TQRLabel Left=608 Top=10 Width=245 Height=26 Caption='Observa'#231#245'es (N'#186' Cheque)' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel3:TQRLabel Left=446 Top=10 Width=144 Height=26 Caption='Cliente/Fornec.' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel28:TQRLabel Left=86 Top=9 Width=105 Height=26 Caption='Movimento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel26:TQRLabel Left=6 Top=10 Width=44 Height=26 Caption='Data' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand21:TQRBand Left=57 Top=523 Width=1078 Height=46 Color=clYellow
+          QRSaldoF:TQRLabel Left=1019 Top=12 Width=50 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand23:TQRBand Left=57 Top=569 Width=1078 Height=37 Color=clYellow
+          QRSysData12:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand24:TQRBand Left=57 Top=441 Width=1078 Height=37
+          QRExtMov:TQRDBText Left=86 Top=9 Width=356 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Mov' Alignment=taLeftJustify
+          QRExtDat:TQRDBText Left=1 Top=9 Width=35 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Data' Alignment=taLeftJustify
+          QRExtPes:TQRDBText Left=446 Top=9 Width=162 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial Narrow' Font.Style=[] DataField='Nome' Alignment=taLeftJustify
+          QRExtObs:TQRDBText Left=608 Top=9 Width=285 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial Narrow' Font.Style=[] DataField='Obs' Alignment=taLeftJustify
+          QRExtTip:TQRDBText Left=921 Top=10 Width=32 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Tipo' Alignment=taLeftJustify
+          QRExtVal:TQRDBText Left=1031 Top=9 Width=38 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Valor' Alignment=taRightJustify
+        QRGroup3:TQRGroup Left=57 Top=396 Width=1078 Height=45
+        QRBand59:TQRBand Left=57 Top=478 Width=1078 Height=45
+          QRSaldoBanco:TQRLabel Left=608 Top=4 Width=468 Height=26 Caption='QRSaldoBanco' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsItalic] Alignment=taLeftJustify
+    TabSheet7:TTabSheet Caption='FechamentoCaixa'
+      QuickFec:TQuickRep Left=0 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand25:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData13:TQRSysData Left=8 Top=4 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData14:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand26:TQRBand Left=57 Top=150 Width=1078 Height=208
+          QRLabel21:TQRLabel Left=328 Top=122 Width=438 Height=28 Caption='EXTRATO DE FECHAMENTO DE CAIXA' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerFec:TQRLabel Left=507 Top=153 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QuickFecImg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText37:TQRDBText Left=303 Top=12 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText38:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand27:TQRBand Left=57 Top=358 Width=1078 Height=44 Color=clYellow
+          QRLabel34:TQRLabel Left=6 Top=10 Width=44 Height=26 Caption='Data' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel35:TQRLabel Left=999 Top=10 Width=50 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel36:TQRLabel Left=114 Top=10 Width=105 Height=26 Caption='Movimento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel37:TQRLabel Left=629 Top=10 Width=245 Height=26 Caption='Observa'#231#245'es (N'#186' Cheque)' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand28:TQRBand Left=57 Top=545 Width=1078 Height=46 Color=clYellow
+          QRFecSalF:TQRLabel Left=961 Top=10 Width=105 Height=26 Caption='Saldo Final' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand29:TQRBand Left=57 Top=591 Width=1078 Height=37 Color=clYellow
+          QRSysData15:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand30:TQRBand Left=57 Top=453 Width=1078 Height=37
+          QRDBText45:TQRDBText Left=6 Top=8 Width=105 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='Data' Alignment=taLeftJustify
+          QRDBText46:TQRDBText Left=114 Top=9 Width=513 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] DataField='Descricao' Alignment=taLeftJustify
+          QRDBText47:TQRDBText Left=636 Top=9 Width=253 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] DataField='Obs' Alignment=taLeftJustify
+          QRDBText48:TQRDBText Left=989 Top=9 Width=47 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='Valor' Alignment=taRightJustify
+          QRDBText49:TQRDBText Left=1044 Top=9 Width=39 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='Tipo' Alignment=taLeftJustify
+        QRGroup1:TQRGroup Left=57 Top=402 Width=1078 Height=51
+          QRDBText50:TQRDBText Left=78 Top=21 Width=74 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] DataField='BanDes' Alignment=taLeftJustify
+          QRLabel40:TQRLabel Left=6 Top=21 Width=64 Height=26 Caption='Conta:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRFecSalIn:TQRLabel Left=244 Top=21 Width=54 Height=26 Caption='Saldo' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand31:TQRBand Left=57 Top=490 Width=1078 Height=55
+          QRFecSalFn:TQRLabel Left=950 Top=6 Width=121 Height=26 Caption='Saldo final' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Verdana' Font.Style=[fsBold] Alignment=taRightJustify
+    TabSheet8:TTabSheet Caption='Relatorio de Totais'
+      QuickTotal:TQuickRep Left=3 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand32:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData16:TQRSysData Left=8 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData17:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand33:TQRBand Left=57 Top=150 Width=1078 Height=181
+          QRTitMovTot:TQRLabel Left=324 Top=118 Width=435 Height=28 Caption='RELAT'#211'RIO DE MOVIMENTOS TOTAIS' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRPerMovTot:TQRLabel Left=507 Top=154 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QuickTotalImg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText39:TQRDBText Left=310 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText40:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand34:TQRBand Left=57 Top=331 Width=1078 Height=44 Color=clYellow
+          QRLabel44:TQRLabel Left=996 Top=10 Width=50 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRTotDes:TQRLabel Left=300 Top=10 Width=95 Height=26 Caption='Descri'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand35:TQRBand Left=57 Top=412 Width=1078 Height=45 Color=clYellow
+          QRExpMovTot:TQRExpr Left=853 Top=9 Width=208 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand36:TQRBand Left=57 Top=457 Width=1078 Height=37 Color=clYellow
+          QRSysData18:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand37:TQRBand Left=57 Top=375 Width=1078 Height=37
+          QRDBText58:TQRDBText Left=300 Top=8 Width=602 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] DataField='Descricao' Alignment=taLeftJustify
+          QRDBText60:TQRDBText Left=1016 Top=9 Width=45 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='Total' Alignment=taRightJustify
+    TabSheet9:TTabSheet Caption='GrafDespxReceita'
+      QuickGrafRecDesp:TQuickRep Left=44 Top=-37 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand22:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData19:TQRSysData Left=37 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData20:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand38:TQRBand Left=57 Top=150 Width=1078 Height=180
+          QRLabel9:TQRLabel Left=360 Top=118 Width=358 Height=28 Caption='GR'#193'FICO DESPESA X RECEITA' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRGrafDR:TQRLabel Left=507 Top=150 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QGrafDespRec:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText7:TQRDBText Left=310 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText13:TQRDBText Left=310 Top=53 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand39:TQRBand Left=57 Top=1188 Width=1078 Height=37 Color=clYellow
+          QRSysData21:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand46:TQRBand Left=57 Top=330 Width=1078 Height=858
+          ImageDespRec:TQRImage Left=10 Top=48 Width=1050 Height=600
+    TabSheet10:TTabSheet Caption='RelPes'
+      QuickPes:TQuickRep Left=3 Top=-69 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand47:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData24:TQRSysData Left=8 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData26:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand48:TQRBand Left=57 Top=150 Width=1078 Height=177
+          QRTitPes:TQRLabel Left=487 Top=127 Width=104 Height=28 Caption='QRTitPes' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QuickPesImg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText23:TQRDBText Left=303 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText24:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand50:TQRBand Left=57 Top=744 Width=1078 Height=45 Color=clYellow
+        QRBand51:TQRBand Left=57 Top=789 Width=1078 Height=37 Color=clYellow
+          QRSysData27:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand52:TQRBand Left=57 Top=327 Width=1078 Height=417
+          QRDBText26:TQRDBText Left=118 Top=54 Width=71 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='PesDo1' Alignment=taLeftJustify
+          QRLabel43:TQRLabel Left=10 Top=54 Width=102 Height=26 Caption='CNPJ/CPF:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText35:TQRDBText Left=487 Top=54 Width=71 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='PesDo2' Alignment=taLeftJustify
+          QRLabel45:TQRLabel Left=399 Top=54 Width=86 Height=26 Caption='I.E./R.G.:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText27:TQRDBText Left=699 Top=54 Width=68 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='PesEml' Alignment=taLeftJustify
+          QRLabel46:TQRLabel Left=633 Top=54 Width=62 Height=26 Caption='E-mail:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText43:TQRDBText Left=105 Top=93 Width=69 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='PesEnd' Alignment=taLeftJustify
+          QRLabel47:TQRLabel Left=10 Top=93 Width=91 Height=26 Caption='Endere'#231'o:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRLabel48:TQRLabel Left=633 Top=93 Width=60 Height=26 Caption='Bairro:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText28:TQRDBText Left=699 Top=93 Width=63 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='PesBai' Alignment=taLeftJustify
+          QRLabel49:TQRLabel Left=10 Top=129 Width=47 Height=26 Caption='CEP:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText31:TQRDBText Left=64 Top=129 Width=75 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='PesCEP' Alignment=taLeftJustify
+          QRLabel50:TQRLabel Left=194 Top=129 Width=69 Height=26 Caption='Cidade:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText44:TQRDBText Left=270 Top=129 Width=64 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='PesCid' Alignment=taLeftJustify
+          QRLabel16:TQRLabel Left=9 Top=21 Width=1062 Height=26 Caption=' ' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRLabel20:TQRLabel Left=10 Top=8 Width=68 Height=26 Caption='NOME:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRDBText34:TQRDBText Left=78 Top=8 Width=79 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] DataField='PesNom' Alignment=taLeftJustify
+          QRLabel41:TQRLabel Left=802 Top=8 Width=160 Height=26 Caption='Data de cadastro:' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText29:TQRDBText Left=968 Top=6 Width=69 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='PesDtC' Alignment=taCenter
+          QRLabel51:TQRLabel Left=9 Top=201 Width=1062 Height=26 Caption='CONTATOS:' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText53:TQRDBText Left=91 Top=231 Width=59 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='PesCo1' Alignment=taLeftJustify
+          QRLabel52:TQRLabel Left=10 Top=231 Width=77 Height=26 Caption='Comercial:' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText54:TQRDBText Left=640 Top=231 Width=59 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='PesCo2' Alignment=taLeftJustify
+          QRLabel53:TQRLabel Left=557 Top=231 Width=79 Height=26 Caption='Financeiro:' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRLabel54:TQRLabel Left=10 Top=267 Width=60 Height=26 Caption='T'#233'cnico:' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText55:TQRDBText Left=75 Top=267 Width=59 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='PesCo4' Alignment=taLeftJustify
+          QRLabel55:TQRLabel Left=557 Top=267 Width=104 Height=26 Caption='Administrativo:' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText61:TQRDBText Left=670 Top=267 Width=59 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='PesCo3' Alignment=taLeftJustify
+          QRLabel56:TQRLabel Left=9 Top=308 Width=1062 Height=26 Caption='OBSERVA'#199#213'ES:' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBRichText1:TQRDBRichText Left=10 Top=338 Width=1059 Height=71 Color=clWindow Font.Color=clWindowText Font.Height=-11 Font.Name='Arial' Font.Style=[] DataField='PesObs' Alignment=taLeftJustify
+          QRLabel70:TQRLabel Left=10 Top=162 Width=107 Height=26 Caption='Telefone(s):' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText77:TQRDBText Left=117 Top=162 Width=62 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='PesTel' Alignment=taLeftJustify
+    TabSheet11:TTabSheet Caption='RelTotalCentro'
+      QuickRMC:TQuickRep Left=18 Top=10 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand49:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData28:TQRSysData Left=8 Top=4 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData29:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand53:TQRBand Left=57 Top=150 Width=1078 Height=180
+          TitRelRMC:TQRLabel Left=324 Top=117 Width=435 Height=28 Caption='RELAT'#211'RIO DE MOVIMENTOS TOTAIS' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          PerTitRelRMC:TQRLabel Left=507 Top=153 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRImageRMC:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText41:TQRDBText Left=303 Top=12 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText42:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand54:TQRBand Left=57 Top=330 Width=1078 Height=44 Color=clYellow
+          QRLabel61:TQRLabel Left=996 Top=10 Width=50 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel62:TQRLabel Left=300 Top=10 Width=95 Height=26 Caption='Descri'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand55:TQRBand Left=57 Top=498 Width=1078 Height=45 Color=clYellow
+          QRExpr3:TQRExpr Left=890 Top=8 Width=177 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand56:TQRBand Left=57 Top=543 Width=1078 Height=37 Color=clYellow
+          QRSysData30:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand57:TQRBand Left=57 Top=419 Width=1078 Height=37
+          QRDBText65:TQRDBText Left=300 Top=6 Width=602 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] DataField='MovDes' Alignment=taLeftJustify
+          QRDBText66:TQRDBText Left=1022 Top=6 Width=45 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] DataField='Total' Alignment=taRightJustify
+        QRGroup2:TQRGroup Left=57 Top=374 Width=1078 Height=45
+          QRDBText67:TQRDBText Left=27 Top=9 Width=458 Height=28 Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold, fsUnderline] DataField='CenNom' Alignment=taLeftJustify
+        QRBand58:TQRBand Left=57 Top=456 Width=1078 Height=42
+          QRExprRMC:TQRExpr Left=449 Top=8 Width=177 Height=26 Color=clTeal Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRLabelRMC:TQRLabel Left=977 Top=0 Width=98 Height=26 Caption='QRPerDia' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Verdana' Font.Style=[fsItalic] Alignment=taRightJustify
+    TabSheet12:TTabSheet Caption='GrafEvol'
+      QuickEvo:TQuickRep Left=28 Top=-24 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand60:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData31:TQRSysData Left=8 Top=4 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData32:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand61:TQRBand Left=57 Top=150 Width=1078 Height=208
+          QREvoTit:TQRLabel Left=395 Top=125 Width=287 Height=28 Caption='GR'#193'FICO DE EVOLU'#199'AO' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRGrafEvoImg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QREvoDes:TQRLabel Left=498 Top=156 Width=81 Height=26 Caption='Descri'#231'ao' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRResEvo:TQRLabel Left=4 Top=176 Width=79 Height=26 Caption='             ' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRDBText52:TQRDBText Left=310 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText59:TQRDBText Left=310 Top=53 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand62:TQRBand Left=57 Top=1068 Width=1078 Height=37 Color=clYellow
+          QRSysData33:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand63:TQRBand Left=57 Top=358 Width=1078 Height=710
+          QRImageEvo:TQRImage Left=12 Top=17 Width=1048 Height=675
+    TabSheet13:TTabSheet Caption='CaixaCentroC'
+      QuickCaixaCen:TQuickRep Left=3 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand64:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData34:TQRSysData Left=8 Top=4 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData35:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand65:TQRBand Left=57 Top=150 Width=1078 Height=179
+          QRLabel58:TQRLabel Left=356 Top=118 Width=365 Height=28 Caption='CAIXA POR CENTRO DE CUSTO' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerFCC:TQRLabel Left=507 Top=147 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          FCCentroImg:TQRImage Left=4 Top=-1 Width=300 Height=150
+          QRDBText63:TQRDBText Left=310 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText64:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand66:TQRBand Left=57 Top=329 Width=1078 Height=44 Color=clYellow
+          QRLabel65:TQRLabel Left=6 Top=10 Width=156 Height=26 Caption='Centro de Custo' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel68:TQRLabel Left=346 Top=10 Width=49 Height=26 Caption='Pago' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel71:TQRLabel Left=440 Top=10 Width=89 Height=26 Caption='Recebido' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel59:TQRLabel Left=559 Top=10 Width=101 Height=26 Caption='Saldo real.' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel66:TQRLabel Left=963 Top=10 Width=108 Height=26 Caption='Saldo prev.' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel67:TQRLabel Left=840 Top=10 Width=92 Height=26 Caption='A receber' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel69:TQRLabel Left=730 Top=10 Width=74 Height=26 Caption='A pagar' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand67:TQRBand Left=57 Top=410 Width=1078 Height=45 Color=clYellow
+          QRExpr6:TQRExpr Left=273 Top=9 Width=127 Height=24 Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRExpr4:TQRExpr Left=405 Top=9 Width=127 Height=24 Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRExpr5:TQRExpr Left=539 Top=9 Width=127 Height=24 Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRExpr7:TQRExpr Left=687 Top=9 Width=127 Height=24 Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRExpr8:TQRExpr Left=814 Top=9 Width=127 Height=24 Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRExpr9:TQRExpr Left=944 Top=9 Width=127 Height=24 Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand68:TQRBand Left=57 Top=455 Width=1078 Height=37 Color=clYellow
+          QRSysData36:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand69:TQRBand Left=57 Top=373 Width=1078 Height=37
+          QRDBText72:TQRDBText Left=6 Top=8 Width=308 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='CenNom' Alignment=taLeftJustify
+          QRSaida:TQRDBText Left=587 Top=8 Width=74 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='SaldoReal' Alignment=taRightJustify
+          QREntrada:TQRDBText Left=324 Top=8 Width=73 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='TotalPago' Alignment=taRightJustify
+          QRDBText73:TQRDBText Left=426 Top=9 Width=103 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='TotalRecebido' Alignment=taRightJustify
+          QRDBText74:TQRDBText Left=992 Top=8 Width=74 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='SaldoPrev' Alignment=taRightJustify
+          QRDBText75:TQRDBText Left=837 Top=8 Width=104 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='TotalaReceber' Alignment=taRightJustify
+          QRDBText76:TQRDBText Left=721 Top=8 Width=87 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='TotalaPagar' Alignment=taRightJustify
+    TabSheet14:TTabSheet Caption='Analise'
+      QuickAna:TQuickRep Left=-368 Top=-8 Width=1684 Height=1191 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand70:TQRBand Left=57 Top=57 Width=1571 Height=37 Color=clYellow
+          QRSysData37:TQRSysData Left=8 Top=4 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData38:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand71:TQRBand Left=57 Top=94 Width=1571 Height=190
+          QRDBText78:TQRDBText Left=412 Top=9 Width=746 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRTitAna:TQRLabel Left=742 Top=109 Width=87 Height=28 Caption='relat'#243'rio' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerAna:TQRLabel Left=753 Top=141 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QuickAnaImg:TQRImage Left=3 Top=1 Width=300 Height=150
+          QRDBText79:TQRDBText Left=312 Top=48 Width=1250 Height=56 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+          QRCentroCusto:TQRLabel Left=6 Top=163 Width=177 Height=26 Caption='Centro de custo/lucro:' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+        QRBand72:TQRBand Left=57 Top=284 Width=1571 Height=44 Color=clYellow
+          QRLabel75:TQRLabel Left=6 Top=10 Width=44 Height=26 Caption='Data' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel77:TQRLabel Left=249 Top=10 Width=193 Height=26 Caption='Cliente / Fornecedor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel78:TQRLabel Left=624 Top=10 Width=105 Height=26 Caption='Movimento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel79:TQRLabel Left=1486 Top=10 Width=50 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel80:TQRLabel Left=86 Top=10 Width=109 Height=26 Caption='Documento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel81:TQRLabel Left=1323 Top=10 Width=112 Height=26 Caption='Vencimento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel82:TQRLabel Left=999 Top=10 Width=115 Height=26 Caption='Observa'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel83:TQRLabel Left=202 Top=10 Width=43 Height=26 Caption='Tipo' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel84:TQRLabel Left=1238 Top=10 Width=57 Height=26 Caption='Conta' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand73:TQRBand Left=57 Top=365 Width=1571 Height=86 Color=clYellow
+          QRExprCred:TQRExpr Left=1378 Top=1 Width=183 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRExprDeb:TQRExpr Left=1387 Top=28 Width=175 Height=28 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRSaldoAnalise:TQRLabel Left=1310 Top=54 Width=252 Height=26 Caption='Saldo Receitas - Despesas' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand74:TQRBand Left=57 Top=451 Width=1571 Height=37 Color=clYellow
+          QRSysData39:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand75:TQRBand Left=57 Top=328 Width=1571 Height=37
+          QRDBText80:TQRDBText Left=3 Top=8 Width=82 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovDat' Alignment=taLeftJustify
+          QRDBText81:TQRDBText Left=251 Top=8 Width=372 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovPes' Alignment=taLeftJustify
+          QRDBText82:TQRDBText Left=626 Top=8 Width=370 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovDes' Alignment=taLeftJustify
+          QRDBText84:TQRDBText Left=1498 Top=8 Width=36 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Cred' Alignment=taRightJustify
+          QRDBText85:TQRDBText Left=87 Top=8 Width=114 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovDoc' Alignment=taLeftJustify
+          QRDBText86:TQRDBText Left=1353 Top=8 Width=58 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovVen' Alignment=taCenter
+          QRDBText87:TQRDBText Left=1002 Top=6 Width=237 Height=28 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovObs' Alignment=taLeftJustify
+          QRDBText83:TQRDBText Left=1514 Top=8 Width=31 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Deb' Alignment=taRightJustify
+          QRDBText88:TQRDBText Left=202 Top=8 Width=44 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Tipo' Alignment=taLeftJustify
+          QRDBText89:TQRDBText Left=1239 Top=8 Width=58 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='BanDes' Alignment=taLeftJustify
+          QRDBText36:TQRDBText Left=1551 Top=8 Width=17 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovTip' Alignment=taLeftJustify
+    TabSheet15:TTabSheet Caption='Contas Pes'
+      QuickConPes:TQuickRep Left=0 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand76:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData40:TQRSysData Left=8 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData41:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand77:TQRBand Left=57 Top=150 Width=1078 Height=192
+          QRTitConPes:TQRLabel Left=398 Top=123 Width=282 Height=28 Caption='RELAT'#211'RIO DE CONTAS' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerConPes:TQRLabel Left=507 Top=154 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QConPesImg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText68:TQRDBText Left=310 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText69:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand78:TQRBand Left=57 Top=342 Width=1078 Height=44 Color=clYellow
+          QRLabel89:TQRLabel Left=424 Top=10 Width=141 Height=26 Caption='Valor em aberto' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRPesConPes:TQRLabel Left=15 Top=10 Width=179 Height=26 Caption='Cliente / Fornecedor' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand79:TQRBand Left=57 Top=423 Width=1078 Height=46 Color=clYellow
+          QRExpr12:TQRExpr Left=373 Top=8 Width=187 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand80:TQRBand Left=57 Top=469 Width=1078 Height=37 Color=clYellow
+          QRSysData42:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand81:TQRBand Left=57 Top=386 Width=1078 Height=37
+          QRDBText94:TQRDBText Left=15 Top=4 Width=370 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovPes' Alignment=taLeftJustify
+          QRDBText99:TQRDBText Left=527 Top=8 Width=35 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Total' Alignment=taRightJustify
+    TabSheet16:TTabSheet Caption='RelFluxoDia'
+      QuickFluxDia:TQuickRep Left=0 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand82:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData43:TQRSysData Left=8 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData44:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand83:TQRBand Left=57 Top=150 Width=1078 Height=192
+          QRFluxDiaTit:TQRLabel Left=398 Top=123 Width=282 Height=28 Caption='RELAT'#211'RIO DE CONTAS' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerFluxDia:TQRLabel Left=507 Top=154 Width=64 Height=26 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRFluxodiaimg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText70:TQRDBText Left=303 Top=12 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText71:TQRDBText Left=310 Top=40 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand84:TQRBand Left=57 Top=342 Width=1078 Height=44 Color=clYellow
+          QRLabel72:TQRLabel Left=360 Top=10 Width=78 Height=26 Caption='Entradas' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel73:TQRLabel Left=163 Top=10 Width=40 Height=26 Caption='Data' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel17:TQRLabel Left=498 Top=10 Width=59 Height=26 Caption='Sa'#237'das' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel76:TQRLabel Left=597 Top=10 Width=108 Height=26 Caption='Saldo do dia' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel33:TQRLabel Left=724 Top=10 Width=151 Height=26 Caption='Saldo acumulado' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand85:TQRBand Left=57 Top=423 Width=1078 Height=46 Color=clYellow
+          QRExpr13:TQRExpr Left=347 Top=6 Width=220 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRExpr14:TQRExpr Left=218 Top=6 Width=220 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRExpr15:TQRExpr Left=453 Top=8 Width=402 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRLabel63:TQRLabel Left=220 Top=8 Width=67 Height=26 Caption='Totais:' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand86:TQRBand Left=57 Top=469 Width=1078 Height=37 Color=clYellow
+          QRSysData45:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand87:TQRBand Left=57 Top=386 Width=1078 Height=37
+          QRDBText91:TQRDBText Left=162 Top=8 Width=118 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovVen' Alignment=taLeftJustify
+          QRDBText92:TQRDBText Left=377 Top=9 Width=46 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='TotalR' Alignment=taRightJustify
+          QRDBText93:TQRDBText Left=507 Top=8 Width=47 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='TotalD' Alignment=taRightJustify
+          QRSaldodia:TQRDBText Left=613 Top=6 Width=67 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='SaldoDia' Alignment=taRightJustify
+          QRSaldoAcumulado:TQRDBText Left=724 Top=9 Width=120 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='SaldoAcumulado' Alignment=taRightJustify
+    TabSheet17:TTabSheet Caption='RelSaldos'
+      QuickSaldo:TQuickRep Left=0 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand88:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData46:TQRSysData Left=8 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData47:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand89:TQRBand Left=57 Top=150 Width=1078 Height=197
+          QRTitSaldos:TQRLabel Left=334 Top=123 Width=409 Height=28 Caption='RELAT'#211'RIO DE SALDO DE CONTAS' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRImageSaldoContas:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText95:TQRDBText Left=303 Top=12 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText96:TQRDBText Left=310 Top=40 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+          QRdataSald:TQRLabel Left=479 Top=161 Width=119 Height=28 Caption='QRdataSald' Color=clWhite Font.Color=clWindowText Font.Height=-22 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+        QRBand92:TQRBand Left=57 Top=474 Width=1078 Height=37 Color=clYellow
+          QRSysData48:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand93:TQRBand Left=57 Top=391 Width=1078 Height=37
+          QRDBText111:TQRDBText Left=163 Top=9 Width=118 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Conta' Alignment=taLeftJustify
+          QRDBText120:TQRDBText Left=390 Top=6 Width=51 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Saldo1' Alignment=taRightJustify
+          QRIteSaldo2:TQRDBText Left=606 Top=6 Width=51 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Saldo2' Alignment=taRightJustify
+          QRIteCompara:TQRDBText Left=844 Top=9 Width=67 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Compara' Alignment=taRightJustify
+        QRBand106:TQRBand Left=57 Top=347 Width=1078 Height=44 Color=clYellow
+          QRSaldo1:TQRLabel Left=390 Top=10 Width=50 Height=26 Caption='Saldo' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRLabel12:TQRLabel Left=163 Top=10 Width=52 Height=26 Caption='Conta' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRSaldo2:TQRLabel Left=597 Top=8 Width=60 Height=26 Caption='Saldo2' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRCompara:TQRLabel Left=801 Top=8 Width=113 Height=26 Caption='Comparativo' Color=clYellow Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand109:TQRBand Left=57 Top=428 Width=1078 Height=46 Color=clYellow
+          QRTotSaldo1:TQRExpr Left=193 Top=12 Width=235 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRLabel42:TQRLabel Left=163 Top=12 Width=67 Height=26 Caption='Totais:' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRTotSaldo2:TQRExpr Left=413 Top=10 Width=235 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRTotCompara:TQRExpr Left=662 Top=9 Width=256 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+    TabSheet18:TTabSheet Caption='Orcamento'
+      QuickOrcPro:TQuickRep Left=3 Top=3 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand90:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData49:TQRSysData Left=8 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData50:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand91:TQRBand Left=57 Top=150 Width=1078 Height=188
+          QRDBText97:TQRDBText Left=303 Top=12 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRTitOrcPro:TQRLabel Left=371 Top=126 Width=335 Height=28 Caption='RELAT'#211'RIO OR'#199'AMENTARIO' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerOrPro:TQRLabel Left=507 Top=153 Width=64 Height=24 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRImageOrcPro:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText98:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand94:TQRBand Left=57 Top=338 Width=1078 Height=44 Color=clYellow
+          QROrcProCentro:TQRLabel Left=6 Top=10 Width=142 Height=26 Caption='Centro de cuto' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel90:TQRLabel Left=896 Top=10 Width=146 Height=26 Caption='Total Realizado' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRTitPro:TQRLabel Left=765 Top=10 Width=83 Height=26 Caption='Previs'#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRTitOrc:TQRLabel Left=551 Top=12 Width=106 Height=26 Caption='Or'#231'amento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand95:TQRBand Left=57 Top=419 Width=1078 Height=45 Color=clYellow
+          QRExpr16:TQRExpr Left=853 Top=6 Width=182 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRTotPro:TQRExpr Left=663 Top=8 Width=184 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+          QRTotOrc:TQRExpr Left=524 Top=8 Width=136 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand96:TQRBand Left=57 Top=464 Width=1078 Height=37 Color=clYellow
+          QRSysData51:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand97:TQRBand Left=57 Top=382 Width=1078 Height=37
+          QRDBText100:TQRDBText Left=9 Top=6 Width=464 Height=32 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='CenNom' Alignment=taLeftJustify
+          QRPro:TQRDBText Left=666 Top=3 Width=180 Height=32 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='CenPro' Alignment=taRightJustify
+          QROrc:TQRDBText Left=479 Top=3 Width=180 Height=32 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='CenOrc' Alignment=taRightJustify
+          QROrcProTot:TQRDBText Left=860 Top=4 Width=180 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Total' Alignment=taRightJustify
+    TabSheet19:TTabSheet Caption='Pontualidade'
+      QuickPontual:TQuickRep Left=3 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand98:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData52:TQRSysData Left=8 Top=4 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData53:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand99:TQRBand Left=57 Top=150 Width=1078 Height=188
+          QRDBText101:TQRDBText Left=303 Top=12 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRTitPontual:TQRLabel Left=356 Top=126 Width=366 Height=28 Caption='RELAT'#211'RIO DE PONTUALIDADE' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRPerPontual:TQRLabel Left=507 Top=153 Width=64 Height=24 Caption='Per'#237'odo' Color=clWhite Font.Color=clWindowText Font.Height=-18 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRImgPontual:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText102:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand100:TQRBand Left=57 Top=338 Width=1078 Height=69 Color=clYellow
+          QRPontualPes:TQRLabel Left=6 Top=10 Width=193 Height=26 Caption='Cliente / Fornecedor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel95:TQRLabel Left=561 Top=9 Width=132 Height=54 Caption='Maior atraso em dias' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taCenter
+          QRLabel1:TQRLabel Left=696 Top=9 Width=186 Height=54 Caption='Maior antecipa'#231#227'o em dias' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taCenter
+          QRLabel7:TQRLabel Left=883 Top=9 Width=186 Height=54 Caption='Media de atrasos em dias' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taCenter
+          QRLabel86:TQRLabel Left=426 Top=9 Width=132 Height=54 Caption='Total de ocorr'#234'ncias' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taCenter
+        QRBand101:TQRBand Left=57 Top=444 Width=1078 Height=45 Color=clYellow
+        QRBand102:TQRBand Left=57 Top=489 Width=1078 Height=37 Color=clYellow
+          QRSysData54:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand103:TQRBand Left=57 Top=407 Width=1078 Height=37
+          QRDBText103:TQRDBText Left=6 Top=1 Width=368 Height=32 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MovPes' Alignment=taLeftJustify
+          QRDBText104:TQRDBText Left=699 Top=0 Width=186 Height=32 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MaiorAnt' Alignment=taCenter
+          QRDBText105:TQRDBText Left=561 Top=3 Width=132 Height=32 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MaiorAtr' Alignment=taCenter
+          QRDBText106:TQRDBText Left=883 Top=4 Width=186 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='MediaAtr' Alignment=taCenter
+          QRDBText107:TQRDBText Left=426 Top=3 Width=132 Height=32 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] DataField='Ocorrencias' Alignment=taCenter
+    RelExport:TTabSheet Caption='RelExport'
+      QuickExport:TQuickRep Left=0 Top=16 Width=1684 Height=1191 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand105:TQRBand Left=57 Top=57 Width=1571 Height=60
+          QRExpTit:TQRLabel Left=1 Top=26 Width=86 Height=26 Caption='QRExpTit' Color=clWhite Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+        QRBandColum:TQRBand Left=57 Top=117 Width=1571 Height=48
+          QRCol01:TQRLabel Left=1 Top=9 Width=66 Height=26 Caption='QRCol01' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol02:TQRLabel Left=72 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol03:TQRLabel Left=143 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol06:TQRLabel Left=357 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol05:TQRLabel Left=285 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol04:TQRLabel Left=213 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol12:TQRLabel Left=782 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol11:TQRLabel Left=710 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol10:TQRLabel Left=638 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol09:TQRLabel Left=567 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol08:TQRLabel Left=496 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol07:TQRLabel Left=428 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol13:TQRLabel Left=854 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol14:TQRLabel Left=926 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRCol15:TQRLabel Left=998 Top=9 Width=57 Height=26 Caption='QRCol1' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+        QRBand107:TQRBand Left=57 Top=165 Width=1571 Height=44
+          DBCol01:TQRDBText Left=1 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol02:TQRDBText Left=72 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol04:TQRDBText Left=213 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol03:TQRDBText Left=143 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol08:TQRDBText Left=500 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol05:TQRDBText Left=285 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol06:TQRDBText Left=357 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol07:TQRDBText Left=428 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol12:TQRDBText Left=782 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol09:TQRDBText Left=567 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol10:TQRDBText Left=638 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol11:TQRDBText Left=710 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol13:TQRDBText Left=854 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol14:TQRDBText Left=926 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          DBCol15:TQRDBText Left=998 Top=9 Width=66 Height=26 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+        QRBand108:TQRBand Left=57 Top=209 Width=1571 Height=93
+          ExpTot01:TQRExpr Left=0 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot02:TQRExpr Left=72 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot03:TQRExpr Left=143 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot04:TQRExpr Left=213 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot08:TQRExpr Left=496 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot07:TQRExpr Left=428 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot06:TQRExpr Left=357 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot05:TQRExpr Left=285 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot12:TQRExpr Left=782 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot11:TQRExpr Left=710 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot10:TQRExpr Left=638 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot09:TQRExpr Left=567 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot15:TQRExpr Left=998 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot14:TQRExpr Left=926 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          ExpTot13:TQRExpr Left=854 Top=9 Width=45 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+          QRLabFinal:TQRLabel Left=1 Top=60 Width=61 Height=26 Caption='               ' Color=clWhite Font.Color=clWindowText Font.Height=-16 Font.Name='Arial' Font.Style=[] Alignment=taLeftJustify
+    RelAnaliticoTotal:TTabSheet Caption='RelAnaliticoTotal'
+      QuickAnaTot:TQuickRep Left=0 Top=0 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand114:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData60:TQRSysData Left=8 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData61:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand115:TQRBand Left=57 Top=150 Width=1078 Height=179
+          QRTitRelAnaTot:TQRLabel Left=365 Top=118 Width=348 Height=28 Caption='RELAT'#211'RIO ANALITICO TOTAL' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QuickAnaTotImg:TQRImage Left=1 Top=1 Width=300 Height=150
+          QRDBText117:TQRDBText Left=310 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRDBText118:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+        QRBand116:TQRBand Left=57 Top=329 Width=1078 Height=44 Color=clYellow
+          QRDesCab:TQRLabel Left=72 Top=9 Width=95 Height=26 Caption='Descri'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel105:TQRLabel Left=693 Top=9 Width=50 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand117:TQRBand Left=57 Top=410 Width=1078 Height=45 Color=clYellow
+          QRExpr18:TQRExpr Left=323 Top=10 Width=423 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand118:TQRBand Left=57 Top=455 Width=1078 Height=37 Color=clYellow
+          QRSysData62:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand119:TQRBand Left=57 Top=373 Width=1078 Height=37
+          QRDes:TQRDBText Left=72 Top=8 Width=446 Height=24 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='Agrupamento' Alignment=taLeftJustify
+          QRVal:TQRDBText Left=711 Top=8 Width=34 Height=24 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='Valor' Alignment=taRightJustify
+    TabSheet20:TTabSheet Caption='RelPesq'
+      QuickPesq2:TQuickRep Left=19 Top=19 Width=1191 Height=1684 Font.Color=clWindowText Font.Height=-13 Font.Name='Arial' Font.Style=[]
+        QRBand104:TQRBand Left=57 Top=113 Width=1078 Height=37 Color=clYellow
+          QRSysData55:TQRSysData Left=6 Top=6 Width=105 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Data:' Alignment=taLeftJustify
+          QRSysData56:TQRSysData Left=188 Top=6 Width=106 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='Hora:' Alignment=taLeftJustify
+        QRBand120:TQRBand Left=57 Top=150 Width=1078 Height=179
+          QRTitRelPesq:TQRLabel Left=386 Top=118 Width=305 Height=28 Caption='RELAT'#211'RIO DE PESQUISA' Color=clWhite Font.Color=clWindowText Font.Height=-24 Font.Name='Arial' Font.Style=[] Alignment=taCenter
+          QRDBText109:TQRDBText Left=303 Top=47 Width=770 Height=73 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='StrEnd' Alignment=taCenter
+          QRDBText108:TQRDBText Left=310 Top=9 Width=770 Height=35 Color=clWhite Font.Color=clWindowText Font.Height=-28 Font.Name='Arial' Font.Style=[fsUnderline] DataField='ConNom' Alignment=taCenter
+          QRImagePesq:TQRImage Left=1 Top=1 Width=300 Height=150
+        QRBand121:TQRBand Left=57 Top=329 Width=1078 Height=44 Color=clYellow
+          QRLabel96:TQRLabel Left=6 Top=9 Width=44 Height=26 Caption='Data' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel97:TQRLabel Left=87 Top=9 Width=95 Height=26 Caption='Descri'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel98:TQRLabel Left=386 Top=9 Width=62 Height=26 Caption='Nome:' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel102:TQRLabel Left=735 Top=9 Width=109 Height=26 Caption='Documento' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel101:TQRLabel Left=879 Top=9 Width=83 Height=26 Caption='Situa'#231#227'o' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+          QRLabel100:TQRLabel Left=1011 Top=9 Width=50 Height=26 Caption='Valor' Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taLeftJustify
+        QRBand122:TQRBand Left=57 Top=410 Width=1078 Height=45 Color=clYellow
+          QRExpr17:TQRExpr Left=639 Top=6 Width=423 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[fsBold] Alignment=taRightJustify
+        QRBand123:TQRBand Left=57 Top=455 Width=1078 Height=37 Color=clYellow
+          QRSysData63:TQRSysData Left=37 Top=6 Width=111 Height=26 Color=clYellow Font.Color=clWindowText Font.Height=-20 Font.Name='Arial' Font.Style=[] Text='P'#225'gina ' Alignment=taLeftJustify
+        QRBand124:TQRBand Left=57 Top=373 Width=1078 Height=37
+          QRDBText114:TQRDBText Left=1019 Top=9 Width=47 Height=24 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovVal' Alignment=taRightJustify
+          QRDBText115:TQRDBText Left=879 Top=9 Width=56 Height=24 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='Situacao' Alignment=taLeftJustify
+          QRDBText116:TQRDBText Left=735 Top=8 Width=52 Height=24 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovDoc' Alignment=taLeftJustify
+          QRDBText113:TQRDBText Left=392 Top=8 Width=320 Height=24 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovPes' Alignment=taLeftJustify
+          QRDBText112:TQRDBText Left=87 Top=9 Width=296 Height=24 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovDes' Alignment=taLeftJustify
+          QRDBText110:TQRDBText Left=6 Top=6 Width=49 Height=22 Color=clWhite Font.Color=clWindowText Font.Height=-14 Font.Name='Arial' Font.Style=[] DataField='MovDat' Alignment=taLeftJustify
+  QRCSVFilter1:TQRCSVFilter Left=15 Top=19

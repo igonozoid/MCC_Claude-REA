@@ -1,0 +1,3 @@
+FConfig:TFConfig Left=198 Top=133 Caption='Configura'#231#227'o do banco de dados' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='MS Sans Serif' Font.Style=[]
+  Texto:TMemo Left=254 Top=4 Width=29 Height=27 Visible=False
+  M:TMemo Left=192 Top=8 Width=33 Height=25 Visible=False

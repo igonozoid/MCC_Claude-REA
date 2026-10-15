@@ -1,0 +1,5 @@
+FTermos:TFTermos Left=0 Top=0 Caption='Termos de uso' Color=clBtnFace Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
+  ScrollBox1:TScrollBox Align=alBottom Left=0 Top=416 Width=868 Height=44 BorderStyle=bsNone
+    Button1:TButton Align=alLeft Left=3 Top=3 Width=75 Height=38 Caption='Fechar'
+    Button2:TButton Align=alClient Left=84 Top=3 Width=781 Height=38 Caption='Estou de acordo com os Termos de uso e Pol'#237'ticas de privacidade'
+  Rich:TRxRichEdit Align=alClient Left=3 Top=3 Width=862 Height=410 Font.Color=clWindowText Font.Height=-11 Font.Name='Tahoma' Font.Style=[]
